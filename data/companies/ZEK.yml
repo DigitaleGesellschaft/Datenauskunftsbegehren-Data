@@ -1,0 +1,7 @@
+name: ZEK
+address: |-
+  Zentralstelle für Kreditinformation (ZEK)
+  Postfach
+  8048 Zürich
+types:
+- credit

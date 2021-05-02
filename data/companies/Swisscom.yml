@@ -1,0 +1,28 @@
+name: Swisscom
+address: |-
+  Swisscom (Schweiz) AG
+  Swisscom Contact Center
+  3050 Bern
+types:
+- mobile
+- wlan
+- online
+privacyStatement:
+  paragraphs:
+  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: Januar 2019
+  bullets:
+  - Bearbeitung von Daten zur Leistungserbringung und Vertragsabwicklung
+  - Bearbeitung von Daten aus dem Fernmeldeverkehr
+  - text: Datenbearbeitungen zu Marketingzwecken von Swisscom
+    bullets:
+    - Identifikations- und Kontaktdaten
+    - Vertrags- und Abonnementsdaten
+    - Kundenaktivitätsdaten
+    - Online-Daten
+    - Bildung von Kundensegmenten und -profilen
+  - Bereitstellung von Daten für Werbevermarktung Dritter
+  - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)

@@ -1,0 +1,24 @@
+# Datenauskunftsbegehren Data
+
+In diesem Repository werden die Daten für den Onlinegenerator für Datenauskunftsbegehren verwaltet.
+
+
+## Daten editieren
+2 Datenstrukturen sind vorhanden:
+- Firmen (`/data/companies`)
+- Arten von Dienstleistungen/Firmen (`/data/types`)
+
+Pro Firma/Art wird ein `.yml` file angelegt. Der Filename ist nicht relevant.
+
+### Variablen
+Variablen werden in der Form `{type:name:label}` in den Texten definiert. Hierbei gilt es folgendes zu beachten:
+- `name` soll über den gesamten Datensatz eindeutig sein wenn das gleiche gemeint ist (z.B. `mobileNumber`)
+- `type` ist optional und kann/sollte einer der folgenden Werte sein: `string`, `number`, `tel`, `email`
+- `label` kann auch Leerzeichen enthalten und wird der Userin angezeigt
+
+## JSON generieren
+```bash
+nvm use
+npm install
+npm run compile-json
+```

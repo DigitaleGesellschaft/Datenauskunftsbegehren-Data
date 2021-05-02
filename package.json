@@ -1,0 +1,10 @@
+{
+  "name": "datenauskunftsbegehren-data",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "node ./tasks/compile-json.mjs"
+  },
+  "dependencies": {
+    "yaml": "2.0.0-5"
+  }
+}

@@ -1,0 +1,5 @@
+handle: eindeutigerString
+label: Label wenn initial Art Auswahl
+serviceLabel: Label wenn servicebezeichnung einer Firma
+paragraphs:
+- Kann auch Variablen enthalten {tel:mobileNumber:Handy-Nummer}
