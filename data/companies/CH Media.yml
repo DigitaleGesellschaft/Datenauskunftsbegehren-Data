@@ -1,0 +1,18 @@
+name: CH Media
+address: |-
+  CH Media Holding AG
+  Neumattstrasse 1
+  5001 Aarau
+types:
+- online
+privacyStatement:
+  paragraphs:
+  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: Januar 2020
+  bullets:
+  - Nicht anonyme Nutzung
+  - «Anonyme» Nutzung der Webseiten
+  - Plug-Ins und andere Einbindungen von Angeboten Dritter

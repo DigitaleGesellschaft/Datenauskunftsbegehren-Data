@@ -1,0 +1,27 @@
+name: TX-Gruppe
+address: |-
+  TX Group AG
+  Group Data Protection Officer
+  Werdstrasse 21
+  8004 Zürich
+types:
+- online
+privacyStatement:
+  paragraphs:
+  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: Januar 2020
+  bullets:
+  - Besuch der Portale
+  - Registrierung eines Benutzerkontos
+  - Nutzung eines Portals als registrierter Nutzer
+  - Kauf / Bezug einer kostenpflichtigen Dienstleistung
+  - Teilnahme an Gewinnspielen, Wettbewerben (Veranstaltungen)
+  - Nutzerumfragen und Marktforschung
+  - Direktmarketing und Online-Werbung
+  - Bearbeitung der Personendaten zu Marketing- und Analysezwecken
+  - Tracking- und Analyse-Tools
+  - Plug-Ins und andere Einbindungen von Angeboten Dritter
+  - Standortinformationen

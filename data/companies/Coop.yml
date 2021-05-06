@@ -1,0 +1,23 @@
+name: Coop (Supercard)
+address: |-
+  Coop Genossenschaft
+  Thiersteinerallee 12
+  4053 Basel
+types:
+- kundenkarte
+- online
+- wlan
+privacyStatement:
+  paragraphs:
+  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: Mai 2021 und Juni 2019 (Supercard)
+  bullets:
+  - Allgemeine Personendaten
+  - Kundendaten
+  - Durch Registrierung auf der Website
+  - Durch Social Media Plugins
+  - Durch Website-Analysedienste
+  - Durch die Verwendung der Supercard
