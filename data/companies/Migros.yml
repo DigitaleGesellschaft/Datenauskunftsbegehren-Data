@@ -5,7 +5,7 @@ address: |-
   Limmatstrasse 152
   8005 Zürich
 types:
-- kundenkarte
+- payback
 - online
 - wlan
 privacyStatement:

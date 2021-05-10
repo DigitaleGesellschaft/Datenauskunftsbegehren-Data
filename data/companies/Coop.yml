@@ -4,7 +4,7 @@ address: |-
   Thiersteinerallee 12
   4053 Basel
 types:
-- kundenkarte
+- payback
 - online
 - wlan
 privacyStatement:
