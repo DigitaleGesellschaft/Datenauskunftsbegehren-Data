@@ -1,0 +1,4 @@
+handle: mailing
+label: Ich habe ein Werbemail erhalten
+paragraphs:
+- Am {date:eventDate:Datum} habe ich von Ihnen ein Werbemail an die Adresse {email:eventEmail:E-Mail-Adresse} gesendet bekommen.

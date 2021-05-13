@@ -13,7 +13,7 @@ const companies = companyFiles
   
 const typeFiles = fs.readdirSync('./data/types')
 const types = typeFiles
-  .filter(companyFile => companyFile !== '_template.yml')
+  .filter(typeFile => typeFile !== '_template.yml')
   .map(typeFile => {
     return fs.readFileSync(`./data/types/${typeFile}`, { encoding: 'utf-8' })
   })
@@ -21,9 +21,20 @@ const types = typeFiles
     return parse(ymlData)
   })
 
+const eventFiles = fs.readdirSync('./data/events')
+const events = eventFiles
+  .filter(eventFile => eventFile !== '_template.yml')
+  .map(eventFile => {
+    return fs.readFileSync(`./data/events/${eventFile}`, { encoding: 'utf-8' })
+  })
+  .map(ymlData => {
+    return parse(ymlData)
+  })
+
 const data = {
   types,
-  companies
+  companies,
+  events
 }
 
 fs.writeFileSync('data.json', JSON.stringify(data, undefined, 2))
