@@ -7,7 +7,7 @@ types:
 - mobile
 privacyStatement:
   paragraphs:
-  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+  - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
     vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
     von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
@@ -19,4 +19,4 @@ privacyStatement:
   - Allgemeine Anwendungsinformationen
   - Nutzungsdaten
   - Daten über lokale Inhalte
-  - Sonstige personenbezogene Daten
+  - Sonstige Personendaten

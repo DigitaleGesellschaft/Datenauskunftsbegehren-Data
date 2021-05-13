@@ -1,4 +1,4 @@
 handle: rumor
 label: Ich habe vernommen, dass ...
 paragraphs:
-- Im Zusammenhang mit {string:eventSummary:Angelegenheit oder Datensammlung angeben} werden personenbezogene Daten bearbeitet.
+- Im Zusammenhang mit {string:eventSummary:Angelegenheit oder Datensammlung angeben} werden Personendaten bearbeitet.

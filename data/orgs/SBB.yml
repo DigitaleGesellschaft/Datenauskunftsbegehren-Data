@@ -9,7 +9,7 @@ types:
 - online
 privacyStatement:
   paragraphs:
-  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer
+  - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer
     Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien,
     resp. Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
