@@ -5,7 +5,7 @@ In diesem Repository werden die Daten für den Onlinegenerator für Datenauskunf
 
 ## Daten editieren
 3 Datenstrukturen sind vorhanden:
-- Firmen (`/data/companies`)
+- Organisationen (`/data/orgs`)
 - Arten von Dienstleistungen/Firmen (`/data/types`)
 - Ereignisse (`/data/events`)
 

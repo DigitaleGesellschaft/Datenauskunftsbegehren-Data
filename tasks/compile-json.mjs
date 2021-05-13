@@ -1,11 +1,11 @@
 import { parse } from 'yaml';
 import fs  from 'fs';
 
-const companyFiles = fs.readdirSync('./data/companies')
-const companies = companyFiles
-  .filter(companyFile => companyFile !== '_template.yml')
-  .map(companyFile => {
-    return fs.readFileSync(`./data/companies/${companyFile}`, { encoding: 'utf-8' })
+const orgFiles = fs.readdirSync('./data/orgs')
+const orgs = orgFiles
+  .filter(orgFile => orgFile !== '_template.yml')
+  .map(orgFile => {
+    return fs.readFileSync(`./data/orgs/${orgFile}`, { encoding: 'utf-8' })
   })
   .map(ymlData => {
     return parse(ymlData)
@@ -33,7 +33,7 @@ const events = eventFiles
 
 const data = {
   types,
-  companies,
+  orgs,
   events
 }
 
