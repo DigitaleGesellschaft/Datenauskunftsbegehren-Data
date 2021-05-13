@@ -4,11 +4,12 @@ In diesem Repository werden die Daten für den Onlinegenerator für Datenauskunf
 
 
 ## Daten editieren
-2 Datenstrukturen sind vorhanden:
+3 Datenstrukturen sind vorhanden:
 - Firmen (`/data/companies`)
 - Arten von Dienstleistungen/Firmen (`/data/types`)
+- Ereignisse (`/data/events`)
 
-Pro Firma/Art wird ein `.yml` file angelegt. Der Filename ist nicht relevant.
+Pro Firma/Art/Ereignis wird ein `.yml` file angelegt. Der Filename ist nicht relevant.
 
 ### Variablen
 Variablen werden in der Form `{type:name:label}` in den Texten definiert. Hierbei gilt es folgendes zu beachten:
