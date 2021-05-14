@@ -1,0 +1,8 @@
+name: Starbucks
+address: |-
+  Starbucks Coffee Switzerland GmbH
+  Industriestrasse 27
+  8604 Volketswil
+types:
+- payback
+- wlans
