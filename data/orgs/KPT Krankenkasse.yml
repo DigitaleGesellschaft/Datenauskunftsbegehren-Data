@@ -1,0 +1,8 @@
+name: KPT Krankenkasse
+address: |-
+  KPT Krankenkasse AG
+  Wankdorfallee 3
+  Postfach
+  3001 Bern
+types:   
+- healthinsurance
