@@ -1,0 +1,27 @@
+name: UBS
+address: |-
+  UBS Switzerland AG
+  Bahnhofstrasse 45
+  8001 Zürich
+privacyStatement:
+  paragraphs:
+  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: Mai 2021
+  bullets:
+  - Persönliche Informationen
+  - Finanzinformationen
+  - Steuerlich relevante Dokumente und Informationen
+  - Berufliche Informationen
+  - Mein Wissen und meine Erfahrung in Anlagefragen
+  - Einzelheiten unserer gegenseitigen Geschäftsbeziehung
+  - Aufzeichnungen über Telefonate
+  - Details zur Mandatserteilung
+  - Kennungen, wie z. B. Kunden- oder Kontonummern
+  - Daten beim Zugriff auf unsere Website
+  - 'besondere Kategorien von personenbezogenen Daten wie z. B. biometrischen Daten, politische
+    Einstellungen oder Zugehörigkeiten, Informationen über Gesundheit, rassische oder ethnische
+    Herkunft, religiöse oder weltanschauliche Überzeugungen und Informationen bezüglich
+    strafrechtlicher Verurteilungen oder Straftaten'
