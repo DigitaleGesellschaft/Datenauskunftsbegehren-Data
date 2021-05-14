@@ -10,6 +10,10 @@ const orgs = orgFiles
   .map(ymlData => {
     return parse(ymlData)
   })
+  .map(org => {
+    delete org.sources
+    return org
+  })
   
 const typeFiles = fs.readdirSync('./data/types')
 const types = typeFiles

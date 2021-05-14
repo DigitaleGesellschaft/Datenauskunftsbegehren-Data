@@ -26,3 +26,8 @@ privacyStatement:
     - Bildung von Kundensegmenten und -profilen
   - Bereitstellung von Daten für Werbevermarktung Dritter
   - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
+sources:
+  address: https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html
+  privacyStatement: 
+    - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/online-datenschutz.html
+    - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html

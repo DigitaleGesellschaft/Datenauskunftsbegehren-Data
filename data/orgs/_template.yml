@@ -19,3 +19,8 @@ privacyStatement:
     bullets:
     - Zweite Ebene
   - Erste Ebene
+sources:
+  address: https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html
+  privacyStatement: 
+    - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/online-datenschutz.html
+    - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html
