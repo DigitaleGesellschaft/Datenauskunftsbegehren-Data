@@ -4,8 +4,8 @@ address: |-
   Poststr. 30
   6300 Zug
 types:
-- address
+  - address
 sources:
   address: https://www.tanatekag.ch/impressum/
   privacyStatement: 
-  - https://www.tanatekag.ch/datenschutz/
+    - https://www.tanatekag.ch/datenschutz/

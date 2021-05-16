@@ -4,8 +4,8 @@ address: |-
   Teufener Strasse 36
   9000 St. Gallen
 types:
-- credit
+  - credit
 sources:
   address: https://www.creditreform.ch/ueber-uns/impressum.html
   privacyStatement: 
-  - https://www.creditreform.ch/selbstauskunft.html
+    - https://www.creditreform.ch/selbstauskunft.html

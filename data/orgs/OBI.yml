@@ -5,10 +5,10 @@ address: |-
   Rheinweg 11
   8200 Schaffhausen
 types:
-- payback
-- online
+  - payback
+  - online
 sources:
   address: https://www.obi.ch/de/impressum/
   privacyStatement: 
-  - https://www.obi.ch/de/agb/
-  - https://www.obi.ch/de/disclaimer/
+    - https://www.obi.ch/de/agb/
+    - https://www.obi.ch/de/disclaimer/

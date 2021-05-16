@@ -4,10 +4,10 @@ address: |-
   Blumenbergplatz 1
   9000 St. Gallen
 types:
-- address
+  - address
 sources:
   address: https://cohaga.ch/impressum/
   privacyStatement: 
-  - https://cohaga.ch/impressum/
-  - https://cohaga.ch/datenschutzerklaerung/
-  - https://cohaga.ch/agb/
+    - https://cohaga.ch/impressum/
+    - https://cohaga.ch/datenschutzerklaerung/
+    - https://cohaga.ch/agb/

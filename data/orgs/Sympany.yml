@@ -7,4 +7,4 @@ address: |-
 sources:
   address: https://www.sympany.ch/de/rechtliche-hinweise-und-datenschutz.html
   privacyStatement: 
-  - https://www.sympany.ch/de/rechtliche-hinweise-und-datenschutz.html
+    - https://www.sympany.ch/de/rechtliche-hinweise-und-datenschutz.html

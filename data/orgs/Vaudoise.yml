@@ -7,5 +7,5 @@ address: |-
 sources:
   address: https://www.vaudoise.ch/fr/service-center/impressum
   privacyStatement: 
-  - https://www.vaudoise.ch/de/service-center/rechtliche-hinweise/datenschutz
-  - https://www.vaudoise.ch/de/service-center/rechtliche-hinweise/cookies-richtlinie
+    - https://www.vaudoise.ch/de/service-center/rechtliche-hinweise/datenschutz
+    - https://www.vaudoise.ch/de/service-center/rechtliche-hinweise/cookies-richtlinie

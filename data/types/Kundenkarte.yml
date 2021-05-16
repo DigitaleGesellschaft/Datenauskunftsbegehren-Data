@@ -2,5 +2,5 @@ handle: payback
 label: Kundenkarten-Anbieter
 serviceLabel: Kundenkarte
 paragraphs:
-- Unter Personendaten sind insbesondere auch die für die Kundenkarte
-  verwendeten Personendaten und das daraus erstellte Profil zu verstehen.
+  - Unter Personendaten sind insbesondere auch die für die Kundenkarte
+    verwendeten Personendaten und das daraus erstellte Profil zu verstehen.

@@ -4,7 +4,7 @@ address: |-
   Irchelstrasse 25
   8427 Rorbas
 types:
-- address
+  - address
 sources:
   address: http://www.hsw-direct.ch/html/adresse.html
   privacyStatement: 

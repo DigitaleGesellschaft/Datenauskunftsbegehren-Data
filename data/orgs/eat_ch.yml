@@ -4,10 +4,10 @@ address: |-
   Werdstrasse 21
   8004 Zürich
 types:
-- online
+  - online
 sources:
   address: https://www.eat.ch/impressum
   privacyStatement: 
-  - https://www.eat.ch/cookiestatement
-  - https://www.eat.ch/privacy-statement
-  - https://www.eat.ch/agb
+    - https://www.eat.ch/cookiestatement
+    - https://www.eat.ch/privacy-statement
+    - https://www.eat.ch/agb

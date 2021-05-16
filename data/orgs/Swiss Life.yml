@@ -6,5 +6,5 @@ address: |-
 sources:
   address: https://www.swisslife.ch/de/ueber-uns/footer/privacy.html
   privacyStatement: 
-  - https://www.swisslife.ch/de/ueber-uns/footer/privacy.html
-  - https://www.swisslife.ch/de/ueber-uns/footer/datenschutz.html
+    - https://www.swisslife.ch/de/ueber-uns/footer/privacy.html
+    - https://www.swisslife.ch/de/ueber-uns/footer/datenschutz.html

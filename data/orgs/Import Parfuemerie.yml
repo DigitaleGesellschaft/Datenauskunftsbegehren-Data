@@ -4,8 +4,8 @@ address: |-
   Thiersteineralllee 12
   4053 Basel 
 types:
-- online
+  - online
 sources:
   address: https://www.impo.ch/de/imprint
   privacyStatement: 
-  - https://www.impo.ch/de/datenschutzs
+    - https://www.impo.ch/de/datenschutz

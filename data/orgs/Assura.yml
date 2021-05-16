@@ -6,5 +6,5 @@ address: |-
 sources:
   address: https://www.assura.ch/de/service-support/service-und-support
   privacyStatement: 
-  - https://www.assura.ch/de/datenschutz-der-assura-ag
-  - https://www.assura.ch/de/rechtlichehinweise
+    - https://www.assura.ch/de/datenschutz-der-assura-ag
+    - https://www.assura.ch/de/rechtlichehinweise

@@ -7,5 +7,4 @@ address: |-
 sources:
   address: https://www.egk.ch/de/impressum
   privacyStatement: 
-  - https://www.egk.ch/de/datenschutzbestimmungen
-
+    - https://www.egk.ch/de/datenschutzbestimmungen

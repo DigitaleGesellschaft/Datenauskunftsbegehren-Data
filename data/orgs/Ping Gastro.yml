@@ -4,8 +4,8 @@ address: |-
   Berninastrasse 11
   8057 Zürich
 types:
-- gastro
+  - gastro
 sources:
   address: http://joergwasmeier.de/contact
   privacyStatement: 
-  - http://joergwasmeier.de/contact
+    - http://joergwasmeier.de/contact

@@ -4,8 +4,8 @@ address: |-
   Aspstrasse 12
   8472 Seuzach
 types:
-- address
+  - address
 sources:
   address: https://www.werbeversand.ch/impressum
   privacyStatement: 
-  - https://www.werbeversand.ch/datenschutz
+    - https://www.werbeversand.ch/datenschutz

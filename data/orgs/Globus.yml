@@ -4,9 +4,9 @@ address: |-
   Lintheschergasse 7
   8001 Zürich
 types:
-- payback
+  - payback
 sources:
   address: https://www.globus.ch/agb
   privacyStatement: 
-  - https://www.globus.ch/datenschutz/v2-0
-  - https://www.globus.ch/agb
+    - https://www.globus.ch/datenschutz/v2-0
+    - https://www.globus.ch/agb

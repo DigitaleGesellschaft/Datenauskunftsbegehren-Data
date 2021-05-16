@@ -4,9 +4,9 @@ address: |-
   Wiesentalstrasse 106
   7000 Chur
 types:
-- gastro
+  - gastro
 sources:
   address: https://pally.ch/impressum/
   privacyStatement: 
-  - https://pally.ch/impressum/
-  - https://pally.ch/datenschutz/
+    - https://pally.ch/impressum/
+    - https://pally.ch/datenschutz/

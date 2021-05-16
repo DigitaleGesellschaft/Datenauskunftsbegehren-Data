@@ -4,9 +4,9 @@ address: |-
   Schwarzwaldallee 242
   4058 Basel
 types:
-- mobility
+  - mobility
 sources:
   address: https://www.sixt.ch/informationen/impressum/#/
   privacyStatement: 
-  - https://www.sixt.ch/informationen/datenschutzhinweise/#/
-  - https://www.sixt.ch/informationen/agb/#/
+    - https://www.sixt.ch/informationen/datenschutzhinweise/#/
+    - https://www.sixt.ch/informationen/agb/#/

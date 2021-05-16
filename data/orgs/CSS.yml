@@ -8,6 +8,6 @@ address: |-
 sources:
   address: https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/datenschutz.html
   privacyStatement:
-  - https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/datenschutz.html 
-  - https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/privacy-policy.html
-  - https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/rechtliche-hinweise.html
+    - https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/datenschutz.html 
+    - https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/privacy-policy.html
+    - https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/rechtliche-hinweise.html

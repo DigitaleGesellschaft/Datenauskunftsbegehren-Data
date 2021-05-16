@@ -6,19 +6,19 @@ address: |-
   8001 Zürich
 privacyStatement:
   paragraphs:
-  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer
-    Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien,
-    resp. Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen:'
+    - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer
+      Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien,
+      resp. Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
     privacyStatementDate: Mai 2018
   bullets:
-  - Stamm- und Bestandesdaten
-  - Steuerlich relevante Dokumente und Informationen
-  - Transaktions- bzw. Auftrags- und Risikomanagementdaten
-  - Aufzeichnungen über Telefonate
-  - Marketingdaten wie z.B. Bedürfnisse, Wünsche, Präferenzen
-  - Technische Daten
+    - Stamm- und Bestandesdaten
+    - Steuerlich relevante Dokumente und Informationen
+    - Transaktions- bzw. Auftrags- und Risikomanagementdaten
+    - Aufzeichnungen über Telefonate
+    - Marketingdaten wie z.B. Bedürfnisse, Wünsche, Präferenzen
+    - Technische Daten
 sources:
   address: https://www.zkb.ch/de/gs/rechtliche-hinweise/datenschutz/datenschutzerklaerung.html
   privacyStatement: 
-  - https://www.zkb.ch/de/gs/rechtliche-hinweise/datenschutz/datenschutzerklaerung.html
+    - https://www.zkb.ch/de/gs/rechtliche-hinweise/datenschutz/datenschutzerklaerung.html

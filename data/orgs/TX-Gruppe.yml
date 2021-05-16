@@ -5,28 +5,28 @@ address: |-
   Werdstrasse 21
   8004 Zürich
 types:
-- online
+  - online
 privacyStatement:
   paragraphs:
-  - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
-    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
-    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
     privacyStatementDate: Januar 2020
   bullets:
-  - Besuch der Portale
-  - Registrierung eines Benutzerkontos
-  - Nutzung eines Portals als registrierter Nutzer
-  - Kauf / Bezug einer kostenpflichtigen Dienstleistung
-  - Teilnahme an Gewinnspielen, Wettbewerben (Veranstaltungen)
-  - Nutzerumfragen und Marktforschung
-  - Direktmarketing und Online-Werbung
-  - Bearbeitung der Personendaten zu Marketing- und Analysezwecken
-  - Tracking- und Analyse-Tools
-  - Plug-Ins und andere Einbindungen von Angeboten Dritter
-  - Standortinformationen
+    - Besuch der Portale
+    - Registrierung eines Benutzerkontos
+    - Nutzung eines Portals als registrierter Nutzer
+    - Kauf / Bezug einer kostenpflichtigen Dienstleistung
+    - Teilnahme an Gewinnspielen, Wettbewerben (Veranstaltungen)
+    - Nutzerumfragen und Marktforschung
+    - Direktmarketing und Online-Werbung
+    - Bearbeitung der Personendaten zu Marketing- und Analysezwecken
+    - Tracking- und Analyse-Tools
+    - Plug-Ins und andere Einbindungen von Angeboten Dritter
+    - Standortinformationen
 sources:
   address: https://tx.group/de/impressum
   privacyStatement: 
-  - https://www.tagesanzeiger.ch/datenschutzerklaerung-954908797441
-  - https://tx.group/de/rechtliche-hinweise
+    - https://www.tagesanzeiger.ch/datenschutzerklaerung-954908797441
+    - https://tx.group/de/rechtliche-hinweise
