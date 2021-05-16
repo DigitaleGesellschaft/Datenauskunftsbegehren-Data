@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.post.ch/de/pages/footer/impressum
   privacyStatement: 
-    - https://www.post.ch/de/pages/footer/datenschutz-und-rechtliches
-    - https://www.post.ch/de/pages/footer/allgemeine-geschaeftsbedingungen-agb
+  - https://www.post.ch/de/pages/footer/datenschutz-und-rechtliches
+  - https://www.post.ch/de/pages/footer/allgemeine-geschaeftsbedingungen-agb

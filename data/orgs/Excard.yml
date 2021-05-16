@@ -8,4 +8,4 @@ types:
 sources:
   address: https://www.excard.ch/
   privacyStatement: 
-  - https://www.noSource.ch
+  #- https://www.noSource.ch

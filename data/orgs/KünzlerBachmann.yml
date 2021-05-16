@@ -8,5 +8,5 @@ types:
 sources:
   address: https://kbdirect.ch/impressum/
   privacyStatement: 
-    - https://kbdirect.ch/datenschutz/
-    - https://kbdirect.ch/agb/
+  - https://kbdirect.ch/datenschutz/
+  - https://kbdirect.ch/agb/

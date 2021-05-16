@@ -9,5 +9,5 @@ types:
 sources:
   address: https://www.qualipet.ch/i-impressum/
   privacyStatement: 
-    - https://www.qualipet.ch/i-datenschutz/
-    - https://www.qualipet.ch/i-agb/
+  - https://www.qualipet.ch/i-datenschutz/
+  - https://www.qualipet.ch/i-agb/

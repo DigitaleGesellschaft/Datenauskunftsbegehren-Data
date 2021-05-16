@@ -8,5 +8,5 @@ address: |-
 sources:
   address: https://www.kpt.ch/de/pages/impressum
   privacyStatement: 
-    - https://www.kpt.ch/de/pages/datenschutzerklaerung
-    - https://www.kpt.ch/de/pages/disclaimer
+  - https://www.kpt.ch/de/pages/datenschutzerklaerung
+  - https://www.kpt.ch/de/pages/disclaimer

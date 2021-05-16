@@ -8,4 +8,4 @@ types:
 sources:
   address: https://www.quickticket.ch/impressum/
   privacyStatement: 
-    - https://www.quickticket.ch/datenschutz/
+  - https://www.quickticket.ch/datenschutz/

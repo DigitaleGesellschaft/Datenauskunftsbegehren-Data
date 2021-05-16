@@ -10,4 +10,4 @@ types:
 sources:
   address: https://www.jumbo.ch/de/datenschutz
   privacyStatement: 
-    - https://www.jumbo.ch/de/datenschutz
+  - https://www.jumbo.ch/de/datenschutz

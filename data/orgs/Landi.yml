@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.landi.ch/fenaco-landi-gruppe/impressum
   privacyStatement: 
-    - https://www.landi.ch/fenaco-landi-gruppe/datenschutz
-    - https://www.landi.ch/fenaco-landi-gruppe/rechtliche-bestimmungen
+  - https://www.landi.ch/fenaco-landi-gruppe/datenschutz
+  - https://www.landi.ch/fenaco-landi-gruppe/rechtliche-bestimmungen

@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.microspot.ch/de/cms/unternehmen/impressum
   privacyStatement: 
-    - https://www.microspot.ch/de/cms/unternehmen/agb
-    - https://www.microspot.ch/de/cms/unternehmen/datenschutz
+  - https://www.microspot.ch/de/cms/unternehmen/agb
+  - https://www.microspot.ch/de/cms/unternehmen/datenschutz

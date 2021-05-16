@@ -9,4 +9,4 @@ types:
 sources:
   address: http://www.rohner.biz/kontakt-impressum.html
   privacyStatement: 
-    - https://www.noSource.ch
+  # - https://www.noSource.ch

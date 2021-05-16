@@ -8,5 +8,5 @@ types:
 sources:
   address: https://protecdata.ch/home/impressum/
   privacyStatement: 
-    - https://protecdata.ch/home/impressum/
-    - https://protecdata.ch/home/wp-content/uploads/2016/04/ProtecData-AG-AGB-2016.pdf
+  - https://protecdata.ch/home/impressum/
+  - https://protecdata.ch/home/wp-content/uploads/2016/04/ProtecData-AG-AGB-2016.pdf

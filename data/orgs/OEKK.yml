@@ -6,5 +6,5 @@ address: |-
 sources:
   address: https://www.oekk.ch/de/oekk/impressum
   privacyStatement: 
-    - https://www.oekk.ch/de/oekk/impressum
-    - https://www.oekk.ch/de/oekk/datenschutzerklaerung
+  - https://www.oekk.ch/de/oekk/impressum
+  - https://www.oekk.ch/de/oekk/datenschutzerklaerung

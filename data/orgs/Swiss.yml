@@ -8,5 +8,5 @@ address: |-
 sources:
   address: https://www.swiss.com/ch/de/terms-conditions/privacy-statement
   privacyStatement: 
-    - https://www.swiss.com/ch/de/terms-conditions/privacy-statement
-    - https://www.swiss.com/ch/de/terms-conditions
+  - https://www.swiss.com/ch/de/terms-conditions/privacy-statement
+  - https://www.swiss.com/ch/de/terms-conditions

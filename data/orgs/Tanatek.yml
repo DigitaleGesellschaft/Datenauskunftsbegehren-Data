@@ -8,4 +8,4 @@ types:
 sources:
   address: https://www.tanatekag.ch/impressum/
   privacyStatement: 
-    - https://www.tanatekag.ch/datenschutz/
+  - https://www.tanatekag.ch/datenschutz/

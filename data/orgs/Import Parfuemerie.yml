@@ -5,3 +5,7 @@ address: |-
   4053 Basel 
 types:
 - online
+sources:
+  address: https://www.impo.ch/de/imprint
+  privacyStatement: 
+  - https://www.impo.ch/de/datenschutzs

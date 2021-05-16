@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.joujou.ch/de/content/2-impressum
   privacyStatement: 
-    - https://www.joujou.ch/de/content/3-agb
-    - https://www.joujou.ch/de/content/4-datenschutz
+  - https://www.joujou.ch/de/content/3-agb
+  - https://www.joujou.ch/de/content/4-datenschutz

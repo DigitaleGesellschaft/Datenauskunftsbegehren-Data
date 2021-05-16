@@ -7,3 +7,5 @@ types:
 - address
 sources:
   address: http://www.hsw-direct.ch/html/adresse.html
+  privacyStatement: 
+  # - https://www.noSource.ch

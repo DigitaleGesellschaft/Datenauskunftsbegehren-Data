@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.weltbild.ch/service/impressum
   privacyStatement: 
-    - https://www.weltbild.ch/service/datenschutz
-    - https://www.weltbild.ch/service/agb-lieferbedingungen
+  - https://www.weltbild.ch/service/datenschutz
+  - https://www.weltbild.ch/service/agb-lieferbedingungen

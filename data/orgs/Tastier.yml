@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.tastier.ch/legal/
   privacyStatement: 
-    - https://www.tastier.ch/legal/
-    - https://www.tastier.ch/dataprivacy/
+  - https://www.tastier.ch/legal/
+  - https://www.tastier.ch/dataprivacy/

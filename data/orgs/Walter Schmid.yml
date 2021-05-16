@@ -8,5 +8,5 @@ types:
 sources:
   address: https://wsag.ch/kontakt/impressum-agb.html
   privacyStatement: 
-    - https://wsag.ch/files/datenschutzerklaerung_online_1.pdf
-    - https://wsag.ch/files/wsag_agb_online_1.pdf
+  - https://wsag.ch/files/datenschutzerklaerung_online_1.pdf
+  - https://wsag.ch/files/wsag_agb_online_1.pdf

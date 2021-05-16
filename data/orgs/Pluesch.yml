@@ -8,5 +8,5 @@ types:
 sources:
   address: https://digelec.ch/impressum/
   privacyStatement: 
-    - https://digelec.ch/agb/
-    - https://digelec.ch/datenschutz/
+  - https://digelec.ch/agb/
+  - https://digelec.ch/datenschutz/

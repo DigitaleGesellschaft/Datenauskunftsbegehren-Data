@@ -8,4 +8,4 @@ types:
 sources:
   address: https://www.zek.ch/de-ch/uber-uns/kontakt
   privacyStatement: 
-    - https://www.zek.ch/de-ch/kredit-leasingnehmer/datenschutz
+  - https://www.zek.ch/de-ch/kredit-leasingnehmer/datenschutz

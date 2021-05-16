@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.erotikmarkt.ch/impressum
   privacyStatement: 
-    - https://www.erotikmarkt.ch/geschaeftsbedingungen
-    - https://www.erotikmarkt.ch/datenschutz
+  - https://www.erotikmarkt.ch/geschaeftsbedingungen
+  - https://www.erotikmarkt.ch/datenschutz

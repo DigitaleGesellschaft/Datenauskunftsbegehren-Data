@@ -9,5 +9,5 @@ types:
 sources:
   address: https://www.manor.ch/de/u/impressum
   privacyStatement: 
-    - https://www.manor.ch/de/u/agb
-    - https://www.manor.ch/de/u/safety
+  - https://www.manor.ch/de/u/agb
+  - https://www.manor.ch/de/u/safety

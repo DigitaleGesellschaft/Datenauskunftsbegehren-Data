@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.jelmoli.ch/impressum
   privacyStatement: 
-    - https://www.jelmoli.ch/datenschutz
-    - https://www.jelmoli.ch/agb
+  - https://www.jelmoli.ch/datenschutz
+  - https://www.jelmoli.ch/agb
