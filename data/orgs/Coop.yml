@@ -19,3 +19,7 @@ privacyStatement:
   - Durch Social Media Plugins
   - Durch Website-Analysedienste
   - Durch die Verwendung der Supercard
+sources:
+  address: https://www.coop.ch/de/unternehmen/impressum.html
+  privacyStatement: 
+    - https://www.coop.ch/de/datenschutzbestimmung.html

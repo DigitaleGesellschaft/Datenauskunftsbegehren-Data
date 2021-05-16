@@ -5,3 +5,7 @@ address: |-
    3600 Thun
 types:
 - gastro
+sources:
+  address: https://www.excard.ch/
+  privacyStatement: 
+    - https://www.noSource.ch

@@ -5,3 +5,7 @@ address: |-
    9050 Appenzell
 types:
 - gastro
+sources:
+  address: https://www.etables.info/impressum
+  privacyStatement: 
+    - https://www.etables.info/datenschutz

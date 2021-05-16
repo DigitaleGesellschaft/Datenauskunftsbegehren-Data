@@ -24,3 +24,8 @@ privacyStatement:
     - Bildung von Kundensegmenten und -profilen
   - Bereitstellung von Daten für Werbevermarktung Dritter
   - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
+sources:
+  address: https://www.coopmobile.ch/de/kontakt
+  privacyStatement: 
+    - https://www.coopmobile.ch/de/datenschutz
+    - https://www.coopmobile.ch/de/rechtliche-informationen

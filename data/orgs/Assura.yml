@@ -3,4 +3,8 @@ address: |-
   Assura-Basis SA
   Avenue C.-F. Ramuz 70
   1009 Pully
-
+sources:
+  address: https://www.assura.ch/de/service-support/service-und-support
+  privacyStatement: 
+    - https://www.assura.ch/de/datenschutz-der-assura-ag
+    - https://www.assura.ch/de/rechtlichehinweise

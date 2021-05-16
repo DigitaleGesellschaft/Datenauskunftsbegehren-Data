@@ -5,3 +5,7 @@ address: |-
    3007 Bern
 types:
 - gastro
+sources:
+  address: https://barney.id/uber-barney-id/impressum/
+  privacyStatement: 
+    - https://barney.id/uber-barney-id/datenschutz/

@@ -6,3 +6,9 @@ address: |-
   8302 Kloten
 types:
 - mobility
+sources:
+  address: https://www.europcar.ch/Rechtliche_Hinweise?noredirection=true
+  privacyStatement: 
+    - https://www.europcar.ch/Allgemeine_Geschaeftsbedingungen?noredirection=true
+    - https://www.europcar.ch/Datenschutzerklaerung?noredirection=true
+    - https://www.europcar.ch/Allgemeine_Geschaeftsbedingungen?noredirection=true

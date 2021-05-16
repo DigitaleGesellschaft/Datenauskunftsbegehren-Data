@@ -5,3 +5,8 @@ address: |-
    5506 Mägenwil
 types:
 - online
+sources:
+  address: https://www.brack.ch/impressum
+  privacyStatement: 
+    - https://www.brack.ch/unternehmen/datenschutz
+    - https://www.brack.ch/unternehmen/agb

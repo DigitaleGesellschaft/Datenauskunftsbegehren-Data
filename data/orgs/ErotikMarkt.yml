@@ -5,3 +5,8 @@ address: |-
   8832 Wollerau
 types:
 - online
+sources:
+  address: https://www.erotikmarkt.ch/impressum
+  privacyStatement: 
+    - https://www.erotikmarkt.ch/geschaeftsbedingungen
+    - https://www.erotikmarkt.ch/datenschutz

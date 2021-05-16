@@ -16,3 +16,7 @@ privacyStatement:
   - Nicht anonyme Nutzung
   - «Anonyme» Nutzung der Webseiten
   - Plug-Ins und andere Einbindungen von Angeboten Dritter
+sources:
+  address: https://chmedia.ch/impressum
+  privacyStatement: 
+    - https://chmedia.ch/datenschutzerklaerung

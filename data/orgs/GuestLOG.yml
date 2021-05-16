@@ -5,3 +5,7 @@ address: |-
    CH-8001 Zürich
 types:
 - gastro
+sources:
+  address: https://www.inaffect.net/impressum/
+  privacyStatement: 
+    - https://www.inaffect.net/datenschutz/

@@ -4,4 +4,7 @@ address: |-
   Zieglerstrasse 29
   Postfach
   3001 Bern
-
+sources:
+  address: https://www.atupri.ch/de/impressum
+  privacyStatement: 
+    - https://www.atupri.ch/de/rechtliches

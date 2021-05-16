@@ -5,3 +5,8 @@ address: |-
    8953 Dietikon
 types:
 - online
+sources:
+  address: https://www.dosenbach.ch/CH/de/shop/content/impressum.html
+  privacyStatement: 
+    - https://www.dosenbach.ch/CH/de/shop/content/dataprotection.jsp
+    - https://www.dosenbach.ch/CH/de/shop/content/agb.jsp

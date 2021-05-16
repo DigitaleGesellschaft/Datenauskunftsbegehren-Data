@@ -5,3 +5,7 @@ address: |-
    3007 Bern
 types:
 - gastro
+sources:
+  address: https://covtr.app/de/agb
+  privacyStatement: 
+    - https://covtr.app/de/agb

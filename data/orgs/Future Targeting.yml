@@ -5,3 +5,8 @@ address: |-
   8645 Rapperswil-Jona
 types:
 - address
+sources:
+  address: https://www.future-targeting.ch/de/Footer/Impressum/impressum.php
+  privacyStatement: 
+    - https://www.future-targeting.ch/de/Footer/Privacy-Policy/privacy-policy.php
+    - https://www.future-targeting.ch/de/Footer/Datenschutzerklaerung/datenschutzerklaerung.php
