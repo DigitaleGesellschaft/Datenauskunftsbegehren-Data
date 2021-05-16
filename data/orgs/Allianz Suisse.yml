@@ -6,5 +6,5 @@ address: |-
 sources:
   address: https://www.allianz.ch/de/informationen/impressum.html
   privacyStatement: 
-    w- https://www.allianz.ch/de/informationen/datenschutz.html
-    w- https://www.allianz.ch/de/informationen/rechtliche-hinweise.html
+    - https://www.allianz.ch/de/informationen/datenschutz.html
+    - https://www.allianz.ch/de/informationen/rechtliche-hinweise.html
