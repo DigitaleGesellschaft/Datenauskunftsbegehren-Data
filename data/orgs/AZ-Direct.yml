@@ -9,4 +9,4 @@ types:
 sources:
   address: https://www.az-direct.ch/unternehmen/standorte/
   privacyStatement: 
-    - https://www.az-direct.ch/blog/datenschutz/
+  - https://www.az-direct.ch/blog/datenschutz/

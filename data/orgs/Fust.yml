@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.fust.ch/de/impressum-_content---1--1025.html
   privacyStatement: 
-    - https://www.fust.ch/de/agb-_content---1--1023.html
-    - https://www.fust.ch/de/datenschutz-_content---1--1024.html
+  - https://www.fust.ch/de/agb-_content---1--1023.html
+  - https://www.fust.ch/de/datenschutz-_content---1--1024.html

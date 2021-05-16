@@ -8,5 +8,5 @@ types:
 sources:
   address: https://pally.ch/impressum/
   privacyStatement: 
-    - https://pally.ch/impressum/
-    - https://pally.ch/datenschutz/
+  - https://pally.ch/impressum/
+  - https://pally.ch/datenschutz/

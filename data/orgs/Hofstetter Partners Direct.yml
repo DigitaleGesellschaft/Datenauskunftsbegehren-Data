@@ -8,4 +8,4 @@ types:
 sources:
   address: http://www.hofstetter-partners.ch/site/site1.asp?Kategorie=Impressum
   privacyStatement: 
-    - http://www.hofstetter-partners.ch/site/site1.asp?Kategorie=Impressum
+  - http://www.hofstetter-partners.ch/site/site1.asp?Kategorie=Impressum

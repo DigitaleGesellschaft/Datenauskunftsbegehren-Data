@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.carvolution.com/de/kontakt
   privacyStatement: 
-    - https://www.carvolution.com/de/agb
-    - https://www.carvolution.com/de/datenschutzbestimmungen
+  - https://www.carvolution.com/de/agb
+  - https://www.carvolution.com/de/datenschutzbestimmungen

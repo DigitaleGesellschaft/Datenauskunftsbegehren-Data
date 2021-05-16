@@ -7,5 +7,5 @@ address: |-
 sources:
   address: https://www.groupemutuel.ch/de/Privatkunden/Kundendienst/Kontakt.html#tab-2
   privacyStatement: 
-    - https://www.groupemutuel.ch/de/Privatkunden/Allgemeine-Nutzungsbedingungen.html
-    - https://www.groupemutuel.ch/de/Privatkunden/Allgemeine-Nutzungsbedingungen.html#tab-2
+  - https://www.groupemutuel.ch/de/Privatkunden/Allgemeine-Nutzungsbedingungen.html
+  - https://www.groupemutuel.ch/de/Privatkunden/Allgemeine-Nutzungsbedingungen.html#tab-2

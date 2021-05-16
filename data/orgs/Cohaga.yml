@@ -8,6 +8,6 @@ types:
 sources:
   address: https://cohaga.ch/impressum/
   privacyStatement: 
-    - https://cohaga.ch/impressum/
-    - https://cohaga.ch/datenschutzerklaerung/
-    - https://cohaga.ch/agb/
+  - https://cohaga.ch/impressum/
+  - https://cohaga.ch/datenschutzerklaerung/
+  - https://cohaga.ch/agb/

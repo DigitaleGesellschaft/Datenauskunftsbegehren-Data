@@ -9,5 +9,5 @@ types:
 sources:
   address: https://www.geschenkidee.ch/impressum
   privacyStatement: 
-    - https://www.geschenkidee.ch/datenschutz
-    - https://www.geschenkidee.ch/agb
+  - https://www.geschenkidee.ch/datenschutz
+  - https://www.geschenkidee.ch/agb

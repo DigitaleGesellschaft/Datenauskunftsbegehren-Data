@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.exlibris.ch/de/ueber-uns/impressum/
   privacyStatement: 
-    - https://www.exlibris.ch/de/ueber-uns/impressum/
-    - https://www.exlibris.ch/de/dse/
+  - https://www.exlibris.ch/de/ueber-uns/impressum/
+  - https://www.exlibris.ch/de/dse/
