@@ -2,12 +2,12 @@ name: Yaml Lint
 on: [push]
 
 jobs:
-delivery:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Check out code
-    uses: actions/checkout@main
-  - name: Run yamllint
-    uses: bewuethr/yamllint-action@v1
-    with:
-      config-file: .github/workflows/yamlconfig
+  delivery:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@main
+    - name: Run yamllint
+      uses: bewuethr/yamllint-action@v1
+      with:
+        config-file: .github/workflows/yamlconfig
