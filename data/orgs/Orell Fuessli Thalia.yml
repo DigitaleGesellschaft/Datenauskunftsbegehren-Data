@@ -5,3 +5,8 @@ address: |-
   8036 Zürich
 types:
 - online
+sources:
+  address: https://www.orellfuessli.ch/shop/hilfe-impressum/show/
+  privacyStatement: 
+    - https://www.orellfuessli.ch/shop/hilfe-datenschutz/show/
+    - https://www.orellfuessli.ch/shop/hilfe-agb/show/

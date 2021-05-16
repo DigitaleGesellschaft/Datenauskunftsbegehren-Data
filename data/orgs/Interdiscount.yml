@@ -5,3 +5,8 @@ address: |-
   3303 Jegenstorf
 types:
 - online
+sources:
+  address: https://www.interdiscount.ch/de/cms/unternehmen/impressum
+  privacyStatement: 
+    - https://www.interdiscount.ch/de/cms/unternehmen/datenschutz
+    - https://www.interdiscount.ch/de/cms/unternehmen/agb

@@ -6,3 +6,9 @@ address: |-
 types:
 - payback
 - online
+sources:
+  address: https://www.ikea.com/ch/de/customer-service/privacy-policy/
+  privacyStatement:
+    - https://www.ikea.com/ch/de/customer-service/privacy-policy/ 
+    - https://www.ikea.com/ch/de/customer-service/cookie-policy/
+    - https://www.ikea.com/ch/de/customer-service/terms-conditions/

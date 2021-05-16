@@ -5,3 +5,7 @@ address: |-
   3510 Konolfingen
 types:
 - gastro
+sources:
+  address: https://www.quickticket.ch/impressum/
+  privacyStatement: 
+    - https://www.quickticket.ch/datenschutz/

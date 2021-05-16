@@ -5,3 +5,8 @@ address: |-
   3030 Bern
 types:
 - mobility
+sources:
+  address: https://www.publibike.ch/de/publibike/impressum
+  privacyStatement: 
+    - https://www.publibike.ch/de/publibike/agb
+    - https://www.publibike.ch/de/publibike/Privacy-Policy

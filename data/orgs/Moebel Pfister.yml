@@ -6,3 +6,8 @@ address: |-
 types:
 - payback
 - online
+sources:
+  address: https://www.pfister.ch/de/impressum
+  privacyStatement: 
+    - https://www.pfister.ch/de/datenschutz
+    - https://www.pfister.ch/de/agb
