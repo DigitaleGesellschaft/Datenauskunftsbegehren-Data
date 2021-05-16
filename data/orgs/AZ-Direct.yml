@@ -6,3 +6,7 @@ address: |-
   6330 Cham
 types:
 - address
+sources:
+  address: https://www.az-direct.ch/unternehmen/standorte/
+  privacyStatement: 
+    - https://www.az-direct.ch/blog/datenschutz/

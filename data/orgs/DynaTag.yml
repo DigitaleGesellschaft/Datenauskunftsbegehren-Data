@@ -5,3 +5,7 @@ address: |-
   6645 Brione s. Minusio
 types:
 - gastro
+sources:
+  address: https://dynatag.com/frontend/pdf/Impressum_DynaTag_new_website.pdf
+  privacyStatement: 
+    - https://dynatag.com/frontend/pdf/Datenschutzerkl%C3%A4rung_DE.pdf

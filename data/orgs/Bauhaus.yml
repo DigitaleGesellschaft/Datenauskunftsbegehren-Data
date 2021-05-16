@@ -5,3 +5,9 @@ address: |-
   3123 Belp/Bern
 types:
 - payback
+sources:
+  address: https://www.bauhaus.ch/de/content/rechtliches/impressum.html
+  privacyStatement: 
+  - https://www.bauhaus.ch/de/content/rechtliches/agb.html
+  - https://www.bauhaus.ch/de/content/rechtliches/disclaimer.html
+  - https://www.bauhaus.ch/de/content/rechtliches/datenschutz.html

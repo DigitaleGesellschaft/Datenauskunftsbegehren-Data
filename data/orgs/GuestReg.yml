@@ -6,3 +6,7 @@ address: |-
   2503 Biel/Bienne
 types:
 - gastro
+sources:
+  address: https://guestreg.ch/
+  privacyStatement: 
+    - https://www.noSource.ch

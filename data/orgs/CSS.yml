@@ -1,6 +1,13 @@
 name: CSS Kranken-Versicherung AG
 address: |-
   CSS KrankenVersicherung AG
+  Datenschutzbeauftragter
   Tribschenstrasse 21
   Postfach 2568
   6002 Luzern
+sources:
+  address: https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/datenschutz.html
+  privacyStatement:
+  - https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/datenschutz.html 
+  - https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/privacy-policy.html
+  - https://www.css.ch/de/ueber-css/story/unternehmen/css-gruppe/rechtliche-hinweise.html

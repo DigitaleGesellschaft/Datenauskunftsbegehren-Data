@@ -5,3 +5,8 @@ address: |-
   6343 Rotkreuz
 types:
 - online
+sources:
+  address: https://www.arp.ch/impressum/
+  privacyStatement: 
+    - https://www.arp.ch/datenschutz/
+    - https://www.arp.ch/cookies/

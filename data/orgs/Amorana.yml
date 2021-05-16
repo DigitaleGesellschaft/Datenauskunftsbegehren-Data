@@ -6,3 +6,8 @@ address: |-
   8304 Wallisellen
 types:
 - online
+sources:
+  address: https://www.amorana.ch/de/impressum
+  privacyStatement: 
+    - https://www.amorana.ch/de/allgemeine-geschaftsbedingungen
+    - https://www.amorana.ch/de/datenschutzs

@@ -5,3 +5,9 @@ address: |-
   8050 Zürich
 types:
 - credit
+sources:
+  address: https://www.crif.ch/impressum/
+  privacyStatement: 
+    - https://www.crif.ch/datenschutz/
+    - https://www.crif.ch/dsgvo/
+    - https://www.crif.ch/cookie-richtlinien/

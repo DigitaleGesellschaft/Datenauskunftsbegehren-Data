@@ -4,3 +4,8 @@ address: |-
   Brislachstrasse 2
   Postfach
   4242 Laufen
+sources:
+  address: https://www.egk.ch/de/impressum
+  privacyStatement: 
+  - https://www.egk.ch/de/datenschutzbestimmungen
+
