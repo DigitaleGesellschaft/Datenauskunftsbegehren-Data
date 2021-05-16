@@ -1,4 +1,5 @@
 # Datenauskunftsbegehren Data
+[![YML Syntax](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/actions/workflows/YML_Lint.yml/badge.svg)](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/actions/workflows/YML_Lint.yml)
 
 In diesem Repository werden die Daten für den Onlinegenerator für Datenauskunftsbegehren verwaltet.
 
