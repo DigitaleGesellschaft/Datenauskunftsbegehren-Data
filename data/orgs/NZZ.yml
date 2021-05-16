@@ -12,8 +12,12 @@ privacyStatement:
     vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
     von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: Januar 2021
+    privacyStatementDate: 1. Januar 2021
   bullets:
   - Nicht anonyme Nutzung
   - «Anonyme» Nutzung der Webseiten
   - Plug-Ins und andere Einbindungen von Angeboten Dritter
+sources:
+  address: https://www.nzz.ch/information/datenschutzerklaerung-ld.1388065
+  privacyStatement: 
+  - https://www.nzz.ch/information/datenschutzerklaerung-ld.1388065

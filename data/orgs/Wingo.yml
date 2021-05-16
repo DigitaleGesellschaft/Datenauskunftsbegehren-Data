@@ -1,4 +1,4 @@
-name: Wingo
+name: Wingo (Swisscom)
 address: |-
   Wingo
   Contact Center
@@ -24,3 +24,7 @@ privacyStatement:
     - Bildung von Kundensegmenten und -profilen
   - Bereitstellung von Daten für Werbevermarktung Dritter
   - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
+sources:
+  address: https://www.wingo.ch/sites/default/files/downloads/01-11-2016_Allgemeine_Datenschutzerklrung_%28CH%29.pdf
+  privacyStatement: 
+  - https://www.wingo.ch/sites/default/files/downloads/01-11-2016_Allgemeine_Datenschutzerklrung_%28CH%29.pdf

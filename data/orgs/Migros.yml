@@ -16,10 +16,17 @@ privacyStatement:
   variables:
     privacyStatementDate: Mai 2020
   bullets:
-  - Durch Kauf von Waren und Inanspruchnahme von Leistungen
-  - Durch Treue- und Bonusprogramme
-  - Durch Besuch von Webseiten
-  - Durch Online-Angebote und Apps
-  - Durch Information und Direktmarketing
-  - Durch Teilnahme an Wettbewerben, Gewinnspielen und ähnlichen Veranstaltungen
-  - Durch Betreten unserer Räumlichkeiten
+  - text: Zwecke
+    bullets:
+    - Kommunikation
+    - Kauf von Waren und Inanspruchnahme von Leistungen
+    - Treue- und Bonusprogramme
+    - Besuch von Webseiten
+    - Online-Angebote und Apps
+    - Information und Direktmarketing
+    - Teilnahme an Wettbewerben, Gewinnspielen und ähnlichen Veranstaltungen
+    - Betreten ihrer Räumlichkeiten
+sources:
+  address: https://www.migros.ch/de/datenschutz.html
+  privacyStatement: 
+  - https://www.migros.ch/de/datenschutz.html

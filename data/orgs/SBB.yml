@@ -32,3 +32,7 @@ privacyStatement:
     - Daten für optimierte Websiteinhalte
     - Daten für die Marktforschung
     - Daten für die Verwaltung und Abmeldung der Dienste
+sources:
+  address: https://www.sbb.ch/de/meta/legallines/datenschutz.html
+  privacyStatement: 
+  - https://www.sbb.ch/de/meta/legallines/datenschutz.html

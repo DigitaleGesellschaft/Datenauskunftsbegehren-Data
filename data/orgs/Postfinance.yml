@@ -21,4 +21,7 @@ privacyStatement:
     - Kontaktaufnahme im öffentlichen Bereich der Website und Newsletter
     - Kommunikation mit Chatbot und Voicebot
     - Kommunikation via E-Mail im Besonderen
-
+sources:
+  address: https://www.postfinance.ch/de/detail/data.html
+  privacyStatement: 
+  - https://www.postfinance.ch/de/detail/data.html

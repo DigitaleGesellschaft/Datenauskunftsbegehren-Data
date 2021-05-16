@@ -20,3 +20,7 @@ privacyStatement:
   - Nutzungsdaten
   - Daten über lokale Inhalte
   - Sonstige Personendaten
+sources:
+  address: https://www.upc.ch/de/support/form/impressum/
+  privacyStatement: 
+  - https://www.upc.ch/de/allgemeine-geschaeftsbedingungen/datenschutz/

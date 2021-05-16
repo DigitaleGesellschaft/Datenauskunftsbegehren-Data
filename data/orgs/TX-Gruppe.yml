@@ -1,4 +1,4 @@
-name: TX-Gruppe
+name: Tages-Anzeiger (TX Group)
 address: |-
   TX Group AG
   Group Data Protection Officer
@@ -25,3 +25,7 @@ privacyStatement:
   - Tracking- und Analyse-Tools
   - Plug-Ins und andere Einbindungen von Angeboten Dritter
   - Standortinformationen
+sources:
+  address: https://www.tagesanzeiger.ch/datenschutzerklaerung-954908797441
+  privacyStatement: 
+  - https://www.tagesanzeiger.ch/datenschutzerklaerung-954908797441

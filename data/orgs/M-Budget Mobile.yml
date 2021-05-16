@@ -24,3 +24,7 @@ privacyStatement:
     - Bildung von Kundensegmenten und -profilen
   - Bereitstellung von Daten für Werbevermarktung Dritter
   - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
+sources:
+  address: https://web-mbudget-api.m-budget.migros.ch/sites/default/files/downloads/01-11-2016_Allgemeine_Datenschutzerklrung_CH.pdf
+  privacyStatement: 
+  - https://web-mbudget-api.m-budget.migros.ch/sites/default/files/downloads/01-11-2016_Allgemeine_Datenschutzerklrung_CH.pdf

@@ -1,7 +1,8 @@
-name: Yallo
+name: Yallo (Sunrise)
 address: |-
   Sunrise UPC GmbH (Yallo)
   Thurgauerstrasse 101B
+  Postfach
   8050 Zürich
 types:
 - mobile
@@ -23,3 +24,7 @@ privacyStatement:
   - Bestellung eines Newsletters
   - Nutzung des Chats bzw. Messengers
   - Gewinnspiele
+sources:
+  address: https://www.yallo.ch/de/data-protection
+  privacyStatement: 
+  - https://www.yallo.ch/de/data-protection

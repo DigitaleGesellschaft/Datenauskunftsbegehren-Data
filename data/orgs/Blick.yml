@@ -1,4 +1,4 @@
-name: Ringier
+name: Blick (Ringier)
 address: |-
   Ringier AG
   Brühlstrasse 5
@@ -11,7 +11,7 @@ privacyStatement:
     vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
     von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: März 2021
+    privacyStatementDate: 30. März 2021
   bullets:
   - text: Personendaten
     bullets:
@@ -23,3 +23,7 @@ privacyStatement:
     bullets:
     - Durch Tracking-Tools
     - Durch Elemente von anderen Webseiten, z.B. Plug-ins
+sources:
+  address: https://www.blick.ch/services/datenschutzbestimmungen-id151553.html
+  privacyStatement: 
+  - https://www.blick.ch/services/datenschutzbestimmungen-id151553.html
