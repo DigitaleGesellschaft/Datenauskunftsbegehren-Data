@@ -1,0 +1,10 @@
+name: Allianz Suisse
+address: |-
+  Allianz Suisse Versicherungs-Gesellschaft AG
+  Richtiplatz 1
+  8304 Wallisellen
+sources:
+  address: https://www.allianz.ch/de/informationen/impressum.html
+  privacyStatement: 
+  - https://www.allianz.ch/de/informationen/datenschutz.html
+  - https://www.allianz.ch/de/informationen/rechtliche-hinweise.html
