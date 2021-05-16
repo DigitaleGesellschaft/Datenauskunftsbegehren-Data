@@ -6,7 +6,7 @@ address: |-
 types:
   - gastro
 sources:
-  #address: https://www.noSource.ch
+  # address: https://www.noSource.ch
   privacyStatement: 
     - https://filum.bambit.ch/Privacy
     - https://filum.bambit.ch/Agb

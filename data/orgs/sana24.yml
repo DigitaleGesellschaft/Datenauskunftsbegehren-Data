@@ -7,4 +7,4 @@ address: |-
 sources:
   address: https://www.noSource.ch
   privacyStatement: 
-    #- https://www.noSource.ch
+  #  - https://www.noSource.ch
