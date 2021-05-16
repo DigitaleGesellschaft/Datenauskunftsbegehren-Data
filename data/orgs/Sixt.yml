@@ -5,3 +5,8 @@ address: |-
   4058 Basel
 types:
 - mobility
+sources:
+  address: https://www.sixt.ch/informationen/impressum/#/
+  privacyStatement: 
+    - https://www.sixt.ch/informationen/datenschutzhinweise/#/
+    - https://www.sixt.ch/informationen/agb/#/

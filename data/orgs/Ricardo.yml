@@ -6,3 +6,7 @@ address: |-
   6301 Zug
 types:
 - online
+sources:
+  address: https://help.ricardo.ch/hc/de/articles/214044069-Impressum-Ricardo-AG
+  privacyStatement: 
+    - https://help.ricardo.ch/hc/de/articles/115002934305-AGB-und-Reglemente

@@ -5,3 +5,8 @@ address: |-
   8003 Zürich
 types:
 - gastro
+sources:
+  address: https://www.tastier.ch/legal/
+  privacyStatement: 
+    - https://www.tastier.ch/legal/
+    - https://www.tastier.ch/dataprivacy/

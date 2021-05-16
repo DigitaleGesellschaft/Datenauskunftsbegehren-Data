@@ -26,6 +26,7 @@ privacyStatement:
   - Plug-Ins und andere Einbindungen von Angeboten Dritter
   - Standortinformationen
 sources:
-  address: https://www.tagesanzeiger.ch/datenschutzerklaerung-954908797441
+  address: https://tx.group/de/impressum
   privacyStatement: 
   - https://www.tagesanzeiger.ch/datenschutzerklaerung-954908797441
+  - https://tx.group/de/rechtliche-hinweise

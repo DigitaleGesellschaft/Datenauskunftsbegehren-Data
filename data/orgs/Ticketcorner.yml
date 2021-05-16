@@ -5,3 +5,10 @@ address: |-
   CH-8153 Rümlang
 types:
 - online
+sources:
+  address: https://www.ticketcorner.ch/help/imprint/
+  privacyStatement: 
+    - https://www.ticketcorner.ch/help/data-protection/
+    - https://www.ticketcorner.ch/help/club-terms/
+    - https://www.ticketcorner.ch/help/terms/?affiliate=TCS
+    - https://www.ticketcorner.ch/help/terms/
