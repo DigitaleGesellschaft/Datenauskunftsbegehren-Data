@@ -1,0 +1,10 @@
+name: Baloise
+address: |-
+  Basler Versicherung AG
+  Aeschengraben 21
+  4002 Basel
+sources:
+  address: https://www.baloise.com/de/home/ueber-uns/datenschutzbestimmungen.html
+  privacyStatement: 
+    - https://www.baloise.com/de/home/ueber-uns/datenschutzbestimmungen.html
+    - https://www.baloise.com/de/home/ueber-uns/rechtliche-hinweise.html
