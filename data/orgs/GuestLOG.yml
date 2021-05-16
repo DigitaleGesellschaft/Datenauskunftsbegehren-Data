@@ -8,4 +8,4 @@ types:
 sources:
   address: https://www.inaffect.net/impressum/
   privacyStatement: 
-    - https://www.inaffect.net/datenschutz/
+  - https://www.inaffect.net/datenschutz/

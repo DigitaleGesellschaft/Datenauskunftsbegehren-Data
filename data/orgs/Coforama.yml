@@ -9,5 +9,5 @@ types:
 sources:
   address: https://www.conforama.ch/de/Impressum
   privacyStatement: 
-    - https://www.conforama.ch/de/privacy
-    - https://www.conforama.ch/de/terms-and-conditions
+  - https://www.conforama.ch/de/privacy
+  - https://www.conforama.ch/de/terms-and-conditions

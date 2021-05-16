@@ -7,8 +7,7 @@ address: |-
 types:
 - mobility
 sources:
-  address: https://www.europcar.ch/Rechtliche_Hinweise?noredirection=true
+  address: https://www.europcar.ch/Rechtliche_Hinweise
   privacyStatement: 
-    - https://www.europcar.ch/Allgemeine_Geschaeftsbedingungen?noredirection=true
-    - https://www.europcar.ch/Datenschutzerklaerung?noredirection=true
-    - https://www.europcar.ch/Allgemeine_Geschaeftsbedingungen?noredirection=true
+  - https://www.europcar.ch/Allgemeine_Geschaeftsbedingungen
+  - https://www.europcar.ch/Datenschutzerklaerung

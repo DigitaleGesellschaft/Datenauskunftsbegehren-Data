@@ -8,6 +8,6 @@ types:
 sources:
   address: https://www.digitec.ch/de/wiki/6012
   privacyStatement: 
-    - https://www.digitec.ch/de/wiki/2791
-    - https://www.digitec.ch/de/wiki/479
-    - https://www.digitec.ch/de/wiki/478
+  - https://www.digitec.ch/de/wiki/2791
+  - https://www.digitec.ch/de/wiki/479
+  - https://www.digitec.ch/de/wiki/478
