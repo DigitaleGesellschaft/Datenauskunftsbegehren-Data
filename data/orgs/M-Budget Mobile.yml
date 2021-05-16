@@ -27,6 +27,6 @@ privacyStatement:
 sources:
   address: https://shop.m-budget.migros.ch/de/impressum
   privacyStatement: 
+  - https://web-mbudget-api.m-budget.migros.ch/sites/default/files/downloads/01-11-2016_Allgemeine_Datenschutzerklrung_CH.pdf
   - https://shop.m-budget.migros.ch/de/datenschutzerklaerung
   - https://shop.m-budget.migros.ch/de/rechtliche-informationen
-  - https://web-mbudget-api.m-budget.migros.ch/sites/default/files/downloads/01-11-2016_Allgemeine_Datenschutzerklrung_CH.pdf
