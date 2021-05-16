@@ -1,0 +1,44 @@
+name: Deploy to Staging
+
+on:
+  push:
+    branches: [ XXX_SOURCEBRANCH__XXX ]
+  pull_request:
+    branches: [ XXX_SOURCEBRANCH__XXX ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Set the correct Node version using nvm
+      shell: bash -l {0} 
+      run: nvm install
+    - name: Install Dependencies  
+      run: npm install
+    - name: Create Json
+      run: npm run compile
+    - name: file exists test
+      run:  |
+        ls -la
+    - name: Update Json
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Auto update json
+        file_pattern: data.json
+        branch: XXX_TARGETBRANCH__XXX
+    - name: Trigger Staging Server to fetch
+      uses: fjogeleit/http-request-action@master
+      with:
+        url: 'https://wwwtest.digitale-gesellschaft.ch/auskunftsbegehren/deploy/deploy.php?key=${{ secrets.STAGING_DEPLOYKEY }}'
+        method: 'GET'
+        username: admin
+        password: ${{ secrets.STAGING_WWWTEST_PASSWORD }}
