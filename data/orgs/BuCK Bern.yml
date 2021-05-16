@@ -4,8 +4,8 @@ address: |-
   Sandrainstrasse 25
   3007 Bern
 types:
-- gastro
+  - gastro
 sources:
   address: https://covtr.app/de/agb
   privacyStatement: 
-  - https://covtr.app/de/agb
+    - https://covtr.app/de/agb

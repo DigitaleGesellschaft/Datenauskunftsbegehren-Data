@@ -6,5 +6,4 @@ address: |-
 sources:
   address: https://www.helvetic.com/de/imprint
   privacyStatement: 
-  - https://www.helvetic.com/imprint#!data-protection
-
+    - https://www.helvetic.com/imprint#!data-protection

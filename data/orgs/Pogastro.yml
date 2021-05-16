@@ -4,8 +4,8 @@ address: |-
   Bahnhofstrasse 2
   6048 Horw
 types:
-- gastro
+  - gastro
 sources:
   address: https://precomgroup.ch/impressum/
   privacyStatement: 
-  - https://precomgroup.ch/impressum/
+    - https://precomgroup.ch/impressum/

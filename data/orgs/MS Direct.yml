@@ -4,9 +4,9 @@ address: |-
   Fürstenlandstrasse 35
   9001 St. Gallen
 types:
-- address
+  - address
 sources:
   address: https://www.ms-direct.ch/impressum
   privacyStatement: 
-  - https://www.ms-direct.ch/disclaimer
-  - https://www.ms-direct.ch/datenschutz
+    - https://www.ms-direct.ch/disclaimer
+    - https://www.ms-direct.ch/datenschutz

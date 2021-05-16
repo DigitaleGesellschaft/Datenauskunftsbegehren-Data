@@ -4,9 +4,9 @@ address: |-
   Fürtistrasse 11
   8832 Wollerau
 types:
-- online
+  - online
 sources:
   address: https://www.erotikmarkt.ch/impressum
   privacyStatement: 
-  - https://www.erotikmarkt.ch/geschaeftsbedingungen
-  - https://www.erotikmarkt.ch/datenschutz
+    - https://www.erotikmarkt.ch/geschaeftsbedingungen
+    - https://www.erotikmarkt.ch/datenschutz

@@ -4,9 +4,9 @@ address: |-
   Seestrasse 26
   3806 Bönigen
 types:
-- gastro
+  - gastro
 sources:
   address: https://digelec.ch/impressum/
   privacyStatement: 
-  - https://digelec.ch/agb/
-  - https://digelec.ch/datenschutz/
+    - https://digelec.ch/agb/
+    - https://digelec.ch/datenschutz/

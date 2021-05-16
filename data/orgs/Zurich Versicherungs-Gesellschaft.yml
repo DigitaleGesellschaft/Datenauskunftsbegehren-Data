@@ -7,4 +7,4 @@ address: |-
 sources:
   address: https://www.zurich.ch/de/datenschutz
   privacyStatement: 
-  - https://www.zurich.ch/de/datenschutz
+    - https://www.zurich.ch/de/datenschutz

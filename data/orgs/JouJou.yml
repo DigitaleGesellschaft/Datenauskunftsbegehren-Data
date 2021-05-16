@@ -4,9 +4,9 @@ address: |-
   Chemin des Sauges 25
   1405 Pomy 
 types:
-- online
+  - online
 sources:
   address: https://www.joujou.ch/de/content/2-impressum
   privacyStatement: 
-  - https://www.joujou.ch/de/content/3-agb
-  - https://www.joujou.ch/de/content/4-datenschutz
+    - https://www.joujou.ch/de/content/3-agb
+    - https://www.joujou.ch/de/content/4-datenschutz

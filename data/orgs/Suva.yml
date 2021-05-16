@@ -7,4 +7,4 @@ address: |-
 sources:
   address: https://www.suva.ch/de-ch/allgemein/datenschutz
   privacyStatement: 
-  - https://www.suva.ch/de-ch/allgemein/datenschutz
+    - https://www.suva.ch/de-ch/allgemein/datenschutz

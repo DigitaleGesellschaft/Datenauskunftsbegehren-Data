@@ -4,10 +4,10 @@ address: |-
   Reinacherstrasse 269
   4053 Basel
 types:
-- online
-- payback
+  - online
+  - payback
 sources:
   address: https://www.qualipet.ch/i-impressum/
   privacyStatement: 
-  - https://www.qualipet.ch/i-datenschutz/
-  - https://www.qualipet.ch/i-agb/
+    - https://www.qualipet.ch/i-datenschutz/
+    - https://www.qualipet.ch/i-agb/

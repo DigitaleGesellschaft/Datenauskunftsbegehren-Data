@@ -4,12 +4,12 @@ address: |-
   Grossmattstrasse 9
   8902 Urdorf
 types:
-- credit
+  - credit
 sources:
   address: https://www.bisnode.ch/impressum/
   privacyStatement: 
-  - https://www.bisnode.ch/globalassets/switzerland/agb--datenschutzrichtlinien/datenschutzrichtlinien_schweiz.pdf
-  - https://www.bisnode.ch/globalassets/switzerland/agb--datenschutzrichtlinien/agb_bisnode_schweiz_ag.pdf
-  - https://www.bisnode.ch/impressum/
-  - https://www.bisnode.ch/cookies/
-  - https://www.bisnode.ch/datenschutz/so-steht-bisnode-zum-datenschutz/sicherheit-und-datenschutz/
+    - https://www.bisnode.ch/globalassets/switzerland/agb--datenschutzrichtlinien/datenschutzrichtlinien_schweiz.pdf
+    - https://www.bisnode.ch/globalassets/switzerland/agb--datenschutzrichtlinien/agb_bisnode_schweiz_ag.pdf
+    - https://www.bisnode.ch/impressum/
+    - https://www.bisnode.ch/cookies/
+    - https://www.bisnode.ch/datenschutz/so-steht-bisnode-zum-datenschutz/sicherheit-und-datenschutz/

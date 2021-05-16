@@ -6,22 +6,22 @@ address: |-
   3030 Bern
 privacyStatement:
   paragraphs:
-  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer
-    Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien,
-    resp. Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen:'
+    - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer
+      Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien,
+      resp. Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
     privacyStatementDate: Mai 2021
   bullets:
-  - text: Zwecke der Bearbeitungen
-    bullets:
-    - Bereitstellung/Optimierung der Website sowie Aufrechterhaltung ihrer Sicherheit und Stabilität
-    - Operative und strategische Abläufe
-    - Erfüllung rechtlicher Verpflichtungen
-    - Zielgerichtete und personalisierte Inhalte und Angebote
-    - Kontaktaufnahme im öffentlichen Bereich der Website und Newsletter
-    - Kommunikation mit Chatbot und Voicebot
-    - Kommunikation via E-Mail im Besonderen
+    - text: Zwecke der Bearbeitungen
+      bullets:
+        - Bereitstellung/Optimierung der Website sowie Aufrechterhaltung ihrer Sicherheit und Stabilität
+        - Operative und strategische Abläufe
+        - Erfüllung rechtlicher Verpflichtungen
+        - Zielgerichtete und personalisierte Inhalte und Angebote
+        - Kontaktaufnahme im öffentlichen Bereich der Website und Newsletter
+        - Kommunikation mit Chatbot und Voicebot
+        - Kommunikation via E-Mail im Besonderen
 sources:
   address: https://www.postfinance.ch/de/detail/data.html
   privacyStatement: 
-  - https://www.postfinance.ch/de/detail/data.html
+    - https://www.postfinance.ch/de/detail/data.html

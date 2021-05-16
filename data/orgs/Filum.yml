@@ -4,12 +4,12 @@ address: |-
   Bubenbergplatz 10 
   3011 Bern
 types:
-- gastro
+  - gastro
 sources:
-  #address: https://www.noSource.ch
+  # address: https://www.noSource.ch
   privacyStatement: 
-  - https://filum.bambit.ch/Privacy
-  - https://filum.bambit.ch/Agb
-  - https://bambit.ch/Impressum
-  - https://bambit.ch/privacy
-  - https://bambit.ch/Kontakt
+    - https://filum.bambit.ch/Privacy
+    - https://filum.bambit.ch/Agb
+    - https://bambit.ch/Impressum
+    - https://bambit.ch/privacy
+    - https://bambit.ch/Kontakt

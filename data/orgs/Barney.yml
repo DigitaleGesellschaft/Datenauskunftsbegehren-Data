@@ -4,8 +4,8 @@ address: |-
   Eigerplatz 12
   3007 Bern
 types:
-- gastro
+  - gastro
 sources:
   address: https://barney.id/uber-barney-id/impressum/
   privacyStatement: 
-  - https://barney.id/uber-barney-id/datenschutz/
+    - https://barney.id/uber-barney-id/datenschutz/

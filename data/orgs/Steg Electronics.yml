@@ -4,8 +4,8 @@ address: |-
   Bodenhof 4
   6014 Luzern
 types:
-- online
+  - online
 sources:
   address: https://www.steg-electronics.ch/de/content/steg-rechtliches-impressum
   privacyStatement: 
-  - https://www.steg-electronics.ch/de/content/steg-rechtliches-impressum
+    - https://www.steg-electronics.ch/de/content/steg-rechtliches-impressum
