@@ -1,0 +1,13 @@
+name: TWINT
+address: |-
+  TWINT AG
+  Stauffacherstrasse 41
+  CH-8004 Zürich
+types:
+  - online
+sources:
+  address: https://www.twint.ch/impressum/
+  privacyStatement: 
+    - https://www.twint.ch/datenschutz-website/
+    - https://www.twint.ch/agb-app/
+    - https://www.twint.ch/agb-app/
