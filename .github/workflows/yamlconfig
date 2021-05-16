@@ -3,3 +3,6 @@ extends: default
 rules:
   document-start: disable
   truthy: disable
+  line-length:
+    level: warning
+  trailing-spaces: disable
