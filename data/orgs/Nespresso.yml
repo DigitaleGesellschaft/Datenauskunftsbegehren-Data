@@ -6,3 +6,7 @@ address: |-
 types:
 - online
 - payback
+sources:
+  address: https://www.nespresso.com/ch/de/legal
+  privacyStatement: 
+    - https://www.nespresso.com/ch/de/legal

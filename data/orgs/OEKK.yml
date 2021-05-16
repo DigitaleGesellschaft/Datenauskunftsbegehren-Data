@@ -3,3 +3,8 @@ address: |-
   ÖKK Kranken- und Unfallversicherungen AG
   Bahnhofstrasse 13
   7302 Landquart
+sources:
+  address: https://www.oekk.ch/de/oekk/impressum
+  privacyStatement: 
+    - https://www.oekk.ch/de/oekk/impressum
+    - https://www.oekk.ch/de/oekk/datenschutzerklaerung

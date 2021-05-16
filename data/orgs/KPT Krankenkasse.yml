@@ -4,3 +4,9 @@ address: |-
   Wankdorfallee 3
   Postfach
   3001 Bern
+
+sources:
+  address: https://www.kpt.ch/de/pages/impressum
+  privacyStatement: 
+    - https://www.kpt.ch/de/pages/datenschutzerklaerung
+    - https://www.kpt.ch/de/pages/disclaimer
