@@ -4,10 +4,10 @@ address: |-
   Rebgasse 34
   4058 Basel
 types:
-- payback
-- online
+  - payback
+  - online
 sources:
   address: https://www.manor.ch/de/u/impressum
   privacyStatement: 
-  - https://www.manor.ch/de/u/agb
-  - https://www.manor.ch/de/u/safety
+    - https://www.manor.ch/de/u/agb
+    - https://www.manor.ch/de/u/safety

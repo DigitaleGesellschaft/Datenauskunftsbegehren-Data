@@ -4,8 +4,8 @@ address: |-
   Libellenweg 5
   3510 Konolfingen
 types:
-- gastro
+  - gastro
 sources:
   address: https://www.quickticket.ch/impressum/
   privacyStatement: 
-  - https://www.quickticket.ch/datenschutz/
+    - https://www.quickticket.ch/datenschutz/

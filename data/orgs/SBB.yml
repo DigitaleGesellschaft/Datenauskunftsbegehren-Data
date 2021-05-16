@@ -5,34 +5,34 @@ address: |-
   Hilfikerstrasse 1
   3000 Bern 65
 types:
-- wlan
-- online
+  - wlan
+  - online
 privacyStatement:
   paragraphs:
-  - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer
-    Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien,
-    resp. Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen:'
+    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer
+      Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien,
+      resp. Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
     privacyStatementDate: Oktober 2020
   bullets:
-  - text: Arten von Daten
-    bullets:
-    - Daten beim Kauf von Leistungen
-    - Daten bei der Nutzung des SBB Shops
-    - Daten bei der Nutzung der Webseiten
-    - Daten bei der Nutzung des SwissPass-Kundenkontos
-    - Daten bei der Kontaktaufnahme
-    - Daten bei der Nutzung des SBB WiFi
-    - Daten bei der Nutzung des Carsharing-Angebots
-  - text: Daten für Werbung und Marketing
-    bullets:
-    - Daten für die Marketing-Aktivitäten
-    - Daten für den E-Mail Newsletter
-    - Daten für Werbeanzeigen auf den Webseiten und Apps
-    - Daten für optimierte Websiteinhalte
-    - Daten für die Marktforschung
-    - Daten für die Verwaltung und Abmeldung der Dienste
+    - text: Arten von Daten
+      bullets:
+        - Daten beim Kauf von Leistungen
+        - Daten bei der Nutzung des SBB Shops
+        - Daten bei der Nutzung der Webseiten
+        - Daten bei der Nutzung des SwissPass-Kundenkontos
+        - Daten bei der Kontaktaufnahme
+        - Daten bei der Nutzung des SBB WiFi
+        - Daten bei der Nutzung des Carsharing-Angebots
+    - text: Daten für Werbung und Marketing
+      bullets:
+        - Daten für die Marketing-Aktivitäten
+        - Daten für den E-Mail Newsletter
+        - Daten für Werbeanzeigen auf den Webseiten und Apps
+        - Daten für optimierte Websiteinhalte
+        - Daten für die Marktforschung
+        - Daten für die Verwaltung und Abmeldung der Dienste
 sources:
   address: https://www.sbb.ch/de/meta/legallines/datenschutz.html
   privacyStatement: 
-  - https://www.sbb.ch/de/meta/legallines/datenschutz.html
+    - https://www.sbb.ch/de/meta/legallines/datenschutz.html

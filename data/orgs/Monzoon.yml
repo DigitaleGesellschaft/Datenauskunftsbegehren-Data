@@ -4,10 +4,10 @@ address: |-
   Spinnerei-Lettenstrasse
   8192 Zweidlen/ZH
 types:
-- wlan
+  - wlan
 sources:
   address: https://www.monzoon.net/company/impressum/?lang=de
   privacyStatement: 
-  - https://www.monzoon.net/company/disclaimer/?lang=de
-  - https://www.monzoon.net/company/cookies/?lang=de
-  - https://www.monzoon.net/gdpr/index_de.php
+    - https://www.monzoon.net/company/disclaimer/?lang=de
+    - https://www.monzoon.net/company/cookies/?lang=de
+    - https://www.monzoon.net/gdpr/index_de.php

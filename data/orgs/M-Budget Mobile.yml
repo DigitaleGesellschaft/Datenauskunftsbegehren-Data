@@ -4,29 +4,29 @@ address: |-
   Contact Center
   3050 Bern
 types:
-- mobile
+  - mobile
 privacyStatement:
   paragraphs:
-  - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
-    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
-    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
     privacyStatementDate: Januar 2019 (Swisscom)
   bullets:
-  - Bearbeitung von Daten zur Leistungserbringung und Vertragsabwicklung
-  - Bearbeitung von Daten aus dem Fernmeldeverkehr
-  - text: Datenbearbeitungen zu Marketingzwecken von Swisscom
-    bullets:
-    - Identifikations- und Kontaktdaten
-    - Vertrags- und Abonnementsdaten
-    - Kundenaktivitätsdaten
-    - Online-Daten
-    - Bildung von Kundensegmenten und -profilen
-  - Bereitstellung von Daten für Werbevermarktung Dritter
-  - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
+    - Bearbeitung von Daten zur Leistungserbringung und Vertragsabwicklung
+    - Bearbeitung von Daten aus dem Fernmeldeverkehr
+    - text: Datenbearbeitungen zu Marketingzwecken von Swisscom
+      bullets:
+        - Identifikations- und Kontaktdaten
+        - Vertrags- und Abonnementsdaten
+        - Kundenaktivitätsdaten
+        - Online-Daten
+        - Bildung von Kundensegmenten und -profilen
+    - Bereitstellung von Daten für Werbevermarktung Dritter
+    - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
 sources:
   address: https://shop.m-budget.migros.ch/de/impressum
   privacyStatement: 
-  - https://web-mbudget-api.m-budget.migros.ch/sites/default/files/downloads/01-11-2016_Allgemeine_Datenschutzerklrung_CH.pdf
-  - https://shop.m-budget.migros.ch/de/datenschutzerklaerung
-  - https://shop.m-budget.migros.ch/de/rechtliche-informationen
+    - https://web-mbudget-api.m-budget.migros.ch/sites/default/files/downloads/01-11-2016_Allgemeine_Datenschutzerklrung_CH.pdf
+    - https://shop.m-budget.migros.ch/de/datenschutzerklaerung
+    - https://shop.m-budget.migros.ch/de/rechtliche-informationen

@@ -4,10 +4,10 @@ address: |-
   Birkenweg 4
   8304 Wallisellen
 types:
-- online
-- payback
+  - online
+  - payback
 sources:
   address: https://www.tchibo.ch/impressum-bei-tchibo-c200001162.html
   privacyStatement: 
-  - https://www.tchibo.ch/datenschutz-und-sicherheit-bei-tchibo-s400028507.html
-  - https://www.tchibo.ch/allgemeine-geschaeftsbedingungen-agb-bei-tchibo-s400028508.html
+    - https://www.tchibo.ch/datenschutz-und-sicherheit-bei-tchibo-s400028507.html
+    - https://www.tchibo.ch/allgemeine-geschaeftsbedingungen-agb-bei-tchibo-s400028508.html

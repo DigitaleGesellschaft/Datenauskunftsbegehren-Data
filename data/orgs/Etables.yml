@@ -4,8 +4,8 @@ address: |-
   Bahnhofstrasse 6
   9050 Appenzell
 types:
-- gastro
+  - gastro
 sources:
   address: https://www.etables.info/impressum
   privacyStatement: 
-  - https://www.etables.info/datenschutz
+    - https://www.etables.info/datenschutz

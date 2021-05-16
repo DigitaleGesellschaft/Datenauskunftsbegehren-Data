@@ -4,10 +4,10 @@ address: |-
   Route de Reculan 6
   CH-1024 Ecublens
 types:
-- payback
-- online
+  - payback
+  - online
 sources:
   address: https://www.conforama.ch/de/Impressum
   privacyStatement: 
-  - https://www.conforama.ch/de/privacy
-  - https://www.conforama.ch/de/terms-and-conditions
+    - https://www.conforama.ch/de/privacy
+    - https://www.conforama.ch/de/terms-and-conditions

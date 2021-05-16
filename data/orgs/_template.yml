@@ -4,24 +4,24 @@ address: |-
   Strasse
   3000 Bern
 types:
-- mobile
-- wlan
+  - mobile
+  - wlan
 privacyStatement:
   paragraphs:
-  - 'Mit einer Variable die direkt hier aufgelöst wird {string:privacyStatementDate}'
-  - 'Mit einer Variable die vom User eingebeben werden muss {tel:mobileNumber:Handy-Nummer}'
-  - 'Mit einer Variable die vom User eingebeben werden muss {string:nameOfVariable:Label}'
+    - 'Mit einer Variable die direkt hier aufgelöst wird {string:privacyStatementDate}'
+    - 'Mit einer Variable die vom User eingebeben werden muss {tel:mobileNumber:Handy-Nummer}'
+    - 'Mit einer Variable die vom User eingebeben werden muss {string:nameOfVariable:Label}'
   variables:
     privacyStatementDate: Januar 2019
   bullets:
-  - Erste Ebene
-  - text: Mit Untergruppe
-    bullets:
-    - Zweite Ebene
-  - Erste Ebene
+    - Erste Ebene
+    - text: Mit Untergruppe
+      bullets:
+        - Zweite Ebene
+    - Erste Ebene
 sources:
   address: https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html
   privacyStatement: 
-  - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/online-datenschutz.html
-  - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html
-  #- https://www.noSource.ch
+    - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/online-datenschutz.html
+    - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html
+    #  - https://www.noSource.ch

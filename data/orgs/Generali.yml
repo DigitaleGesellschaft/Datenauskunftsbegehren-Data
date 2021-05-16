@@ -6,5 +6,5 @@ address: |-
 sources:
   address: https://www.generali.ch/allgemein/footnote/impressum
   privacyStatement: 
-  - https://www.generali.ch/allgemein/footnote/datenschutz
-  - https://www.generali.ch/allgemein/footnote/disclaimer
+    - https://www.generali.ch/allgemein/footnote/datenschutz
+    - https://www.generali.ch/allgemein/footnote/disclaimer

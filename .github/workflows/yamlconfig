@@ -5,3 +5,4 @@ rules:
   truthy: disable
   line-length: disable
   trailing-spaces: disable
+  

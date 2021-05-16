@@ -4,9 +4,8 @@ address: |-
   Allmendstrasse 23
   8953 Dietikon
 types:
-- online
+  - online
 sources:
   address: https://www.fressnapf.ch/de/impressum/
   privacyStatement: 
-  - https://www.fressnapf.ch/de/datenschutz/
-
+    - https://www.fressnapf.ch/de/datenschutz/

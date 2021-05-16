@@ -4,9 +4,9 @@ address: |-
   Avenue d'Ouchy 4-6
   1006 Lausanne
 types:
-- online
-- payback
+  - online
+  - payback
 sources:
   address: https://www.nespresso.com/ch/de/legal
   privacyStatement: 
-  - https://www.nespresso.com/ch/de/legal
+    - https://www.nespresso.com/ch/de/legal

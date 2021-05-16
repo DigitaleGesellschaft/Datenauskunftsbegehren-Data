@@ -6,6 +6,6 @@ address: |-
 sources:
   address: https://www.concordia.ch/de/impressum.html
   privacyStatement: 
-  - https://www.concordia.ch/de/impressum.html
-  - https://www.concordia.ch/de/datenschutz.html
-  - https://www.concordia.ch/de/ueber-uns/ueber-concordia/verhaltensgrundsaetze.html
+    - https://www.concordia.ch/de/impressum.html
+    - https://www.concordia.ch/de/datenschutz.html
+    - https://www.concordia.ch/de/ueber-uns/ueber-concordia/verhaltensgrundsaetze.html

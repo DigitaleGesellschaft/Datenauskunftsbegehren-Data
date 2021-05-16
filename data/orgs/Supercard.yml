@@ -5,21 +5,21 @@ address: |-
   Postfach 160
   4132 Muttenz
 types:
-- payback
+  - payback
 privacyStatement:
   paragraphs:
-  - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
-    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
-    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
     privacyStatementDate: 6. Juni 2019
   bullets:
-  - text: Kundenprofil
-    bullets:
-    - Kontaktdaten
-    - Einkaufsdaten
-    - Daten durch Zugriff auf die digitalen Kanäle
+    - text: Kundenprofil
+      bullets:
+        - Kontaktdaten
+        - Einkaufsdaten
+        - Daten durch Zugriff auf die digitalen Kanäle
 sources:
   address: https://www.supercard.ch/de/die-supercard/agb.html
   privacyStatement: 
-  - https://www.supercard.ch/de/die-supercard/agb.html
+    - https://www.supercard.ch/de/die-supercard/agb.html

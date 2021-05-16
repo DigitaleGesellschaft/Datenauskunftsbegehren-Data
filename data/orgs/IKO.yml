@@ -4,9 +4,9 @@ address: |-
   Postfach
   8048 Zürich
 types:
-- credit
+  - credit
 sources:
   address: https://www.iko-info.ch/de-ch/uber-uns/kontakt
   privacyStatement:
-  - https://www.iko-info.ch/de-ch/kredit-leasingnehmer/datenschutz
-  - https://www.iko-info.ch/de-ch/uber-uns/rechtliche-grundlagen  
+    - https://www.iko-info.ch/de-ch/kredit-leasingnehmer/datenschutz
+    - https://www.iko-info.ch/de-ch/uber-uns/rechtliche-grundlagen

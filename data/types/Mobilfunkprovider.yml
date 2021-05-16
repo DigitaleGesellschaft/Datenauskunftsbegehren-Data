@@ -2,16 +2,16 @@ handle: mobile
 label: Mobilfunkprovider
 serviceLabel: Mobilfunk
 paragraphs:
-- Unter Personendaten sind insbesondere auch die gestützt auf Art. 22
-  Abs. 2 sowie Art. 26 Abs. 5 des Bundesgesetzes vom 18. März 2016 betreffend die
-  Überwachung des Post- und Fernmeldeverkehrs (BÜPF) erhobenen und aufbewahrten
-  Rand-, Identifikations- und Standortdaten des Fernmeldeverkehrs sowie die Informationen
-  aus den NAT-Übersetzungsvorgängen inkl. den Ziel-IP-Adressen (https://www.srf.ch/news/article/14981983)
-  zu verstehen.
-- Bitte beachten Sie, dass Art. 45 FMG i.V.m. Art. 80 f FDV das Auskunftsrecht nach
-  dem Bundesgesetz über den Datenschutz nicht einzuschränken vermag (vgl. BVGE A-4941/2014
-  12.7.4 sowie den Erläuterungsbericht zur Revision von Verordnungen zum FMG vom
-  15. Oktober 2014 hinsichtlich Art. 81 Abs. 1 FDV).
-- Hiermit bestätige ich, dass mein Handy mit der Nummer {tel:mobileNumber:Handy-Nummer}
-  in der für die Datenauskunft relevanten Zeit nicht durch Drittpersonen verwendet
-  wurde.
+  - Unter Personendaten sind insbesondere auch die gestützt auf Art. 22
+    Abs. 2 sowie Art. 26 Abs. 5 des Bundesgesetzes vom 18. März 2016 betreffend die
+    Überwachung des Post- und Fernmeldeverkehrs (BÜPF) erhobenen und aufbewahrten
+    Rand-, Identifikations- und Standortdaten des Fernmeldeverkehrs sowie die Informationen
+    aus den NAT-Übersetzungsvorgängen inkl. den Ziel-IP-Adressen (https://www.srf.ch/news/article/14981983)
+    zu verstehen.
+  - Bitte beachten Sie, dass Art. 45 FMG i.V.m. Art. 80 f FDV das Auskunftsrecht nach
+    dem Bundesgesetz über den Datenschutz nicht einzuschränken vermag (vgl. BVGE A-4941/2014
+    12.7.4 sowie den Erläuterungsbericht zur Revision von Verordnungen zum FMG vom
+    15. Oktober 2014 hinsichtlich Art. 81 Abs. 1 FDV).
+  - Hiermit bestätige ich, dass mein Handy mit der Nummer {tel:mobileNumber:Handy-Nummer}
+    in der für die Datenauskunft relevanten Zeit nicht durch Drittpersonen verwendet
+    wurde.

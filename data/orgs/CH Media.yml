@@ -4,19 +4,19 @@ address: |-
   Neumattstrasse 1
   5001 Aarau
 types:
-- online
+  - online
 privacyStatement:
   paragraphs:
-  - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
-    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
-    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
     privacyStatementDate: 8. November 2018
   bullets:
-  - Nicht anonyme Nutzung
-  - «Anonyme» Nutzung der Webseiten
-  - Einbindungen von Angeboten Dritter
+    - Nicht anonyme Nutzung
+    - «Anonyme» Nutzung der Webseiten
+    - Einbindungen von Angeboten Dritter
 sources:
   address: https://chmedia.ch/impressum
   privacyStatement: 
-  - https://chmedia.ch/datenschutzerklaerung
+    - https://chmedia.ch/datenschutzerklaerung
