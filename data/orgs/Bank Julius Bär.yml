@@ -6,27 +6,27 @@ address: |-
   8010 Zürich
 privacyStatement:
   paragraphs:
-  - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
-    vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
-    von Daten zur Person und zur Kundenaktivität zu verstehen:'
+    - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
     privacyStatementDate: November 2020
   bullets:
-  - Personalien
-  - Legitimationsdaten
-  - Authentifikationsdaten
-  - Daten aus der Erfüllung vertraglicher Verpflichtungen
-  - Werbe- und Vertriebsdaten
-  - Dokumentationsdaten
-  - Buchführungsdaten, Angaben zu meinem persönlichen Hintergrund und zu meiner Finanzlage
-  - 'Besonders schützenswerte Personendaten wie etwa meine biometrischen Daten, Informationen über
-    meine religiösen, weltanschaulichen oder politischen Ansichten oder Tätigkeiten sowie über
-    meine Gesundheit und strafrechtliche Verurteilungen oder Sanktionen'
-  - Daten zu verbundenen Dritten 
-  - 'Daten, die bei der Nutzung von Webseiten, mobilen Anwendungen oder anderen elektronischen
-    Dienstleistungen übermittelt und automatisch erfasst werden'
-  - Andere, mit den genannten Kategorien vergleichbare Daten.
+    - Personalien
+    - Legitimationsdaten
+    - Authentifikationsdaten
+    - Daten aus der Erfüllung vertraglicher Verpflichtungen
+    - Werbe- und Vertriebsdaten
+    - Dokumentationsdaten
+    - Buchführungsdaten, Angaben zu meinem persönlichen Hintergrund und zu meiner Finanzlage
+    - 'Besonders schützenswerte Personendaten wie etwa meine biometrischen Daten, Informationen über
+      meine religiösen, weltanschaulichen oder politischen Ansichten oder Tätigkeiten sowie über
+      meine Gesundheit und strafrechtliche Verurteilungen oder Sanktionen'
+    - Daten zu verbundenen Dritten 
+    - 'Daten, die bei der Nutzung von Webseiten, mobilen Anwendungen oder anderen elektronischen
+      Dienstleistungen übermittelt und automatisch erfasst werden'
+    - Andere, mit den genannten Kategorien vergleichbare Daten
 sources:
   address: https://www.juliusbaer.com/fileadmin/legal/switzerland-privacy-notice-gdpr-de.pdf
   privacyStatement: 
-  - https://www.juliusbaer.com/fileadmin/legal/switzerland-privacy-notice-gdpr-de.pdf
+    - https://www.juliusbaer.com/fileadmin/legal/switzerland-privacy-notice-gdpr-de.pdf
