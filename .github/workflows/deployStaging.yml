@@ -33,7 +33,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Auto update json
-          file_pattern: data.json
           branch: staging
       - name: Trigger Staging Server to fetch
         uses: fjogeleit/http-request-action@master
