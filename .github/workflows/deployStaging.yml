@@ -2,9 +2,9 @@ name: Deploy to Staging
 
 on:
   push:
-    branches: [XXX_SOURCEBRANCH__XXX]
+    branches: [main]
   pull_request:
-    branches: [XXX_SOURCEBRANCH__XXX]
+    branches: [main]
 
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
         with:
           commit_message: Auto update json
           file_pattern: data.json
-          branch: XXX_TARGETBRANCH__XXX
+          branch: staging
       - name: Trigger Staging Server to fetch
         uses: fjogeleit/http-request-action@master
         with:
