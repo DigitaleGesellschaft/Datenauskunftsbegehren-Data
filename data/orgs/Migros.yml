@@ -1,0 +1,33 @@
+name: Migros
+address: |-
+  Migros-Genossenschafts-Bund
+  M-Infoline
+  Limmatstrasse 152
+  8005 Zürich
+types:
+  - payback
+  - online
+  - wlan
+privacyStatement:
+  paragraphs:
+    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: Mai 2020
+  bullets:
+    - text: Zwecke
+      bullets:
+        - Kommunikation
+        - Kauf von Waren und Inanspruchnahme von Leistungen
+        - Treue- und Bonusprogramme
+        - Besuch von Webseiten
+        - Online-Angebote und Apps
+        - Information und Direktmarketing
+        - Teilnahme an Wettbewerben, Gewinnspielen und ähnlichen Veranstaltungen
+        - Betreten ihrer Räumlichkeiten
+sources:
+  address: https://www.migros.ch/de/datenschutz.html
+  privacyStatement: 
+    - https://www.migros.ch/de/datenschutz.html
+    - https://www.migros.ch/de/rechtliche-informationen.html

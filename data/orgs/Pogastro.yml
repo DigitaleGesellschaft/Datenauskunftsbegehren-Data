@@ -1,0 +1,11 @@
+name: Pogastro (Precom Group AG)
+address: |-
+  Precom Group AG
+  Bahnhofstrasse 2
+  6048 Horw
+types:
+  - gastro
+sources:
+  address: https://precomgroup.ch/impressum/
+  privacyStatement: 
+    - https://precomgroup.ch/impressum/

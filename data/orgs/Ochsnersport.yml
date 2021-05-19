@@ -1,0 +1,13 @@
+name: Ochsner Sport AG
+address: |-
+  Ochsner Sport AG
+  Allmendstrasse 25
+  8953 Dietikon
+types:
+  - online
+  - payback
+sources:
+  address: https://www.ochsnersport.ch/de/shop/cp/unternehmen/impressum.html
+  privacyStatement: 
+    - https://www.ochsnersport.ch/de/shop/cp/unternehmen/agb.html
+    - https://www.ochsnersport.ch/de/shop/cp/unternehmen/datenschutz.html

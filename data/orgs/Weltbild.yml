@@ -1,0 +1,12 @@
+name: Weltbild Verlag GmbH
+address: |-
+  Weltbild Verlag GmbH
+  Dorfstrasse 11
+  4612 Wangen b. Olten
+types:
+  - online
+sources:
+  address: https://www.weltbild.ch/service/impressum
+  privacyStatement: 
+    - https://www.weltbild.ch/service/datenschutz
+    - https://www.weltbild.ch/service/agb-lieferbedingungen

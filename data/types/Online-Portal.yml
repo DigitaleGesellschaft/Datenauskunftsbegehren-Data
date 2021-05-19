@@ -1,0 +1,7 @@
+handle: online
+label: Online-Portal
+serviceLabel: Online-Portal
+paragraphs:
+  - Unter Personendaten sind insbesondere auch die durch die Benutzung Ihres/r
+    Online-Portals/e aufgezeichnete Kundenaktivität zu verstehen. Für das Login verwende
+    ich die Kennung {email:loginEmail:E-Mail-Adresse}.

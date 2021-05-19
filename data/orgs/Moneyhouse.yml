@@ -1,0 +1,13 @@
+name: Moneyhouse
+address: |-
+  Moneyhouse
+  Neue Zürcher Zeitung AG
+  Falkenstrasse 11
+  8008 Zürich
+types:
+  - credit
+sources:
+  address: https://moneyhouse.ch/de/privacy
+  privacyStatement: 
+    - https://moneyhouse.ch/de/privacy
+    - https://moneyhouse.ch/de/terms

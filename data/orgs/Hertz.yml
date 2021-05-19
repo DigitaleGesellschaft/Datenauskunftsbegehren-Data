@@ -1,0 +1,13 @@
+name: Hertz
+address: |-
+  Herold Fahrzeugvermietung AG
+  Hertz International Franchisee
+  Rütistrasse 22
+  8952 Schlieren
+types:
+  - mobility
+sources:
+  address: https://www.hertz.ch/rentacar/misc/index.jsp?targetPage=CH_terms_of_use.jsp
+  privacyStatement: 
+    - https://www.hertz.ch/rentacar/misc/simpleIndex.jsp?targetPage=privacyPolicy2.jsp
+    - https://www.hertz.ch/rentacar/misc/index.jsp?targetPage=CH_terms_of_use.jsp

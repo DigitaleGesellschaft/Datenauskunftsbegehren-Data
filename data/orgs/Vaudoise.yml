@@ -1,0 +1,11 @@
+name: Vaudoise
+address: |-
+  Vaudoise Assurances
+  Place de Milan
+  Case postale 120
+  1001 Lausanne
+sources:
+  address: https://www.vaudoise.ch/fr/service-center/impressum
+  privacyStatement: 
+    - https://www.vaudoise.ch/de/service-center/rechtliche-hinweise/datenschutz
+    - https://www.vaudoise.ch/de/service-center/rechtliche-hinweise/cookies-richtlinie

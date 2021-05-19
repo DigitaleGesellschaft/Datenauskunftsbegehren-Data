@@ -1,0 +1,11 @@
+name: Visana
+address: |-
+  Visana
+  Weltpoststrasse 19/21
+  Postfach 253
+  3000 Bern 15
+sources:
+  address: https://www.visana.ch/de/privatkunden/impressum
+  privacyStatement: 
+    - https://www.visana.ch/de/privatkunden/impressum#3ba3141c-9f2c-4c26-99bb-9568a50d80e4
+    - https://www.visana.ch/de/privatkunden/impressum#rechtliche-hinweise-de

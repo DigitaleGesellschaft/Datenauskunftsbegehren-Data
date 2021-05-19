@@ -1,0 +1,11 @@
+name: Yoordi (Wasmeier Solutions)
+address: |-
+  Wasmeier Solutions
+  Berninastrasse 11
+  8057 Zürich
+types:
+  - gastro
+sources:
+  address: http://joergwasmeier.de/contact
+  privacyStatement: 
+    - http://joergwasmeier.de/contact

@@ -1,0 +1,9 @@
+name: Viseca
+address: |-
+  Viseca Card Services SA
+  Hagenholzstrasse 56
+  8050 Zürich
+sources:
+  address: https://www.viseca.ch/de/datenschutz/viseca
+  privacyStatement: 
+    - https://www.viseca.ch/de/datenschutz/viseca

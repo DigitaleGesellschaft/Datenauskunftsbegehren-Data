@@ -1,0 +1,11 @@
+name: Hofstetter Partners Direct AG
+address: |-
+  Hofstetter Partners Direct AG
+  Zilstr. 72
+  9016 St.Gallen
+types:
+  - address
+sources:    
+  address: http://www.hofstetter-partners.ch/site/site1.asp?Kategorie=Impressum
+  privacyStatement:
+    - http://www.hofstetter-partners.ch/site/site1.asp?Kategorie=Impressum

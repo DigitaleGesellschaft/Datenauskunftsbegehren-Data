@@ -1,0 +1,13 @@
+name: Manor
+address: |-
+  eManor
+  Rebgasse 34
+  4058 Basel
+types:
+  - payback
+  - online
+sources:
+  address: https://www.manor.ch/de/u/impressum
+  privacyStatement: 
+    - https://www.manor.ch/de/u/agb
+    - https://www.manor.ch/de/u/safety

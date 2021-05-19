@@ -1,0 +1,12 @@
+name: Post
+address: |-
+  Post CH AG
+  Wankdorfallee 4
+  3030 Bern
+types:
+  - wlan
+sources:
+  address: https://www.post.ch/de/pages/footer/impressum
+  privacyStatement: 
+    - https://www.post.ch/de/pages/footer/datenschutz-und-rechtliches
+    - https://www.post.ch/de/pages/footer/allgemeine-geschaeftsbedingungen-agb

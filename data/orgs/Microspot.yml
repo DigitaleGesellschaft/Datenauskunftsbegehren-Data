@@ -1,0 +1,12 @@
+name: microspot.ch
+address: |-
+  microspot.ch
+  Moosstrasse 23
+  CH-3302 Moosseedorf
+types:
+  - online
+sources:
+  address: https://www.microspot.ch/de/cms/unternehmen/impressum
+  privacyStatement: 
+    - https://www.microspot.ch/de/cms/unternehmen/agb
+    - https://www.microspot.ch/de/cms/unternehmen/datenschutz

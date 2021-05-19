@@ -1,0 +1,12 @@
+name: KünzlerBachmann
+address: |-
+  KünzlerBachmann Directmarketing AG
+  Zürcherstrasse 601
+  9015 St.Gallen
+types:
+  - address
+sources:
+  address: https://kbdirect.ch/impressum/
+  privacyStatement: 
+    - https://kbdirect.ch/datenschutz/
+    - https://kbdirect.ch/agb/

@@ -1,0 +1,28 @@
+name: Raiffeisen Schweiz
+address: |-
+  Raiffeisen Schweiz
+  Datenschutzbeauftragter
+  Raiffeisenplatz 4
+  9001 St. Gallen
+privacyStatement:
+  paragraphs:
+    - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: 1. Januar 2021
+  bullets:
+    - Für den Abschluss und die Abwicklung unserer Verträge
+    - Zur Erfüllung gesetzlicher Vorgaben
+    - text: Im berechtigten Interesse der Raiffeisen Gruppe oder Dritter
+      bullets:
+        - Marktfor­schung
+        - Produktentwicklung
+        - Aus­gestaltung und Steuerung von Produkten, Dienstleistungen und Ange­boten
+        - Werbung
+        - Marketing
+    - Mit der Einwilligung des Kunden
+sources:
+  address: https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/reglemente/de/datenschutzerklaerung.pdf
+  privacyStatement: 
+    - https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/reglemente/de/datenschutzerklaerung.pdf

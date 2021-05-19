@@ -1,0 +1,11 @@
+name: Cembra
+address: |-
+  Cembra Money Bank AG
+  Data Governance Officer
+  Bändliweg 20
+  8048 Zürich
+sources:
+  address: https://www.cembra.ch/de/datenschutzerkl%C3%A4rung/
+  privacyStatement: 
+    - https://www.cembra.ch/de/datenschutzerkl%C3%A4rung/
+    - https://www.cembra.ch/de/rechtliche-hinweise/

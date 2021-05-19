@@ -1,0 +1,11 @@
+name: Tanatek AG
+address: |-
+  Tanatek AG
+  Poststr. 30
+  6300 Zug
+types:
+  - address
+sources:
+  address: https://www.tanatekag.ch/impressum/
+  privacyStatement: 
+    - https://www.tanatekag.ch/datenschutz/

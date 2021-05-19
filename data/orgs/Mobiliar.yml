@@ -1,0 +1,10 @@
+name: Mobiliar
+address: |-
+  Schweizerische Mobiliar Versicherungsgesellschaft AG
+  Datenschutzstelle
+  Bundesgasse 35
+  3001 Bern
+sources:
+  address: https://www.mobiliar.ch/versicherungen-und-vorsorge/datenschutz-und-sicherheit
+  privacyStatement: 
+    - mobiliar.ch/versicherungen-und-vorsorge/datenschutz-und-sicherheit

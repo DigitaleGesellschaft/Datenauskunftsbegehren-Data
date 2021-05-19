@@ -1,0 +1,12 @@
+name: Jelmoli AG
+address: |-
+  Jelmoli AG
+  Seidengasse 1
+  8001 Zürich
+types:
+  - payback
+sources:
+  address: https://www.jelmoli.ch/impressum
+  privacyStatement: 
+    - https://www.jelmoli.ch/datenschutz
+    - https://www.jelmoli.ch/agb

@@ -1,0 +1,12 @@
+name: Swiss
+address: |-
+  Swiss International Air Lines Ltd.
+  Betrieblicher Datenschutzverantwortlicher
+  ZRHS/CJ
+  Postfach
+  8058 Zürich Flughafen
+sources:
+  address: https://www.swiss.com/ch/de/terms-conditions/privacy-statement
+  privacyStatement: 
+    - https://www.swiss.com/ch/de/terms-conditions/privacy-statement
+    - https://www.swiss.com/ch/de/terms-conditions

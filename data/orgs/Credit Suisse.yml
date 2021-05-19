@@ -1,0 +1,36 @@
+name: Credit Suisse
+address: |-
+  Credit Suisse (Schweiz) AG
+  Data Protection Office Switzerland
+  8070 Zürich
+privacyStatement:
+  paragraphs:
+    - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer
+      Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien,
+      resp. Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: Mai 2021
+  bullets:
+    - text: Zweck der Verarbeitung
+      bullets:
+        - Zur Erfüllung von vertraglichen Pflichten
+        - text: Im Rahmen der Interessenabwägung
+          bullets:
+            - Konsultation von und Datenaustausch mit Auskunftstellen (z. B. Betreibungsregister)
+            - Prüfung und Optimierung von Verfahren zur Bedarfsanalyse zwecks direkter Kundenansprache
+            - Werbung oder Markt- und Meinungsforschung
+            - Geltendmachung rechtlicher Ansprüche und Verteidigung bei rechtlichen Streitigkeiten
+            - Verhinderung und Aufklärung von Straftaten
+            - Videoüberwachungen
+            - Massnahmen zur Gebäude- und Anlagensicherheit (z. B. Zutrittskontrollen)
+            - Massnahmen zur Geschäftssteuerung und Weiterentwicklung von Dienstleistungen und Produkten
+            - Risikosteuerung bei Credit Suisse
+            - Personendaten aus öffentlich zugänglichen Quellen zum Zwecke der Kundenacquisition
+        - Aufgrund meiner Einwilligung
+        - Aufgrund gesetzlicher Vorgaben oder im öffentlichen Interesse
+sources:
+  address: https://www.credit-suisse.com/media/assets/legal/datenschutzerklarung.pdf
+  privacyStatement: 
+    - https://www.credit-suisse.com/media/assets/legal/datenschutzerklarung.pdf
+    - https://www.credit-suisse.com/ch/de/legal.html
+    - https://www.credit-suisse.com/ch/de/legal/internet-security.html
