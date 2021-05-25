@@ -1,0 +1,10 @@
+name: Coop Rechtsschutz
+address: |-
+  Coop Rechtsschutz AG
+  Datenschutzberater
+  Entfelderstrasse 2
+  5001 Aarau
+sources:
+  address: https://www.cooprecht.ch/de/datenschutzerklaerung
+  privacyStatement: 
+    - https://www.cooprecht.ch/de/datenschutzerklaerung

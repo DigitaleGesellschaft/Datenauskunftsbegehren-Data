@@ -1,0 +1,11 @@
+name: Protekta
+address: |-
+  Protekta Rechtsschutz-Versicherung AG
+  Datenschutzstelle
+  Monbijoustrasse 5
+  3011 Bern
+sources:
+  address: https://www.protekta.ch/de/datenschutz-und-sicherheit
+  privacyStatement: 
+    - https://www.protekta.ch/de/datenschutz-und-sicherheit
+    - https://www.protekta.ch/de/rechtliches

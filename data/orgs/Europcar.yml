@@ -1,0 +1,12 @@
+name: EUROPCAR
+address: |-
+  EUROPCAR Schweiz
+  AMAG Services AG
+  Steinackerstrasse 20
+  8302 Kloten
+types:
+  - mobility
+sources:
+  address: https://www.europcar.ch/Rechtliche_Hinweise
+  privacyStatement: 
+    - https://www.europcar.ch/Datenschutzerklaerung

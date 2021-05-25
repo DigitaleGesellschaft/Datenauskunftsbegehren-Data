@@ -1,0 +1,4 @@
+handle: snailmailing
+label: Mir wurde Werbung per Post zugestellt
+paragraphs:
+  - Am {date:eventDate:Wann} habe ich von Ihnen Werbung per Post zugesendet bekommen.

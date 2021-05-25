@@ -1,0 +1,10 @@
+name: Suva
+address: |-
+  Suva
+  Generalsekretariat
+  Fluhmattstrasse 1
+  6002 Luzern
+sources:
+  address: https://www.suva.ch/de-ch/allgemein/datenschutz
+  privacyStatement: 
+    - https://www.suva.ch/de-ch/allgemein/datenschutz

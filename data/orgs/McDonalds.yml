@@ -1,0 +1,13 @@
+name: McDonald’s
+address: |-
+  McDonald’s Suisse Restaurants Sàrl
+  Case postale
+  CH-1023 Crissier
+types:
+  - online
+  - payback
+sources:
+  address: https://www.mcdonalds.com/ch/de-ch/rechtliche-informationen/impressum.html
+  privacyStatement: 
+    - https://www.mcdonalds.com/ch/de-ch/rechtliche-informationen/dataprotection.html
+    - https://www.mcdonalds.com/ch/de-ch/rechtliche-informationen/terms-and-conditions.html

@@ -1,0 +1,8 @@
+extends: default
+
+rules:
+  document-start: disable
+  truthy: disable
+  line-length: disable
+  trailing-spaces: disable
+  

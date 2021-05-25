@@ -1,0 +1,10 @@
+name: Swiss Life
+address: |-
+  Swiss Life AG
+  General-Guisan-Quai 40
+  8022 Zürich
+sources:
+  address: https://www.swisslife.ch/de/ueber-uns/footer/privacy.html
+  privacyStatement: 
+    - https://www.swisslife.ch/de/ueber-uns/footer/privacy.html
+    - https://www.swisslife.ch/de/ueber-uns/footer/datenschutz.html

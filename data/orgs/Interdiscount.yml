@@ -1,0 +1,12 @@
+name: Interdiscount
+address: |-
+  Interdiscount
+  Bernstrasse 90
+  3303 Jegenstorf
+types:
+  - online
+sources:
+  address: https://www.interdiscount.ch/de/cms/unternehmen/impressum
+  privacyStatement: 
+    - https://www.interdiscount.ch/de/cms/unternehmen/agb
+    - https://www.interdiscount.ch/de/cms/unternehmen/datenschutz

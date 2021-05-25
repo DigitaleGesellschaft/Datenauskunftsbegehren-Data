@@ -1,0 +1,4 @@
+handle: call
+label: Ich habe einen Werbeanruf erhalten
+paragraphs:
+  - Am {date:eventDate:Wann} habe ich von Ihnen einen Werbeanruf auf die Nummer {tel:number:Telefon-Nr.} erhalten.

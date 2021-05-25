@@ -1,0 +1,10 @@
+name: MS Direct AG
+address: |-
+  MS Direct AG
+  Fürstenlandstrasse 35
+  9001 St. Gallen
+sources:
+  address: https://www.ms-direct.ch/impressum
+  privacyStatement: 
+    - https://www.ms-direct.ch/disclaimer
+    - https://www.ms-direct.ch/datenschutz

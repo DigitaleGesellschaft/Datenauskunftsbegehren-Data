@@ -1,0 +1,13 @@
+name: tutti.ch
+address: |-
+  tutti.ch
+  TX Markets AG
+  Werdstrasse 21
+  Postfach
+  8021 Zürich
+types:
+  - online
+sources:
+  address: https://tutti.zendesk.com/hc/de/articles/360033254171
+  privacyStatement: 
+    - https://tutti.zendesk.com/hc/de/articles/115003331547

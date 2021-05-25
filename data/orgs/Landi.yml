@@ -1,0 +1,12 @@
+name: LANDI Schweiz AG
+address: |-
+  LANDI Schweiz AG
+  Schulriederstrasse 5
+  3293 Dotzigen
+types:
+  - online
+sources:
+  address: https://www.landi.ch/fenaco-landi-gruppe/impressum
+  privacyStatement: 
+    - https://www.landi.ch/fenaco-landi-gruppe/datenschutz
+    - https://www.landi.ch/fenaco-landi-gruppe/rechtliche-bestimmungen

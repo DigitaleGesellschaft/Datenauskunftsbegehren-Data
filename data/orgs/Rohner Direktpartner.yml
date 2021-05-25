@@ -1,0 +1,12 @@
+name: Rohner Direktpartner
+address: |-
+  Rohner Direktpartner
+  Hans Rohner
+  In der Hinterzelg 2
+  8700 Küsnacht ZH
+types:
+  - address
+sources:
+  address: http://www.rohner.biz/kontakt-impressum.html
+  privacyStatement: 
+  #  - https://www.noSource.ch

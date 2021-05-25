@@ -1,0 +1,14 @@
+name: OBI Bau- und Heimwerkermärkte
+address: |-
+  OBI Bau- und Heimwerkermärkte
+  Systemzentrale (Schweiz) GmbH
+  Rheinweg 11
+  8200 Schaffhausen
+types:
+  - payback
+  - online
+sources:
+  address: https://www.obi.ch/de/impressum/
+  privacyStatement: 
+    - https://www.obi.ch/de/agb/
+    - https://www.obi.ch/de/disclaimer/

@@ -1,0 +1,12 @@
+name: Ex Libris AG
+address: |-
+  Ex Libris AG
+  Grünaustrasse 23
+  8953 Dietikon
+types:
+  - online
+sources:
+  address: https://www.exlibris.ch/de/ueber-uns/impressum/
+  privacyStatement: 
+    - https://www.exlibris.ch/de/ueber-uns/impressum/
+    - https://www.exlibris.ch/de/dse/

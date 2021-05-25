@@ -1,0 +1,11 @@
+name: Dataserv AG
+address: |-
+  Dataserv AG
+  Aspstrasse 12
+  8472 Seuzach
+types:
+  - address
+sources:
+  address: https://www.werbeversand.ch/impressum
+  privacyStatement: 
+    - https://www.werbeversand.ch/datenschutz

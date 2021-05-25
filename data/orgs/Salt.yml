@@ -1,0 +1,26 @@
+name: Salt
+address: |-
+  Salt Mobile AG
+  Datenschutz
+  Rue du Caudray 4
+  1020 Renens
+types:
+  - mobile
+privacyStatement:
+  paragraphs:
+    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: Mai 2021
+  bullets:
+    - Kontakt- und Identifikationsdaten
+    - Finanzdaten
+    - die Nutzungsdaten
+    - die Informationen über Produkte und Dienstleistungen, die ich bei ihnen gekauft haben
+    - Informationen über den Besuch von Salt-Websites
+    - Fernmeldedaten nach dem Bundesgesetz über die Überwachung des Post- und Fernmeldewesens
+sources:
+  address: https://fiber.salt.ch/de/legal/privacy
+  privacyStatement: 
+    - https://fiber.salt.ch/de/legal/privacy

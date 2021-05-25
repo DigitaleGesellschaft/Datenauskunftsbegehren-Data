@@ -1,0 +1,11 @@
+name: Fressnapf Schweiz AG
+address: |-
+  Fressnapf Schweiz AG
+  Allmendstrasse 23
+  8953 Dietikon
+types:
+  - online
+sources:
+  address: https://www.fressnapf.ch/de/impressum/
+  privacyStatement: 
+    - https://www.fressnapf.ch/de/datenschutz/

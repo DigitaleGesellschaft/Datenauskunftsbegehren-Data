@@ -1,0 +1,13 @@
+name: QUALIPET Digital AG
+address: |-
+  QUALIPET Digital AG
+  Reinacherstrasse 269
+  4053 Basel
+types:
+  - online
+  - payback
+sources:
+  address: https://www.qualipet.ch/i-impressum/
+  privacyStatement: 
+    - https://www.qualipet.ch/i-datenschutz/
+    - https://www.qualipet.ch/i-agb/

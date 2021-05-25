@@ -1,0 +1,11 @@
+name: STEG Electronics AG
+address: |-
+  STEG Electronics AG
+  Bodenhof 4
+  6014 Luzern
+types:
+  - online
+sources:
+  address: https://www.steg-electronics.ch/de/content/steg-rechtliches-impressum
+  privacyStatement: 
+    - https://www.steg-electronics.ch/de/content/steg-rechtliches-impressum
