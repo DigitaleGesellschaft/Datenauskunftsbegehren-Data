@@ -1,8 +1,7 @@
 # Datenauskunftsbegehren Data
-[![YML Syntax](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/actions/workflows/YML_Lint.yml/badge.svg)](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/actions/workflows/YML_Lint.yml)
+[![Build data.json](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/actions/workflows/deployStaging.yml/badge.svg?branch=main)](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/actions/workflows/deployStaging.yml)
 
 In diesem Repository werden die Daten für den Onlinegenerator für Datenauskunftsbegehren verwaltet.
-
 
 ## Daten editieren
 3 Datenstrukturen sind vorhanden:
