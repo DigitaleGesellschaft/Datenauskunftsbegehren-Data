@@ -36,7 +36,6 @@ jobs:
           commit_message: Automated Change
           commit_options: '--no-verify --signoff'
           repository: .
-          status_options: '--untracked-files=yes'
           add_options: '-u'
           push_options: '--force'
           skip_dirty_check: false
