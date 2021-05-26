@@ -33,7 +33,8 @@ jobs:
       - name: Update main branch
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Automated Change
+          branch: staging
+          commit_message: generate Json
           commit_options: '--no-verify --signoff'
           repository: .
           add_options: '-u'
