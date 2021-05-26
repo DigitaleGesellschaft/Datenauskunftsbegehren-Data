@@ -21,5 +21,5 @@ Variablen werden in der Form `{type:name:label}` in den Texten definiert. Hierbe
 ```bash
 nvm use
 npm install
-npm run compile-json
+npm run compile
 ```
