@@ -30,7 +30,7 @@ jobs:
       - name: Create Json
         run: npm run compile
 
-      - name: Update main branch
+      - name: Update staging branch
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: staging
