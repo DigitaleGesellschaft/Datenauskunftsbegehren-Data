@@ -9,3 +9,7 @@ sources:
   address: https://www.tanatekag.ch/impressum/
   privacyStatement: 
     - https://www.tanatekag.ch/datenschutz/
+history:
+  - action: removed
+    date: '2021-06-05T00:00:00.000Z'
+    reason: Die Tanatek AG betreibt keine Datenbanken mit Privatadressen.
