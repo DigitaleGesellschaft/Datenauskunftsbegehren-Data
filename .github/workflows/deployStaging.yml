@@ -37,7 +37,7 @@ jobs:
           commit_message: generate Json
           commit_options: '--no-verify --signoff'
           repository: .
-          add_options: '-u'
+          add_options: '-A -u'
           push_options: '--force'
           skip_dirty_check: false
             
