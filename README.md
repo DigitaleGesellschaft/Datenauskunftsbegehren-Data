@@ -17,6 +17,14 @@ Variablen werden in der Form `{type:name:label}` in den Texten definiert. Hierbe
 - `type` ist optional und kann/sollte einer der folgenden Werte sein: `string`, `number`, `tel`, `email`, `date`
 - `label` kann auch Leerzeichen enthalten und wird der Userin angezeigt
 
+### History
+Organisationen können einen `history` Eintrag (ein `array`) halten. Einzig der type `removed` ist im Moment unterstützt. Beispiel:
+```
+history:
+  - action: removed
+    date: '2021-06-05T00:00:00.000Z'
+    reason: 'Die Firma XY....'
+```
 ## JSON generieren
 ```bash
 nvm use
