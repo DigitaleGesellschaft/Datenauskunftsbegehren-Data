@@ -3,8 +3,14 @@ address: |-
   MS Direct AG
   Fürstenlandstrasse 35
   9001 St. Gallen
+types:
+  - address
 sources:
   address: https://www.ms-direct.ch/impressum
   privacyStatement: 
     - https://www.ms-direct.ch/disclaimer
     - https://www.ms-direct.ch/datenschutz
+history:
+  - action: removed
+    date: '2021-06-05T00:00:00.000Z'
+    reason: 'Die MS Direct AG pflegt keine eigenen Datenbestände.'

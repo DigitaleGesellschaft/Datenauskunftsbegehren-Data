@@ -10,3 +10,7 @@ sources:
   privacyStatement: 
     - https://wsag.ch/files/datenschutzerklaerung_online_1.pdf
     - https://wsag.ch/files/wsag_agb_online_1.pdf
+history:
+  - action: removed
+    date: '2021-06-05T00:00:00.000Z'
+    reason: Die Walter Schmid AG verfügt über keine eigenen Adresslisten.
