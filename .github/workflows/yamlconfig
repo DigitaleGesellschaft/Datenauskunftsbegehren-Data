@@ -5,4 +5,5 @@ rules:
   truthy: disable
   line-length: disable
   trailing-spaces: disable
+  new-line-at-end-of-file: disable
   
