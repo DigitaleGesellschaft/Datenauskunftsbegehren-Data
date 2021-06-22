@@ -1,0 +1,12 @@
+name: Ticketino AG
+address: |-
+  Ticketino AG
+  D4 Platz 4
+  CH-6039 Root D4
+types:
+  - online
+sources:
+  address: https://www.ticketino.com/de/Imprint
+  privacyStatement: 
+    - https://www.ticketino.com/de/DataProtection
+    - https://www.ticketino.com/de/TermsAndConditions
