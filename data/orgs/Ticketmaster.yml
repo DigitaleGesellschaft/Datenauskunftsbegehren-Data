@@ -1,0 +1,12 @@
+name: Ticketmaster Schweiz AG
+address: |-
+  Ticketmaster Schweiz AG
+  Zürichstrasse 125
+  CH-8600 Dübendorf
+types:
+  - online
+sources:
+  address: https://www.ticketmaster.ch/help/impressum/?language=de-ch
+  privacyStatement: 
+    - https://www.ticketmaster.ch/privacy
+    - https://www.ticketmaster.ch/help/terms/?language=de-ch&tm_link=tm_i_1
