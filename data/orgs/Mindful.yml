@@ -1,12 +1,13 @@
 name: Mindful (Ticketcorner AG)
 address: |-
   Ticketcorner AG
+  Mindful
   Riedmatt-Center
   8153 Rümlang
 types:
   - gastro
 sources:
-  address: https://www.ticketcorner.ch/help/imprint/
+  address: https://mindfulapp.io/impressum/
   privacyStatement: 
     - https://www.ticketcorner.ch/help/data-protection/
     - https://www.ticketcorner.ch/help/club-terms/
