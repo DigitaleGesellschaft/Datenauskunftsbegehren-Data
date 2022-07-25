@@ -5,6 +5,7 @@ address: |-
   3030 Bern
 types:
   - wlan
+  - online
 sources:
   address: https://www.post.ch/de/pages/footer/impressum
   privacyStatement: 
