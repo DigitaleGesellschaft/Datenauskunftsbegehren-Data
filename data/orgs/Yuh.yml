@@ -1,0 +1,31 @@
+name: Yuh
+address: |-
+  Yuh AG
+  Chemin de la Crétaux 33
+  1196 Gland
+privacyStatement:
+  paragraphs:
+    - 'Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zur Person und zur Kundenaktivität zu verstehen:'
+  variables:
+    privacyStatementDate: 17. Februar 2022
+  bullets:
+    - Persönliche Angaben und andere Registrierungsdaten
+    - technische Daten
+    - Kommunikationsdaten, insbesondere Aufzeichnungen über Telefonate, Supportanfragen
+    - Daten zur Kundenbeziehung, insbesondere Finanzinformationen, Bearbeitungen für Marketing- und Werbezwecke, Kundenhistorie
+    - Analysen und Auswertungen basierend auf den Kundendaten, Daten zu Verhalten und Präferenzen
+    - Daten beim Zugriff auf Website / App, insbesondere Zugriffe, Standortdaten 
+    - sonstige Daten
+    - Steuerlich relevante Dokumente und Informationen
+    - Informationen, die Yuh von Dritten erhalten hat.
+    
+    - 'besondere Kategorien von personenbezogenen Daten wie z. B. biometrischen Daten, politische
+      Einstellungen oder Zugehörigkeiten, Informationen über Gesundheit, rassische oder ethnische
+      Herkunft, religiöse oder weltanschauliche Überzeugungen und Informationen bezüglich
+      strafrechtlicher Verurteilungen oder Straftaten'
+sources:
+  address: https://www.yuh.com/en/support/contact
+  privacyStatement: 
+    - https://links.imagerelay.com/cdn/2958/ql/yuh-app-privacy-policy-de-v2
