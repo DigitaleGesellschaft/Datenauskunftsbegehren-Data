@@ -5,6 +5,9 @@ address: |-
   8603 Schwerzenbach
 types:
   - credit
+privacyStatement:
+  paragraphs:
+    - 'Ersucht wird ausdrücklich eine vollständige Datenauskunft, worunter auch Angaben über mögliche Verknüpfungen im Sinne von «negativen Haushaltstreffern»  (siehe Empfehlung des Eidgenössischen Öffentlichkeits- und Datenschutzbeauftragten vom 17. März 2023 mit Ergänzungen vom 3. Mai 2023) sowie die Erläuterung zur Bonitätsprüfung fallen.'
 sources:
   address: https://www.intrum.ch/de/konsumenten/uber-intrum/ihre-privatsphare-ist-unsere-prioritat/impressum/
   privacyStatement: 
