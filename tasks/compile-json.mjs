@@ -35,10 +35,22 @@ const events = eventFiles
     return parse(ymlData)
   })
 
+const followupFiles = fs.readdirSync('./data/followups')
+const followups = followupFiles
+    .filter(followupFile => followupFile !== '_template.yml')
+    .map(followupFile => {
+      return fs.readFileSync(`./data/followups/${followupFile}`, { encoding: 'utf-8' })
+    })
+    .map(ymlData => {
+      return parse(ymlData)
+    })
+
+
 const data = {
   types,
   orgs,
-  events
+  events,
+  followups
 }
 
 fs.writeFileSync('data.json', JSON.stringify(data, undefined, 2))
