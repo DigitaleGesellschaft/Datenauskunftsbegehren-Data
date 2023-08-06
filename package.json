@@ -5,6 +5,6 @@
     "compile": "node ./tasks/compile-json.mjs"
   },
   "dependencies": {
-    "yaml": "2.0.0-5"
+    "yaml": "^2.3.1"
   }
 }
