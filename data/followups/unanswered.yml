@@ -1,0 +1,4 @@
+handle: unanswered
+label: Ich habe keine Antwort erhalten
+paragraphs:
+  - Mit Datum vom {date:followupDate:Wann} habe ich bei Ihnen ein Datenauskunftsbegehren gestellt, welches bis heute leider unbeantwortet geblieben ist.
