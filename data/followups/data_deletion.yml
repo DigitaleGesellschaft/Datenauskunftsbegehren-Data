@@ -1,0 +1,4 @@
+handle: data_deletion
+label: Ich möchte Daten löschen lassen
+paragraphs:
+  - Mit Datum vom {date:eventDate:Wann} habe ich bei Ihnen ein Datenauskunftsbegehren gestellt. Mit Ihrer Auskunft vom {date:eventDate:Dann} haben Sie dieses beantwortet.
