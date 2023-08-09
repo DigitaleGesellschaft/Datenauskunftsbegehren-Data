@@ -8,6 +8,7 @@ In diesem Repository werden die Daten für den Onlinegenerator für Datenauskunf
 - Organisationen (`/data/orgs`)
 - Arten von Dienstleistungen/Firmen (`/data/types`)
 - Ereignisse (`/data/events`)
+- Aktivitäten des Nachfassens (`/data/followups`)
 
 Pro Organisation/Art/Ereignis wird ein `.yml` file angelegt. Der Filename ist nicht relevant.
 
