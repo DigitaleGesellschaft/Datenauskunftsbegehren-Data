@@ -1,4 +1,8 @@
 handle: data_correction
 label: Ich möchte Daten korrigieren lassen
 paragraphs:
-  - Mit Datum vom {date:eventDate:Wann} habe ich bei Ihnen ein Datenauskunftsbegehren gestellt. Mit Ihrer Auskunft vom {date:eventDate:Dann} haben Sie dieses beantwortet.
+  - Ich danke Ihnen für die Auskunft vom {date:eventDate:Wann}. Aufgrund Ihrer Auskunft stellte ich fest, dass von Ihnen bearbeitete Personendaten unrichtig sind.
+  - Ich ersuche Sie deshalb, dass folgende Personendaten berichtigt werden:
+  - [ Auflistung der zu berichtigenden Daten und gewünschte Berichtigung ]
+  - Ich verlange ferner, dass Sie die Berichtigung Dritten, von welchen Sie die unrichtigen Daten erhalten oder denen Sie die unrichtigen Daten weitergegeben haben, entsprechend informieren.
+  - Ich bitte Sie schliesslich, die Berichtigung zu bestätigen.

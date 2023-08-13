@@ -1,4 +1,8 @@
 handle: data_deletion
 label: Ich möchte Daten löschen lassen
 paragraphs:
-  - Mit Datum vom {date:eventDate:Wann} habe ich bei Ihnen ein Datenauskunftsbegehren gestellt. Mit Ihrer Auskunft vom {date:eventDate:Dann} haben Sie dieses beantwortet.
+  - Ich danke Ihnen für die Auskunft vom {date:eventDate:Wann}.
+  - Aufgrund Ihrer Auskunft ersuche ich Sie, folgende Personendaten zu löschen:
+  - [ Auflistung der zu löschenden Daten oder sämtliche Daten ]
+  - Ich verlange ferner, dass Sie die Löschung Dritten, von welchen Sie die zu löschenden Daten erhalten oder denen Sie die zu löschenden Daten weitergegeben haben, entsprechend informieren.
+  - Ich bitte Sie schliesslich, die Löschung zu bestätigen. Sollten Sie die Löschung ganz oder teilweise verweigern, ersuche ich Sie um eine entsprechende Begründung.

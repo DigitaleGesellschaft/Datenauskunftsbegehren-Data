@@ -1,4 +1,8 @@
 handle: incomplete_answer
 label: Ich habe eine unvollständige Antwort erhalten
 paragraphs:
-  - Mit Datum vom {date:eventDate:Wann} habe ich bei Ihnen ein Datenauskunftsbegehren gestellt. Mit Ihrer Auskunft vom {date:eventDate:Dann} haben Sie dieses beantwortet.
+  - Mein Datenauskunftsbegehren vom {date:eventDate:Wann} wurde mit Ihrer Auskunft vom {date:eventDate:Dann} nicht vollständig beantwortet.
+  - Gemäss Art. 18 der Verordnung über den Datenschutz (Datenschutzverordnung, DSV) vom 31. August 2022 müssen Angaben geliefert werden, wieso eine Auskunft eingeschränkt wurde. Ich bitte Sie entsprechend, vollständig Auskunft zu erteilen oder Angaben zu liefern, wieso die Auskunft eingeschränkt wurde.
+  - Ich gehe davon aus, dass insbesondere folgende Informationen fehlen:
+      - [ Auflistung der fehlenden Daten ]
+  - Sollten Sie weiterhin keine vollständige Auskunft erteilen, behalte ich mir jederzeit vor, mein Auskunftsrecht auf dem Rechtsweg durchzusetzen oder Anzeige beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) zu erstatten. Ich weise ausserdem darauf hin, dass das vorsätzliche Erteilen einer falschen oder unvollständigen Auskunft auf Antrag mit Busse bis zu 250'000 Franken bestraft werden kann (Art. 60 DSG).
