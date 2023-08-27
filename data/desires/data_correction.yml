@@ -1,0 +1,4 @@
+handle: data_correction
+label: Ich möchte Daten korrigieren lassen
+paragraphs:
+  - Ich danke Ihnen für die Auskunft vom {date:dataInfoResponseDate:Datum der Antwort}. Aufgrund Ihrer Auskunft stellte ich fest, dass von Ihnen bearbeitete Personendaten unrichtig sind.

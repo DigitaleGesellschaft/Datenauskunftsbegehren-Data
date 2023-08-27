@@ -1,0 +1,4 @@
+handle: desire_template
+label: Ich möchte <follow up topic> erreichen
+paragraphs:
+  - Mit Datum vom {date:eventDate:Wann} habe ich bei Ihnen ein Datenauskunftsbegehren gestellt. Mit Ihrer Auskunft vom {date:eventDate:Dann} haben Sie dieses beantwortet.
