@@ -1,4 +1,4 @@
 handle: incomplete_answer
 label: Ich habe eine unvollständige Antwort erhalten
 paragraphs:
-  - Mit Datum vom {date:eventDate:Wann} habe ich bei Ihnen ein Datenauskunftsbegehren gestellt. Mit Ihrer Auskunft vom {date:eventDate:Dann} haben Sie dieses beantwortet.
+  - Mein Datenauskunftsbegehren vom {date:dataInfoRequestDate:Datum der Anfrage} wurde mit Ihrer Auskunft vom {date:dataInfoResponseDate:Datum der Antwort} nicht vollständig beantwortet.
