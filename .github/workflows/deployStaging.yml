@@ -29,3 +29,8 @@ jobs:
 
       - name: Create Json
         run: npm run compile
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: data.json
+          path: data.json
