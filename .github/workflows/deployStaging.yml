@@ -29,22 +29,3 @@ jobs:
 
       - name: Create Json
         run: npm run compile
-
-      - name: Update staging branch
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          branch: staging
-          commit_message: generate Json
-          commit_options: '--no-verify --signoff'
-          repository: .
-          add_options: '-A'
-          push_options: '--force'
-          skip_dirty_check: false
-            
-      - name: Trigger Staging Server to fetch
-        uses: fjogeleit/http-request-action@master
-        with:
-          url: 'https://wwwtest.digitale-gesellschaft.ch/auskunftsbegehren/deploy/deploy.php?key=${{ secrets.STAGING_DEPLOYKEY }}'
-          method: 'GET'
-          username: admin
-          password: ${{ secrets.STAGING_WWWTEST_PASSWORD }}
