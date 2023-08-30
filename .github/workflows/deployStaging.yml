@@ -22,7 +22,7 @@ jobs:
           config-file: .github/workflows/yamlconfig
         continue-on-error: false
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: '14'
       - run: npm install
