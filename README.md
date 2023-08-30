@@ -4,7 +4,7 @@
 In diesem Repository werden die Daten für den Onlinegenerator für Datenauskunftsbegehren verwaltet.
 
 ## Daten editieren
-3 Datenstrukturen sind vorhanden:
+4 Datenstrukturen sind vorhanden:
 - Organisationen (`/data/orgs`)
 - Arten von Dienstleistungen/Firmen (`/data/types`)
 - Ereignisse (`/data/events`)
@@ -32,3 +32,29 @@ nvm use
 npm install
 npm run compile
 ```
+
+## Angaben (regelmässig) auf Aktualität prüfen
+
+1. Ermittlung aller Datensätze mit Referenz auf
+   - ein bestimmtes Datum einer Datenschutzerklärung
+   - eine zitierte Web-Adresse mit Reglementen
+   - eine konkrete Web-Adresse der Datenschutzerklärung
+   
+2. Schrittfolge zur Ermittlung einer Liste 
+   1. Suche alle Datendateien mit Endung "yml" und gebe diese Liste durch "\0" getrennt aus.
+   2. Suche in jeder Datei der durch obige Liste gegebenen Dateinamen nach
+      - der Zeichenfolge " privacyStatement:"
+      - der Zeichenfolge " address: *http" (" *" ==>  mindestens ein Leerzeichen)
+      - der Zeichenfolge " privacyStatementDate:"
+   3. Reduziere die Ausgabe auf den Dateinamen der jeweiligen Fundstelle
+   4. Sortiere die Dateinamen und entferne doppelte
+   5. Schreibe die Liste in die Datei datensaetze_zu_pruefen.txt
+
+  ```bash 
+  find data -type f -name "*yml" -print0 | \
+     xargs -0 grep -e " privacyStatement:" \
+                   -e " address: *http" \
+                   -e " privacyStatementDate:" | \
+     sed -e 's#:.*$##' | \
+     sort -u > datensaetze_zu_pruefen.txt
+   ```

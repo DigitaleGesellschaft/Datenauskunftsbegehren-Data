@@ -1,0 +1,147 @@
+data/orgs/ARP.yml
+data/orgs/AZ-Direct.yml
+data/orgs/Agrisano.yml
+data/orgs/Aleno.yml
+data/orgs/Allianz Suisse.yml
+data/orgs/Amorana.yml
+data/orgs/Assura.yml
+data/orgs/Atupri.yml
+data/orgs/Avis.yml
+data/orgs/Axa.yml
+data/orgs/Baloise.yml
+data/orgs/Bank Julius Bär.yml
+data/orgs/Barney.yml
+data/orgs/Bauhaus.yml
+data/orgs/Bisnode.yml
+data/orgs/Blick.yml
+data/orgs/Bonuscard.yml
+data/orgs/Brack.yml
+data/orgs/BuCK Bern.yml
+data/orgs/Byjuno.yml
+data/orgs/CH Media.yml
+data/orgs/CRIF.yml
+data/orgs/CSS.yml
+data/orgs/Carvolution.yml
+data/orgs/Cembra.yml
+data/orgs/Coforama.yml
+data/orgs/Cohaga.yml
+data/orgs/Concordia.yml
+data/orgs/Coop Mobile.yml
+data/orgs/Coop Rechtsschutz.yml
+data/orgs/Cornercard.yml
+data/orgs/Credit Suisse.yml
+data/orgs/Creditreform.yml
+data/orgs/Dataserv.yml
+data/orgs/Digitec Galaxus.yml
+data/orgs/Dosenbach.yml
+data/orgs/DynaTag.yml
+data/orgs/EGK Grundversicherungen.yml
+data/orgs/ErotikMarkt.yml
+data/orgs/Etables.yml
+data/orgs/Europcar.yml
+data/orgs/Ex Libris.yml
+data/orgs/Excard.yml
+data/orgs/Filum.yml
+data/orgs/Fressnapf.yml
+data/orgs/Fust.yml
+data/orgs/Future Targeting.yml
+data/orgs/GaschtReg.yml
+data/orgs/Generali.yml
+data/orgs/Geschenkidee.yml
+data/orgs/Globus.yml
+data/orgs/Greg.yml
+data/orgs/Groupe Mutuel.yml
+data/orgs/GuestLOG.yml
+data/orgs/GuestReg.yml
+data/orgs/HSW-Direktmarketing.yml
+data/orgs/Helsana.yml
+data/orgs/Helvetic.yml
+data/orgs/Hertz.yml
+data/orgs/Hofstetter Partners Direct.yml
+data/orgs/IKO.yml
+data/orgs/Ikea.yml
+data/orgs/Import Parfuemerie.yml
+data/orgs/Interdiscount.yml
+data/orgs/Intrum.yml
+data/orgs/Jelmoli.yml
+data/orgs/JouJou.yml
+data/orgs/Jumbo.yml
+data/orgs/KPT Krankenkasse.yml
+data/orgs/KünzlerBachmann.yml
+data/orgs/Landi.yml
+data/orgs/Lunchgate.yml
+data/orgs/M-Budget Mobile.yml
+data/orgs/MS Direct.yml
+data/orgs/Manor.yml
+data/orgs/McDonalds.yml
+data/orgs/Mediamarkt.yml
+data/orgs/Microspot.yml
+data/orgs/Migros.yml
+data/orgs/Mindful.yml
+data/orgs/Mobiliar.yml
+data/orgs/Moebel Pfister.yml
+data/orgs/Moneyhouse.yml
+data/orgs/Monzoon.yml
+data/orgs/Mycontactdetails.yml
+data/orgs/NZZ.yml
+data/orgs/Neon.yml
+data/orgs/Nespresso.yml
+data/orgs/OBI.yml
+data/orgs/OEKK.yml
+data/orgs/Ochsnersport.yml
+data/orgs/Orell Fuessli Thalia.yml
+data/orgs/Ping Gastro.yml
+data/orgs/Pluesch.yml
+data/orgs/Pogastro.yml
+data/orgs/Post.yml
+data/orgs/Postauto.yml
+data/orgs/Postfinance.yml
+data/orgs/Protekta.yml
+data/orgs/PubliBike.yml
+data/orgs/Qualipet.yml
+data/orgs/QuickTicket.yml
+data/orgs/Raiffeisen.yml
+data/orgs/Ricardo.yml
+data/orgs/Rohner Direktpartner.yml
+data/orgs/SBB.yml
+data/orgs/SWICA.yml
+data/orgs/Salt.yml
+data/orgs/Sanitas.yml
+data/orgs/See Tickets.yml
+data/orgs/Sixt.yml
+data/orgs/Starbucks.yml
+data/orgs/Steg Electronics.yml
+data/orgs/Supercard.yml
+data/orgs/Suva.yml
+data/orgs/Swiss Bankers.yml
+data/orgs/Swiss Life.yml
+data/orgs/Swiss.yml
+data/orgs/Swisscard AECS.yml
+data/orgs/Swisscom.yml
+data/orgs/Sympany.yml
+data/orgs/TX-Gruppe.yml
+data/orgs/Tanatek.yml
+data/orgs/Tastier.yml
+data/orgs/Tchibo.yml
+data/orgs/Ticketcorner.yml
+data/orgs/Ticketino.yml
+data/orgs/Ticketmaster.yml
+data/orgs/TopCard.yml
+data/orgs/Twint.yml
+data/orgs/UBS.yml
+data/orgs/UPC.yml
+data/orgs/Vaudoise.yml
+data/orgs/Visana.yml
+data/orgs/Viseca.yml
+data/orgs/Walter Schmid.yml
+data/orgs/Weltbild.yml
+data/orgs/Wingo.yml
+data/orgs/Yallo.yml
+data/orgs/Yuh.yml
+data/orgs/ZEK.yml
+data/orgs/ZKB.yml
+data/orgs/Zurich Versicherungs-Gesellschaft.yml
+data/orgs/_template.yml
+data/orgs/eat_ch.yml
+data/orgs/sana24.yml
+data/orgs/tutti_ch.yml
