@@ -1,4 +1,4 @@
 handle: data_deletion
 label: Ich möchte Daten löschen lassen
 paragraphs:
-  -  Ich danke Ihnen für die Auskunft vom {date:dataInfoResponseDate:Datum der Antwort}.
+  - Ich danke Ihnen für die Auskunft vom {date:dataInfoResponseDate:Datum der Antwort}.
