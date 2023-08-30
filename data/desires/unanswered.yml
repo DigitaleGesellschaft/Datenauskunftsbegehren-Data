@@ -1,4 +1,4 @@
 handle: unanswered
 label: Ich erhielt keine Antwort
 paragraphs:
-  -  Am {date:dataInfoRequestDate:Datum der Anfrage} stellte ich ein Datenauskunftsbegehren, das bis heute unbeantwortet geblieben ist.
+  - Am {date:dataInfoRequestDate:Datum der Anfrage} stellte ich ein Datenauskunftsbegehren, das bis heute unbeantwortet geblieben ist.
