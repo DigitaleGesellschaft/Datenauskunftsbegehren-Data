@@ -1,0 +1,12 @@
+name: Medgate AG
+address: |-
+  Medgate AG
+  Dufourstrasse 49
+  4052 Basel
+privacyStatement:
+  variables:
+    privacyStatementDate: Juni 2023
+sources:
+  address: https://www.medgate.ch
+  privacyStatement: 
+    - https://www.medgate.ch/de-ch/datenschutz
