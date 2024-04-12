@@ -10,5 +10,5 @@ types:
 sources:
   address: https://www.tesla.com/de_ch/legal/privacy
   privacyStatement:
-  - https://www.tesla.com/de_ch/legal/privacy
-  - https://www.tesla.com/de_ch/legal
+    - https://www.tesla.com/de_ch/legal/privacy
+    - https://www.tesla.com/de_ch/legal
