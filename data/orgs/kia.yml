@@ -1,0 +1,10 @@
+name: Kia
+address: |-
+  Kia Schweiz AG
+  Emil-Frey-Strasse
+  5745 Safenwil
+types:
+  - mobility
+sources:
+  address: https://www.kia.ch/datenschutz/
+  privacyStatement: https://www.kia.ch/datenschutz/
