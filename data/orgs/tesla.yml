@@ -1,0 +1,14 @@
+name: Tesla
+address: |-
+  Tesla International BV
+  Attn: Legal – Privacy
+  Burgemeester Stramanweg 122
+  1101 EN Amsterdam
+  Niederlande
+types:
+  - mobility
+sources:
+  address: https://www.tesla.com/de_ch/legal/privacy
+  privacyStatement:
+  - https://www.tesla.com/de_ch/legal/privacy
+  - https://www.tesla.com/de_ch/legal
