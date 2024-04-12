@@ -1,0 +1,10 @@
+name: Fiat
+address: |-
+  Astara Ital Switzerland AG
+  Richtiplatz 5
+  CH-8304 Wallisellen
+types:
+  - mobility
+sources:
+  address: https://www.fiat.ch/de/datenschutz
+  privacyStatement: https://www.fiat.ch/de/datenschutz
