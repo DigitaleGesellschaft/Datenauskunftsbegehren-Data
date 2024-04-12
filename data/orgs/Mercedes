@@ -1,0 +1,10 @@
+name: Mercedes
+address: |-
+  Mercedes-Benz Schweiz AG
+  Bernstrasse 55
+  8952 Schlieren
+types:
+  - mobility
+sources:
+  address: https://www.mercedes-benz.ch/de/passengercars/content-pool/tool-pages/legal/privacy-statement.html
+  privacyStatement: https://www.mercedes-benz.ch/de/passengercars/content-pool/tool-pages/legal/privacy-statement.html
