@@ -3,6 +3,4 @@ label: Mobilität
 serviceLabel: Mobilität
 paragraphs:
   - Unter Personendaten sind insbesondere auch die vom Fahrzeug aufgezeichneten und übermittelten Daten zu verstehen.
-  - Betreffendes Fahrzeug:
-bullets:
-  - {string:vehicleInformation:Infos zum Fahrzeug und zu allfälligen Logins, die eine Zuordnung ermöglichen}
+  - "Betreffendes Fahrzeug: {string:vehicleInformation:Infos zum Fahrzeug und zu allfälligen Logins, die eine Zuordnung ermöglichen}"
