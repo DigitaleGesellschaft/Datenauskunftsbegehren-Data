@@ -1,0 +1,13 @@
+name: Volvo
+address: |-
+  Volvo Car Corporation
+  z.Hd.: Der Datenschutzbeauftragte
+  avd 50092
+  VAK
+  405 31 Göteborg
+  Sweden
+types:
+  - mobility
+sources:
+  address: https://www.volvocars.com/de-ch/legal/privacy/privacy-customer-privacy-policy
+  privacyStatement: https://www.volvocars.com/de-ch/legal/privacy/privacy-customer-privacy-policy

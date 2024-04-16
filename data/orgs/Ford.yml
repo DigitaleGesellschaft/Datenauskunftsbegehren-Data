@@ -1,0 +1,11 @@
+name: AMAG
+address: |-
+  Ford Motor Company (Switzerland) SA
+  z.H. Kundenzentrum/Datenschutz
+  Geerenstrasse 10
+  8304 Wallisellen
+types:
+  - mobility
+sources:
+  address: https://www.de.ford.ch/nuetzliche-links/uebersicht/datenschutz
+  privacyStatement: https://www.de.ford.ch/nuetzliche-links/uebersicht/datenschutz
