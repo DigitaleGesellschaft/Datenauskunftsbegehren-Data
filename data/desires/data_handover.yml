@@ -1,0 +1,4 @@
+handle: data_handover
+label: Ich möchte Daten ausgehändigt bekommen
+paragraphs:
+  - Ich danke Ihnen für die Auskunft vom {date:eventDate:Dann}. Bitte händigen sie mir gemäss Art. 28 DSG die aufgeführten Daten innert gesetzlicher Frist aus."
