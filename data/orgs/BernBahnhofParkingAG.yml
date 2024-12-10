@@ -14,7 +14,7 @@ privacyStatement:
   variables:
     privacyStatementDate: Dezember 2023
   bullets: 
-  - text: Die unter dem Begriff "Parkings" geführten Parkhäuser und Parkplätze sind
+    - text: Die unter dem Begriff "Parkings" geführten Parkhäuser und Parkplätze sind
     bullets: 
       - Bahnhof Parking Bern
       - SBB Kurzparking
