@@ -5,21 +5,21 @@ address: |-
   Postfach
   3001 Bern
 types:
-  - parkingprovider
+  - parking
 privacyStatement:
   paragraphs:
-    - 'Mit einer Variable die direkt hier aufgelöst wird {string:privacyStatementDate}'
-    - 'Mit einer Variable die vom User eingebeben werden muss {tel:mobileNumber:Handy-Nummer}'
-    - 'Mit einer Variable die vom User eingebeben werden muss {string:nameOfVariable:Label}'
-    - 'Mit einer Variable die vom User eingebeben werden muss {string:nameOfVariable:VehicleRegNo}'
+    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
+      von Daten zum Fahrzeug mit dem amtlichen Kennzeichen {string:nameOfVariable:VehicleRegNo}, dessen Insassen, deren Begleitungen von und zum Fahrzeug, Passanten und Aktivitäten dieser Personen zu verstehen.'
   variables:
     privacyStatementDate: Dezember 2023
-  bullets:
-    - Erste Ebene
-    - text: Mit Untergruppe
-      bullets:
-        - Zweite Ebene
-    - Erste Ebene
+  bullets: 
+  - text: Die unter dem Begriff "Parkings" geführten Parkhäuser und Parkplätze sind
+    bullets: 
+      - Bahnhof Parking Bern
+      - SBB Kurzparking
+      - Kurzparking PostParc
+      - Parking Stadtbach-West Bern
 sources:
   address: https://bahnhofparking.ch
   privacyStatement: 
