@@ -16,10 +16,10 @@ privacyStatement:
   bullets: 
     - text: Die unter dem Begriff "Parkings" geführten Parkhäuser und Parkplätze sind
     bullets: 
-      - Bahnhof Parking Bern
-      - SBB Kurzparking
-      - Kurzparking PostParc
-      - Parking Stadtbach-West Bern
+        - Bahnhof Parking Bern
+        - SBB Kurzparking
+        - Kurzparking PostParc
+        - Parking Stadtbach-West Bern
 sources:
   address: https://bahnhofparking.ch
   privacyStatement: 
