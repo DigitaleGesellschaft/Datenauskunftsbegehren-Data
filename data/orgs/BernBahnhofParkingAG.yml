@@ -9,12 +9,7 @@ types:
   - parking
 privacyStatement:
   paragraphs:
-    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer 
-    Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten 
-    Kategorien, resp. Bearbeitungen von Daten zum Fahrzeug mit dem amtlichen 
-    Kennzeichen {string:nameOfVariable:VehicleRegNo}, dessen Insassen, deren 
-    Begleitungen von und zum Fahrzeug, Passanten und Aktivitäten dieser 
-    Personen zu verstehen.'
+    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen von Daten zum Fahrzeug mit dem amtlichen Kennzeichen {string:nameOfVariable:VehicleRegNo}, dessen Insassen, deren Begleitungen von und zum Fahrzeug, Passanten und Aktivitäten dieser Personen zu verstehen.'
   variables:
     privacyStatementDate: Dezember 2023
   bullets:
