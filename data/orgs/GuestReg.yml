@@ -8,5 +8,5 @@ types:
   - gastro
 sources:
   address: https://guestreg.ch/
-  privacyStatement: 
+#  privacyStatement:
   #  - https://www.noSource.ch

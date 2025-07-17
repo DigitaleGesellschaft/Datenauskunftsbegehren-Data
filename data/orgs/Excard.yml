@@ -7,5 +7,5 @@ types:
   - gastro
 sources:
   address: https://www.excard.ch/
-  privacyStatement: 
+  #  privacyStatement:
   #  - https://www.noSource.ch

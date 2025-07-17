@@ -59,15 +59,23 @@ npm run compile
      sort -u > datensaetze_zu_pruefen.txt
    ```
 
+## Lint
+
+Lint test files with:
+
+    npm run lint
+
 ## Tests
 
 Ganze Testsuite:
 
     npm run test
 
-Einzelner, parametrisierter Test ausführen (`org yaml`) mit maximal einem Failure (`--bail`) ausführen:
+Einzelner, parametrisierter Test ausführen (`-t <regex>`):
 
-    npm exec vitest run --test tasks/validate.test.js --name "org yaml" --bail 1
+    npx vitest run tests/validate.test.js -t "org"
+    npx vitest run tests/validate.test.js -t "type"
+    npx vitest run tests/validate.test.js -t "event"
 
-**Info**: vitest führt dennoch alle Sub-Tests in einem paremetrisierten Testcase aus auch wenn `--bail` angegeben wird. 
+**Info**: vitest mit `--bail 1` führt dennoch alle Sub-Tests in einem paremetrisierten Testcase aus. 
 Daher bezieht sich bail wohl auf die Test-Function selbst.

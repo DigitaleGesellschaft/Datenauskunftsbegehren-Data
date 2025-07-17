@@ -8,7 +8,7 @@ types:
   - address
 sources:
   address: http://www.rohner.biz/kontakt-impressum.html
-  privacyStatement: 
+#  privacyStatement:
   #  - https://www.noSource.ch
 history:
   - action: removed

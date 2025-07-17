@@ -5,7 +5,7 @@
     "compile": "node ./tasks/compile-json.mjs",
     "build": "tsc",
     "test": "vitest",
-    "lint": "prettier tasks/*.test.js --write"
+    "lint": "prettier **/*.test.js --write"
   },
   "dependencies": {
     "yaml": "^2.3.1",
