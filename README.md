@@ -58,3 +58,16 @@ npm run compile
      sed -e 's#:.*$##' | \
      sort -u > datensaetze_zu_pruefen.txt
    ```
+
+## Tests
+
+Ganze Testsuite:
+
+    npm run test
+
+Einzelner, parametrisierter Test ausführen (`org yaml`) mit maximal einem Failure (`--bail`) ausführen:
+
+    npm exec vitest run --test tasks/validate.test.js --name "org yaml" --bail 1
+
+**Info**: vitest führt dennoch alle Sub-Tests in einem paremetrisierten Testcase aus auch wenn `--bail` angegeben wird. 
+Daher bezieht sich bail wohl auf die Test-Function selbst.

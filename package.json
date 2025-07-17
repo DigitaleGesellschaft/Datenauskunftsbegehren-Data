@@ -2,9 +2,16 @@
   "name": "datenauskunftsbegehren-data",
   "version": "2.0.0",
   "scripts": {
-    "compile": "node ./tasks/compile-json.mjs"
+    "compile": "node ./tasks/compile-json.mjs",
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "prettier tasks/*.test.js --write"
   },
   "dependencies": {
-    "yaml": "^2.3.1"
-  }
+    "yaml": "^2.3.1",
+    "prettier": "^3.6.2",
+    "vitest": "^3.2.4",
+    "zod": "^4.0.5"
+  },
+  "type": "module"
 }
