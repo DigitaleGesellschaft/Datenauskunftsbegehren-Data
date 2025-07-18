@@ -76,6 +76,7 @@ Einzelner, parametrisierter Test ausführen (`-t <regex>`):
     npx vitest run tests/validate.test.js -t "org"
     npx vitest run tests/validate.test.js -t "type"
     npx vitest run tests/validate.test.js -t "event"
+    npx vitest run tests/validate.test.js -t "desire"
 
 **Info**: vitest mit `--bail 1` führt dennoch alle Sub-Tests in einem paremetrisierten Testcase aus. 
 Daher bezieht sich bail wohl auf die Test-Function selbst.

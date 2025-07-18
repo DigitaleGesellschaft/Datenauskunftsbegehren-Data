@@ -96,6 +96,12 @@ const OrgSchema = z.object({
   history: z.array(HistorySchema).optional(),
 });
 
+const DesireSchema = z.object({
+  handle: z.string(),
+  label: z.string(),
+  paragraphs: z.array(z.string()).optional(),
+});
+
 describe.each(list_yaml("data/events"))("event yaml", (fn) => {
   test(`${fn}`, () => {
     expect(
@@ -121,4 +127,21 @@ describe.each(list_yaml("data/types"))("type yaml", (fn) => {
       validate(read_yaml(join("data/types", fn)), TypeSchema),
     ).not.toBeTruthy();
   });
+});
+
+describe.each(list_yaml("data/desires"))("desire yaml", (fn) => {
+  test(`${fn}`, () => {
+    expect(
+      validate(read_yaml(join("data/desires", fn)), DesireSchema),
+    ).not.toBeTruthy();
+  });
+});
+
+test("history schema", () => {
+  const yd = `
+  action: removed
+  date: '2021-06-05T00:00:00.000Z'
+  reason: 'Die Firma XY....'
+  `;
+  expect(validate(parse(yd), HistorySchema)).not.toBeTruthy();
 });
