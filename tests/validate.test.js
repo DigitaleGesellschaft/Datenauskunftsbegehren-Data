@@ -65,9 +65,11 @@ const BulletsSchema = z.union([
 // models/PrivacyStatement.js
 const PrivacyStatementSchema = z.object({
   paragraphs: z.array(z.string()).optional(),
-  variables: z.object({
-    privacyStatementDate: z.string(),
-  }).optional(),
+  variables: z
+    .object({
+      privacyStatementDate: z.string(),
+    })
+    .optional(),
   bullets: z.array(BulletsSchema).optional(),
 });
 
