@@ -7,4 +7,5 @@ types:
   - mobility
 sources:
   address: https://www.hyundai.com/ch/de/datenschutz.html
-  privacyStatement: https://www.hyundai.com/ch/de/datenschutz.html
+  privacyStatement:
+    - https://www.hyundai.com/ch/de/datenschutz.html

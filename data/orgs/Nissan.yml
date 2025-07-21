@@ -8,4 +8,5 @@ types:
   - mobility
 sources:
   address: https://news-astara-switzerland.prezly.com/factsheet-astara-global-astara-central-europe--astara-mobility-switzerland-ag
-  privacyStatement: https://de.nissan.ch/rechtliches/hinweise-datenschutz.html
+  privacyStatement:
+    - https://de.nissan.ch/rechtliches/hinweise-datenschutz.html
