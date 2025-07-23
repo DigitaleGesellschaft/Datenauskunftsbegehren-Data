@@ -3,7 +3,6 @@
   "version": "2.0.0",
   "scripts": {
     "compile": "node ./tasks/compile-json.mjs",
-    "build": "tsc",
     "test": "vitest",
     "lint": "prettier **/*.test.js --write"
   },
@@ -12,6 +11,5 @@
     "prettier": "^3.6.2",
     "vitest": "^3.2.4",
     "zod": "^4.0.5"
-  },
-  "type": "module"
+  }
 }
