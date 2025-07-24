@@ -30,6 +30,21 @@ const dateStringSchema = z.string().refine(
   },
 );
 
+// models/Paragraph.js
+const variableRegExp =
+  /\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[a-zA-Z-. ]{0,})\}/g;
+
+const ParagraphString = z.string().refine(
+  (val) => {
+    const braceCount = (val.match(/\{/g) || []).length;
+    const matches = [...val.matchAll(variableRegExp)];
+    return matches.length === braceCount;
+  },
+  {
+    message: "Invalid variable string in paragraph",
+  },
+);
+
 const EventSchema = z.object({
   handle: z.string(),
   label: z.string(),
@@ -64,7 +79,7 @@ const BulletsSchema = z.union([
 
 // models/PrivacyStatement.js
 const PrivacyStatementSchema = z.object({
-  paragraphs: z.array(z.string()).optional(),
+  paragraphs: z.array(ParagraphString).optional(),
   variables: z
     .object({
       privacyStatementDate: z.string(),
