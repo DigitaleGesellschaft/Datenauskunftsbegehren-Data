@@ -33,6 +33,8 @@ npm install
 npm run compile
 ```
 
+Du findest die Datei data.json im Wurzelverzeichnis.
+
 ## Angaben (regelmässig) auf Aktualität prüfen
 
 1. Ermittlung aller Datensätze mit Referenz auf
