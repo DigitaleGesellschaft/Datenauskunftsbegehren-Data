@@ -7,4 +7,5 @@ types:
   - mobility
 sources:
   address: https://www.bmw.ch/de/footer/metanavigation/BMW-Datenschutzhinweise.html
-  privacyStatement: https://www.bmw.ch/de/footer/metanavigation/BMW-Datenschutzhinweise.html
+  privacyStatement:
+    - https://www.bmw.ch/de/footer/metanavigation/BMW-Datenschutzhinweise.html

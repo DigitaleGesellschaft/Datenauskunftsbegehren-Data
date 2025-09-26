@@ -5,8 +5,8 @@ address: |-
   4052 Basel
 types:
   - online
-privacyStatement:
-  paragraphs:
+#privacyStatement:
+#  paragraphs:
 sources:
   address: https://www.medgate.ch/de-ch/impressum
   privacyStatement: 

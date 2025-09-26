@@ -10,4 +10,5 @@ types:
   - mobility
 sources:
   address: https://www.volvocars.com/de-ch/legal/privacy/privacy-customer-privacy-policy
-  privacyStatement: https://www.volvocars.com/de-ch/legal/privacy/privacy-customer-privacy-policy
+  privacyStatement:
+    - https://www.volvocars.com/de-ch/legal/privacy/privacy-customer-privacy-policy
