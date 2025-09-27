@@ -73,11 +73,12 @@ export const TypeSchema = z
     examples: ["Parking", "Gastronomy", "Mobile Provider", "Address Trade"],
   });
 
-// TODO: action is an enum, in code, valid values is removed, ...
+const HistoryAction = z.enum(["removed"]);
+
 // models/History.js
 export const HistorySchema = z
   .object({
-    action: z.string(),
+    action: HistoryAction,
     date: dateStringSchema,
     reason: z.string(),
   })
