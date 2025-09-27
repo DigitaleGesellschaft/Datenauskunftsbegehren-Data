@@ -5,6 +5,7 @@
     "compile": "node ./tasks/compile-json.mjs",
     "test": "vitest",
     "lint": "prettier **/*.js --write",
+    "lint-ci": "prettier **/*.js --check",
     "export": "node ./tasks/export-schemas.js"
   },
   "dependencies": {

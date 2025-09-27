@@ -17,10 +17,39 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
 
       - name: Install dependencies
         run: npm install
 
+      - name: Run prettier
+        run: npm run lint-ci
+        continue-on-error: true
+
       - name: Run tests
         run: npm run test
+
+      # Only run schema export + deploy when it's a push to main (not a PR)
+      - name: Export schemas
+        run: npm run export
+
+      - name: Upload jsonschema as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: exports/
+
+  deploy:
+    needs: test
+#    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
