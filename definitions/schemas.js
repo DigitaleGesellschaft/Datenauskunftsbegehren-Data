@@ -12,7 +12,7 @@ export const dateStringSchema = z.string().refine(
 
 // models/Paragraph.js
 export const variableRegExp =
-  /\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[a-zA-Z-. ]{0,})\}/g;
+  /\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[a-zA-Z-äöüß,. ]{0,})\}/g;
 
 const UniqueString = z.string().register(z.globalRegistry, {
   id: "unique_string",
@@ -51,7 +51,7 @@ export const EventSchema = z
   .object({
     handle: UniqueString,
     label: Label,
-    paragraphs: z.array(z.string()),
+    paragraphs: z.array(VariableString),
   })
   .register(z.globalRegistry, {
     title: "Trigger event for the data inquiry",
@@ -64,7 +64,7 @@ export const TypeSchema = z
     handle: UniqueString,
     label: Label,
     serviceLabel: Label,
-    paragraphs: z.array(z.string()),
+    paragraphs: z.array(VariableString),
   })
   .register(z.globalRegistry, {
     title: "Type of Service or Service Category",
@@ -159,7 +159,7 @@ export const DesireSchema = z
   .object({
     handle: z.string(),
     label: z.string(),
-    paragraphs: z.array(z.string()).optional(),
+    paragraphs: z.array(VariableString).optional(),
   })
   .register(z.globalRegistry, {
     title: "Desire schema for a yml file",
