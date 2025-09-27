@@ -24,7 +24,7 @@ const Label = z.string().register(z.globalRegistry, {
   title: "A translatable label that appears on the website",
 });
 
-export const ParagraphString = z
+export const VariableString = z
   .string()
   .refine(
     (val) => {
@@ -33,14 +33,14 @@ export const ParagraphString = z
       return matches.length === braceCount;
     },
     {
-      message: "Invalid variable string in paragraph",
+      message:
+        "Inconsistent variable placeholders found. Check with the defined regex in the docs",
     },
   )
   .register(z.globalRegistry, {
-    id: "paragraph",
-    title: "Paragraph String",
-    description:
-      "A string that is used inside the letter that may contain variable placeholders.",
+    id: "variable_string",
+    title: "Variable String",
+    description: `A string that is used inside the letter that may contain variable placeholders. Variable placeholders must match: '${variableRegExp}'`,
     examples: [
       "Am {date:eventDate:Wann} habe ich von Ihnen ein Werbemail an die Adresse {email:eventEmail:E-Mail-Adresse} gesendet bekommen",
       "Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien...",
@@ -109,7 +109,7 @@ export const BulletsSchema = z
 // models/PrivacyStatement.js
 export const PrivacyStatementSchema = z
   .object({
-    paragraphs: z.array(ParagraphString).optional(),
+    paragraphs: z.array(VariableString).optional(),
     variables: z
       .object({
         privacyStatementDate: z.string(),
