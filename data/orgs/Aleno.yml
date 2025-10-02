@@ -6,7 +6,7 @@ address: |-
 types:
   - gastro
 sources:
-  address: https://www.aleno.me/de/ 
+  address: https://www.aleno.me/de/impressum 
   privacyStatement: 
     - https://www.aleno.me/de/ppa
     - https://www.aleno.me/de/ppw
