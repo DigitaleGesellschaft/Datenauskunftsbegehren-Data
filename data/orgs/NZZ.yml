@@ -12,7 +12,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: 1. Januar 2021
+    privacyStatementDate: 11 Juni 2025
   bullets:
     - Nicht anonyme Nutzung
     - «Anonyme» Nutzung der Webseiten
