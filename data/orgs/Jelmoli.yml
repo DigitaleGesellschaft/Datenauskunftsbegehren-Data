@@ -1,12 +1,11 @@
 name: Jelmoli AG
 address: |-
-  Jelmoli AG
-  Seidengasse 1
-  8001 Zürich
+  Swiss Prime Site Immobilien AG
+  Hardstrasse 201
+  CH – 8005 Zürich
 types:
   - payback
 sources:
   address: https://www.jelmoli.ch/impressum
   privacyStatement: 
     - https://www.jelmoli.ch/datenschutz
-    - https://www.jelmoli.ch/agb

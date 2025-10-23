@@ -9,3 +9,5 @@ sources:
   address: https://precomgroup.ch/impressum/
   privacyStatement: 
     - https://precomgroup.ch/impressum/
+    - https://precomgroup.ch/datenschutz/
+    - https://precomgroup.ch/agb-2/

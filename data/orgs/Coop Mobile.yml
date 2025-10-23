@@ -11,7 +11,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: Januar 2019 (Swisscom)
+    privacyStatementDate: Oktober 2025 (Swisscom)
   bullets:
     - Bearbeitung von Daten zur Leistungserbringung und Vertragsabwicklung
     - Bearbeitung von Daten aus dem Fernmeldeverkehr
@@ -25,7 +25,8 @@ privacyStatement:
     - Bereitstellung von Daten für Werbevermarktung Dritter
     - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
 sources:
-  address: https://web-coopmobile-api.coopmobile.ch/sites/default/files/downloads/01-01-2019_Allgemeine_Datenschutzerklaerung.pdf
+  address: https://www.coopmobile.ch/de/datenschutz?srsltid=AfmBOorgnh73Eyx2t95gPrcr2UG_YI6D7laBG6yYDPkmT916fFCiHSkn 
   privacyStatement: 
-    - https://web-coopmobile-api.coopmobile.ch/sites/default/files/downloads/01-01-2019_Allgemeine_Datenschutzerklaerung.pdf
-    - https://www.coopmobile.ch/de/datenschutz
+    - https://www.coopmobile.ch/de/datenschutz?srsltid=AfmBOorgnh73Eyx2t95gPrcr2UG_YI6D7laBG6yYDPkmT916fFCiHSkn 
+    - http://swisscom.ch/de/privatkunden/rechtliches/datenschutz.html?campID=SC_datenschutz
+    - https://www.swisscom.ch/content/dam/swisscom/nl/rechtliches/res/datenschutzbestimmungen-de-10-2025.pdf
