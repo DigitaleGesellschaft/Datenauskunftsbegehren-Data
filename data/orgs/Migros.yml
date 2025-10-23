@@ -27,7 +27,7 @@ privacyStatement:
         - Teilnahme an Wettbewerben, Gewinnspielen und ähnlichen Veranstaltungen
         - Betreten ihrer Räumlichkeiten
 sources:
-  address: https://www.migros.ch/de/datenschutz.html
+  address: https://privacy.migros.ch/de.html#datenschutzerklaerung 
   privacyStatement: 
-    - https://www.migros.ch/de/datenschutz.html
-    - https://www.migros.ch/de/rechtliche-informationen.html
+    - https://privacy.migros.ch/de.html#datenschutzerklaerung 
+    - https://www.migros.ch/de/content/rechtliche-informationen 
