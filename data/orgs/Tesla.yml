@@ -1,10 +1,8 @@
 name: Tesla
 address: |-
-  Tesla International BV
-  Attn: Legal – Privacy
-  Burgemeester Stramanweg 122
-  1101 EN Amsterdam
-  Niederlande
+  Tesla Switzerland GmbH
+  Zählerweg 6
+  6300 Zug
 types:
   - mobility
 sources:
