@@ -25,8 +25,8 @@ privacyStatement:
     - Bereitstellung von Daten für Werbevermarktung Dritter
     - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
 sources:
-  address: https://www.coopmobile.ch/de/datenschutz?srsltid=AfmBOorgnh73Eyx2t95gPrcr2UG_YI6D7laBG6yYDPkmT916fFCiHSkn 
+  address: https://www.coopmobile.ch/de/datenschutz
   privacyStatement: 
-    - https://www.coopmobile.ch/de/datenschutz?srsltid=AfmBOorgnh73Eyx2t95gPrcr2UG_YI6D7laBG6yYDPkmT916fFCiHSkn 
+    - https://www.coopmobile.ch/de/datenschutz
     - http://swisscom.ch/de/privatkunden/rechtliches/datenschutz.html?campID=SC_datenschutz
     - https://www.swisscom.ch/content/dam/swisscom/nl/rechtliches/res/datenschutzbestimmungen-de-10-2025.pdf
