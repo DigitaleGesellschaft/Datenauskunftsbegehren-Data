@@ -6,6 +6,6 @@ address: |-
 types:
   - mobility
 sources:
-  address: https://www.mobility.ch/de/impressum
+  address: https://mobility.ch/mobility-nutzende/kundenservice/impressum 
   privacyStatement:
-    - https://www.mobility.ch/de/datenschutz-und-agb
+    - https://mobility.ch/mobility-nutzende/kundenservice/agb 

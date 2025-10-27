@@ -21,6 +21,6 @@ privacyStatement:
     - Informationen über den Besuch von Salt-Websites
     - Fernmeldedaten nach dem Bundesgesetz über die Überwachung des Post- und Fernmeldewesens
 sources:
-  address: https://fiber.salt.ch/de/legal/privacy
+  address: https://www.salt.ch/de/legal/privacy 
   privacyStatement: 
-    - https://fiber.salt.ch/de/legal/privacy
+    - https://www.salt.ch/de/legal/privacy 
