@@ -6,5 +6,5 @@ address: |-
 sources:
   address: https://www.neon-free.ch/en/rechtliches/imprint 
   privacyStatement: 
-    - https://static-assets.neon-free.ch/legal/neon/neon_website_privacy_policy_DE.pdf?_gl=1*14dv6v2*_gcl_au*ODc1MzM3Mzg1LjE3NjEyMDIwMjI. 
-    - https://static-assets.neon-free.ch/legal/neon/neon_app_privacy_policy_de.pdf?_gl=1*dihdxg*_gcl_au*ODc1MzM3Mzg1LjE3NjEyMDIwMjI. 
+    - https://static-assets.neon-free.ch/legal/neon/neon_website_privacy_policy_DE.pdf
+    - https://static-assets.neon-free.ch/legal/neon/neon_app_privacy_policy_de.pdf
