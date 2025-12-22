@@ -6,10 +6,10 @@ address: |-
   Postfach
   3001 Bern
 types:
-  - parking
+  - parkingprovider
 privacyStatement:
   paragraphs:
-    - Folgende Parkmöglichkeiten habe ich von Ihnen benutzt:
+    - 'Folgende Parkmöglichkeiten habe ich von Ihnen benutzt:'
   bullets:
     - Bahnhof Parking Bern
     - SBB Kurzparking
