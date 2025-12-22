@@ -7,4 +7,5 @@ types:
   - mobility
 sources:
   address: https://de.toyota.ch/legal/privacy-policy
-  privacyStatement: https://de.toyota.ch/legal/privacy-policy
+  privacyStatement:
+    - https://de.toyota.ch/legal/privacy-policy

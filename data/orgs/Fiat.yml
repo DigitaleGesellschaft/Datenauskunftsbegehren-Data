@@ -7,4 +7,5 @@ types:
   - mobility
 sources:
   address: https://www.fiat.ch/de/datenschutz
-  privacyStatement: https://www.fiat.ch/de/datenschutz
+  privacyStatement:
+    - https://www.fiat.ch/de/datenschutz

@@ -7,4 +7,5 @@ types:
   - mobility
 sources:
   address: https://de.dacia.ch/agb.html
-  privacyStatement: https://de.dacia.ch/agb.html
+  privacyStatement:
+    - https://de.dacia.ch/agb.html

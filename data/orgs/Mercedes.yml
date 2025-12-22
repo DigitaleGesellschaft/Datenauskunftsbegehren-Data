@@ -7,4 +7,5 @@ types:
   - mobility
 sources:
   address: https://www.mercedes-benz.ch/de/passengercars/content-pool/tool-pages/legal/privacy-statement.html
-  privacyStatement: https://www.mercedes-benz.ch/de/passengercars/content-pool/tool-pages/legal/privacy-statement.html
+  privacyStatement:
+    - https://www.mercedes-benz.ch/de/passengercars/content-pool/tool-pages/legal/privacy-statement.html

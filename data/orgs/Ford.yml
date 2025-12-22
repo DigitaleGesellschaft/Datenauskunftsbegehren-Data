@@ -8,4 +8,5 @@ types:
   - mobility
 sources:
   address: https://www.de.ford.ch/nuetzliche-links/uebersicht/datenschutz
-  privacyStatement: https://www.de.ford.ch/nuetzliche-links/uebersicht/datenschutz
+  privacyStatement:
+    - https://www.de.ford.ch/nuetzliche-links/uebersicht/datenschutz
