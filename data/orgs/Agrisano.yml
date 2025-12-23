@@ -1,9 +1,10 @@
 name: Agrisano
 address: |-
-  Agrisano Krankenkasse AG
+  Agrisano
+  Datenschutzberater/in
   Laurstrasse 10
   5201 Brugg AG
 sources:
   address: https://www.agrisano.ch/de/impressum/
   privacyStatement: 
-    - https://www.agrisano.ch/de/datenschutzerklaerung-1/
+    - https://www.agrisano.ch/de/datenschutz 

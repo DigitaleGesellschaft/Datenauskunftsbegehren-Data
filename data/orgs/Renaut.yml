@@ -7,4 +7,5 @@ types:
   - mobility
 sources:
   address: https://de.renault.ch/agb.html
-  privacyStatement: https://de.renault.ch/agb.html
+  privacyStatement:
+    - https://de.renault.ch/agb.html

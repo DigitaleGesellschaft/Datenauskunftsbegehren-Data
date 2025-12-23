@@ -1,0 +1,26 @@
+name: bernbahnhofparkingag
+address: |-
+  Bahnhof Parking AG
+  Parkterrasse 14
+  Postfach
+  3001 Bern
+types:
+  - parkingprovider
+privacyStatement:
+  paragraphs:
+    - 'Mit einer Variable die direkt hier aufgelöst wird {string:privacyStatementDate}'
+    - 'Mit einer Variable die vom User eingebeben werden muss {tel:mobileNumber:Handy-Nummer}'
+    - 'Mit einer Variable die vom User eingebeben werden muss {string:nameOfVariable:Label}'
+    - 'Mit einer Variable die vom User eingebeben werden muss {string:nameOfVariable:VehicleRegNo}'
+  variables:
+    privacyStatementDate: Dezember 2023
+  bullets:
+    - Erste Ebene
+    - text: Mit Untergruppe
+      bullets:
+        - Zweite Ebene
+    - Erste Ebene
+sources:
+  address: https://bahnhofparking.ch
+  privacyStatement: 
+    - https://bahnhofparking.ch/de/datenschutz

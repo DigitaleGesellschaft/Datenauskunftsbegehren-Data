@@ -8,5 +8,6 @@ address: |-
 types:
   - mobility
 sources:
-  address: https://www.amag-group.ch/de/footer/datenschutzerklaerung.html
-  privacyStatement: https://www.amag-group.ch/de/footer/datenschutzerklaerung.html
+  address: https://www.audi.ch/de/landingpages/rechtliches/datenschutz/ 
+  privacyStatement:
+    - https://www.amag-group.ch/de/footer/datenschutzerklaerung.html

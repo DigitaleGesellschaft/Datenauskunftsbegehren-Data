@@ -1,13 +1,12 @@
 name: Geschenkidee.ch
 address: |-
-  Geschenkidee.ch GmbH
-  Flurstrasse 55
-  Postfach
-  8021 Zürich
+  Opari AG
+  Wengistrasse 7
+  8004 Zürich
 types:
   - online
 sources:
-  address: https://www.geschenkidee.ch/impressum
+  address: https://www.geschenkidee.ch/informationen/impressum 
   privacyStatement: 
-    - https://www.geschenkidee.ch/datenschutz
-    - https://www.geschenkidee.ch/agb
+    - https://www.geschenkidee.ch/hilfe/datenschutz 
+    - https://www.geschenkidee.ch/hilfe/agb-

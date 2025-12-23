@@ -9,9 +9,6 @@ privacyStatement:
   paragraphs:
     - 'Ersucht wird ausdrücklich eine vollständige Datenauskunft, worunter auch Angaben über mögliche Verknüpfungen im Sinne von «negativen Haushaltstreffern»  (siehe Empfehlung des Eidgenössischen Öffentlichkeits- und Datenschutzbeauftragten vom 17. März 2023 mit Ergänzungen vom 3. Mai 2023) sowie die Erläuterung zur Bonitätsprüfung fallen.'
 sources:
-  address: https://www.intrum.ch/de/konsumenten/uber-intrum/ihre-privatsphare-ist-unsere-prioritat/impressum/
+  address: https://www.intrum.ch/de/konsumenten/uber-intrum/datenschutz/impressum/ 
   privacyStatement: 
-    - https://www.intrum.ch/de/konsumenten/uber-intrum/ihre-privatsphare-istunsere-prioritat/
-    - https://www.intrum.ch/de/konsumenten/uber-intrum/ihre-privatsphare-ist-unsere-prioritat/datenschutzerklarung/
-    - https://www.intrum.ch/de/konsumenten/uber-intrum/ihre-privatsphare-ist-unsere-prioritat/rechte-der-betroffenen-person/
-    - https://www.intrum.ch/de/konsumenten/uber-intrum/ihre-privatsphare-ist-unsere-prioritat/impressum/
+    - https://www.intrum.ch/de/konsumenten/uber-intrum/datenschutz/

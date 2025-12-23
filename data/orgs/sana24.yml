@@ -6,5 +6,5 @@ address: |-
   3000 Bern 15
 sources:
   address: https://www.noSource.ch
-  privacyStatement: 
-  #  - https://www.noSource.ch
+  # privacyStatement:
+  #   - https://www.noSource.ch

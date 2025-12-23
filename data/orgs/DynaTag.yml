@@ -6,6 +6,6 @@ address: |-
 types:
   - gastro
 sources:
-  address: https://dynatag.com/frontend/pdf/Impressum_DynaTag_new_website.pdf
+  address: https://dynatag.com/27_Impressum_DE.php 
   privacyStatement: 
-    - https://dynatag.com/frontend/pdf/Datenschutzerkl%C3%A4rung_DE.pdf
+    - https://dynatag.com/26_Datenschutz_DE.php 

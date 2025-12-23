@@ -1,11 +1,13 @@
 name: Nissan
 address: |-
-  Nissan Suisse
+  Nissan Switzerland
   Astara Mobility Switzerland AG
-  Brandbachstrasse 6
-  8305 Dietlikon
+  Richtiplatz 5
+  CH-8304 Wallisellen
 types:
   - mobility
 sources:
   address: https://news-astara-switzerland.prezly.com/factsheet-astara-global-astara-central-europe--astara-mobility-switzerland-ag
-  privacyStatement: https://de.nissan.ch/rechtliches/hinweise-datenschutz.html
+  privacyStatement:
+    - https://de.nissan.ch/rechtliches/hinweise-datenschutz.html
+    - https://privacy.prezly.com/de-ch/newsroom/cf737e92-0776-431d-a7c8-d685887b6605/data-request

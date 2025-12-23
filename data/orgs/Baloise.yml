@@ -4,7 +4,7 @@ address: |-
   Aeschengraben 21
   4002 Basel
 sources:
-  address: https://www.baloise.com/de/home/ueber-uns/datenschutzbestimmungen.html
+  address: https://www.baloise.ch/de/ueber-uns/informationen/datenschutz/datenschutz-fuer-versicherungsvertraege.html 
   privacyStatement: 
-    - https://www.baloise.com/de/home/ueber-uns/datenschutzbestimmungen.html
-    - https://www.baloise.com/de/home/ueber-uns/rechtliche-hinweise.html
+    - https://www.baloise.ch/de/ueber-uns/informationen/datenschutz/datenschutz-fuer-versicherungsvertraege.html 
+    - https://www.baloise.ch/de/ueber-uns/informationen/rechtliche-hinweise.html 
