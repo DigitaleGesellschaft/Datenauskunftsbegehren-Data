@@ -8,6 +8,6 @@ types:
   - payback
   - online
 sources:
-  address: https://www.jumbo.ch/de/datenschutz
+  address: https://www.jumbo.ch/de/impressum.html 
   privacyStatement: 
-    - https://www.jumbo.ch/de/datenschutz
+    - https://www.coop.ch/de/unternehmen/datenschutz/jumbo.html 

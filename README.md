@@ -5,10 +5,10 @@ In diesem Repository werden die Daten für den Onlinegenerator für Datenauskunf
 
 ## Daten editieren
 4 Datenstrukturen sind vorhanden:
-- Organisationen (`/data/orgs`)
-- Arten von Dienstleistungen/Firmen (`/data/types`)
-- Ereignisse (`/data/events`)
-- Begehren, insbes. Nachfassen (`/data/desires`)
+- Organisationen (`/data/orgs`) [JSONSchema](https://raw.githubusercontent.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/refs/heads/export_jsonschema/exports/OrgSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fraw.githubusercontent.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Frefs%2Fheads%2Fexport_jsonschema%2Fexports%2FOrgSchema.json)
+- Arten von Dienstleistungen/Firmen (`/data/types`) [JSONSchema](https://raw.githubusercontent.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/refs/heads/export_jsonschema/exports/TypeSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fraw.githubusercontent.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Frefs%2Fheads%2Fexport_jsonschema%2Fexports%2FTypeSchema.json)
+- Ereignisse (`/data/events`) [JSONSchema](https://raw.githubusercontent.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/refs/heads/export_jsonschema/exports/EventSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fraw.githubusercontent.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Frefs%2Fheads%2Fexport_jsonschema%2Fexports%2FEventSchema.json)
+- Begehren, insbes. Nachfassen (`/data/desires`) [JSONSchema](https://raw.githubusercontent.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/refs/heads/export_jsonschema/exports/DesireSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fraw.githubusercontent.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Frefs%2Fheads%2Fexport_jsonschema%2Fexports%2FDesireSchema.json)
 
 Pro Organisation/Art/Ereignis wird ein `.yml` file angelegt. Der Filename ist nicht relevant.
 

@@ -24,5 +24,5 @@ sources:
   privacyStatement: 
     - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/online-datenschutz.html
     - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html
-    #  - https://www.noSource.ch
+    # - https://www.noSource.ch
 # TODO: add history key example

@@ -5,7 +5,6 @@ address: |-
   Postfach
   8021 Zürich
 sources:
-  address: https://www.bonuscard.ch/de/datenschutz_bcag
+  address: https://www.bonuscard.ch/de/legales/datenschutzerklarung/ 
   privacyStatement: 
-    - https://www.bonuscard.ch/sites/vbc2019/files/Downloads/Datenschutz/datenschutzerklaerung_bonuscard_de.pdf
-    - https://www.bonuscard.ch/sites/vbc2019/files/Downloads/AGB/neutral_AGB_komplett_DE.pdf
+    - https://www.bonuscard.ch/de/legales/datenschutzerklarung/ 

@@ -6,7 +6,7 @@ address: |-
 types:
   - payback
 sources:
-  address: https://www.globus.ch/agb
+  address: https://www.globus.ch/meta/datenschutz/v2-0 
   privacyStatement: 
     - https://www.globus.ch/datenschutz/v2-0
-    - https://www.globus.ch/agb
+    - https://www.globus.ch/meta/agb 

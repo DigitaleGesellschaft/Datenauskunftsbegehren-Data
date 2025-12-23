@@ -1,4 +1,4 @@
-name: Yallo (Sunrise)
+name: Yallo
 address: |-
   Sunrise UPC GmbH (Yallo)
   Thurgauerstrasse 101B
@@ -28,3 +28,4 @@ sources:
   address: https://www.yallo.ch/de/data-protection
   privacyStatement: 
     - https://www.yallo.ch/de/data-protection
+    - https://www.yallo.ch/de/terms

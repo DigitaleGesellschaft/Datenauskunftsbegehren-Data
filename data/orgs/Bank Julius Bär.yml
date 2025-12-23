@@ -10,7 +10,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: November 2020
+    privacyStatementDate: November 2024
   bullets:
     - Personalien
     - Legitimationsdaten
@@ -27,6 +27,6 @@ privacyStatement:
       Dienstleistungen übermittelt und automatisch erfasst werden'
     - Andere, mit den genannten Kategorien vergleichbare Daten
 sources:
-  address: https://www.juliusbaer.com/fileadmin/legal/switzerland-privacy-notice-gdpr-de.pdf
+  address: https://www.juliusbaer.com/fileadmin/legal/privacy-notices/datenschutzerklaerung-bank-julius-baer-co-ltd-de.pdf 
   privacyStatement: 
-    - https://www.juliusbaer.com/fileadmin/legal/switzerland-privacy-notice-gdpr-de.pdf
+    - https://www.juliusbaer.com/fileadmin/legal/privacy-notices/datenschutzerklaerung-bank-julius-baer-co-ltd-de.pdf
