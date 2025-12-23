@@ -12,7 +12,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: 6. Juni 2019
+    privacyStatementDate: 29 Februar 2024 
   bullets:
     - text: Kundenprofil
       bullets:

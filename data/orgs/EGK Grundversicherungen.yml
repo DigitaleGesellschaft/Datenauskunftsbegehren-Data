@@ -1,10 +1,10 @@
 name: EGK Grundversicherungen AG
 address: |-
   EGK Grundversicherungen AG
-  Brislachstrasse 2
+  Birspark 1 
   Postfach
   4242 Laufen
 sources:
   address: https://www.egk.ch/de/impressum
   privacyStatement: 
-    - https://www.egk.ch/de/datenschutzbestimmungen
+    - https://krankenkassenversicherung.ch/datenschutz/ 

@@ -6,8 +6,7 @@ address: |-
 types:
   - online
 sources:
-  address: https://support.starticket.ch/hc/de/articles/202885161-Impressum-von-seetickets-ch
+  address: https://customer-support.seetickets.ch/portal/de/kb/articles/impressum 
   privacyStatement: 
-    - https://support.starticket.ch/hc/de/articles/360013834520
-    - https://support.starticket.ch/hc/de/sections/115000162889-Rechtliches
-    - https://support.starticket.ch/hc/de/articles/202810642-Allgemeine-Geschäftsbedingungen-AGB-
+    - https://customer-support.seetickets.ch/portal/de/kb/articles/datenschutz
+    - https://customer-support.seetickets.ch/portal/de/kb/articles/agb
