@@ -4,7 +4,9 @@
   "scripts": {
     "compile": "node ./tasks/compile-json.mjs",
     "test": "vitest",
-    "lint": "prettier **/*.test.js --write"
+    "lint": "prettier **/*.js --write",
+    "lint-ci": "prettier **/*.js --check",
+    "export": "node ./tasks/export-schemas.js"
   },
   "dependencies": {
     "yaml": "^2.3.1",
