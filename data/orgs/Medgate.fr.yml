@@ -1,0 +1,14 @@
+name: Medgate AG
+address: |-
+  Medgate AG 
+  Lachenstrasse 1 
+  4123 Allschwil
+types:
+  - online
+#privacyStatement:
+#  paragraphs:
+sources:
+  address: https://www.medgate.ch/fr-ch/impressum
+  privacyStatement: 
+    - https://portal.medgate.care/compliance/documents?templateReference=webpage-privacy-policy-ch-fr
+    - https://www.medgate.ch/fr-ch/app/agb

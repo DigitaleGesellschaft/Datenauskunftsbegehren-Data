@@ -1,0 +1,12 @@
+name: TopCard
+address: |-
+  TopCard Service AG
+  Data Protection Office
+  Flughofstrasse 35
+  Postfach
+  8152 Glattbrugg 
+sources:
+  address: https://www.topcard.ch/fr/mentions-legales/
+  privacyStatement: 
+    - https://www.topcard.ch/fr/politique-de-confidentialite/
+    - https://www.topcard.ch/fr/conditions-dutilisation/

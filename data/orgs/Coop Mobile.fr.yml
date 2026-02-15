@@ -1,0 +1,31 @@
+name: Coop Mobile (Swisscom)
+address: |-
+  Coop Mobile
+  Contact Center
+  3050 Bern
+types:
+  - mobile
+privacyStatement:
+  paragraphs:
+    - "Par « données à caractère personnel », on entend notamment les catégories et traitements
+      suivants relatifs à la personne et à l'activité client, énumérés dans la déclaration de
+      confidentialité du {string:privacyStatementDate} :"
+  variables:
+    privacyStatementDate: octobre 2025 (Swisscom)
+  bullets:
+    - Traitement des données pour la fourniture des services et l'exécution des contrats
+    - Traitement des données du trafic de télécommunication
+    - text: Traitements à des fins de marketing par Swisscom
+      bullets:
+        - Données personnelles
+        - Coordonnées et données d'identification
+        - Communications à Swisscom
+        - Données contractuelles
+        - Données d'utilisation
+        - Données de connexion
+sources:
+  address: https://www.coopmobile.ch/de/datenschutz?srsltid=AfmBOorgnh73Eyx2t95gPrcr2UG_YI6D7laBG6yYDPkmT916fFCiHSkn 
+  privacyStatement: 
+    - https://www.coopmobile.ch/de/datenschutz?srsltid=AfmBOorgnh73Eyx2t95gPrcr2UG_YI6D7laBG6yYDPkmT916fFCiHSkn 
+    - http://swisscom.ch/de/privatkunden/rechtliches/datenschutz.html?campID=SC_datenschutz
+    - https://www.swisscom.ch/content/dam/swisscom/nl/rechtliches/res/datenschutzbestimmungen-de-10-2025.pdf

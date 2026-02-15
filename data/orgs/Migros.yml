@@ -10,22 +10,26 @@ types:
   - wlan
 privacyStatement:
   paragraphs:
-    - 'Unter Personendaten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung
-      vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
-      von Daten zur Person und zur Kundenaktivität zu verstehen:'
+    - 'Ich verlange insbesondere Angaben zu den in Ihrer Datenschutzerklärung
+      vom {string:privacyStatementDate} genannten Bearbeitungszwecken,
+      namentlich:'
   variables:
-    privacyStatementDate: Mai 2020
+  # Hinweis:
+  # - unklar ob datum = veröffentlichungsdatum oder nur intern benutzt
+  # - auf der verlinkten seite nicht klar ersichtlich
+  # - ev. noch prüfen
+  privacyStatementDate: Mai 2020
   bullets:
     - text: Zwecke
       bullets:
         - Kommunikation
-        - Kauf von Waren und Inanspruchnahme von Leistungen
-        - Treue- und Bonusprogramme
-        - Besuch von Webseiten
-        - Online-Angebote und Apps
-        - Information und Direktmarketing
-        - Teilnahme an Wettbewerben, Gewinnspielen und ähnlichen Veranstaltungen
-        - Betreten ihrer Räumlichkeiten
+        - Vertragsabwicklung
+        - Information und Marketing
+        - Marktforschung und Produktentwicklung
+        - Sicherheit und Praevention
+        - Einhaltung gesetzlicher Vorgaben
+        - Wahrung von Rechten
+        - Konzerninterne Administration und Unterstuetzung
 sources:
   address: https://privacy.migros.ch/de.html#datenschutzerklaerung 
   privacyStatement: 

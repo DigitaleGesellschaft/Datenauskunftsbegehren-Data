@@ -1,0 +1,29 @@
+name: Blick (Ringier)
+address: |-
+  Ringier AG
+  Brühlstrasse 5
+  4800 Zofingen
+types:
+  - online
+privacyStatement:
+  paragraphs:
+    - "Par « données à caractère personnel », on entend notamment les catégories et traitements
+      suivants relatifs à la personne et à l'activité client, énumérés dans la déclaration de
+      confidentialité du {string:privacyStatementDate} :"
+  variables:
+    privacyStatementDate: 24 février 2025
+  bullets:
+    - text: Données personnelles
+      bullets:
+        - Pour un abonnement à un produit Blick (journal ou e‑paper)
+        - Pour un concours, un jeu-concours, un tirage au sort ou un jeu de mots croisés
+        - Pour la publicité concernant les produits et services médiatiques (marketing direct)
+        - Via Ringier Connect
+    - text: Données « non personnelles »
+      bullets:
+        - Via des outils de suivi
+        - Via des éléments provenant d'autres sites web, p.ex. des plugins
+sources:
+  address: https://www.blick.ch/services/datenschutzbestimmungen-id151553.html
+  privacyStatement: 
+    - https://www.blick.ch/services/datenschutzbestimmungen-id151553.html

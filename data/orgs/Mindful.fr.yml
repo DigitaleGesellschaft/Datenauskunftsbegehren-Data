@@ -1,0 +1,19 @@
+name: Mindful (Ticketcorner AG)
+address: |-
+  Ticketcorner AG
+  Mindful
+  Riedmatt-Center
+  8153 Rümlang
+types:
+  - gastro
+sources:
+  address: https://mindfulapp.io/impressum/
+  privacyStatement: 
+    - https://www.ticketcorner.ch/help/data-protection/
+    - https://www.ticketcorner.ch/help/club-terms/
+    - https://www.ticketcorner.ch/help/terms/?affiliate=TCS
+    - https://www.ticketcorner.ch/help/terms/
+history:
+  - action: removed
+    date: '2022-06-21T00:00:00.000Z'
+    reason: 'Die App ist nicht mehr in den App Stores zu finden. Es findet kein Contact Tracing mehr statt.'

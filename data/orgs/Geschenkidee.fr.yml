@@ -1,0 +1,12 @@
+name: Geschenkidee.ch
+address: |-
+  Opari AG
+  Wengistrasse 7
+  8004 Zürich
+types:
+  - online
+sources:
+  address: https://www.geschenkidee.ch/informationen/impressum 
+  privacyStatement: 
+    - https://www.geschenkidee.ch/hilfe/datenschutz 
+    - https://www.geschenkidee.ch/hilfe/agb-

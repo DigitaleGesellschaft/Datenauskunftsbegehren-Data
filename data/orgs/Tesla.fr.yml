@@ -1,0 +1,12 @@
+name: Tesla
+address: |-
+  Tesla Switzerland GmbH
+  Zählerweg 6
+  6300 Zug
+types:
+  - mobility
+sources:
+  address: https://www.tesla.com/fr_ch/legal/privacy
+  privacyStatement:
+    - https://www.tesla.com/fr_ch/legal/privacy
+    - https://www.tesla.com/fr_ch/legal

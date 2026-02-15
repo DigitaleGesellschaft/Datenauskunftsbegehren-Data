@@ -1,0 +1,11 @@
+name: Toyota
+address: |-
+  Toyota AG
+  Schürmattstrasse
+  5745 Safenwil
+types:
+  - mobility
+sources:
+  address: https://fr.toyota.ch/legal/privacy-policy
+  privacyStatement:
+    - https://fr.toyota.ch/legal/privacy-policy

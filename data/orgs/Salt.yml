@@ -12,14 +12,16 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: Mai 2021
+    privacyStatementDate: November 2025
   bullets:
     - Kontakt- und Identifikationsdaten
     - Finanzdaten
     - die Nutzungsdaten
     - die Informationen über Produkte und Dienstleistungen, die ich bei ihnen gekauft haben
     - Informationen über den Besuch von Salt-Websites
-    - Fernmeldedaten nach dem Bundesgesetz über die Überwachung des Post- und Fernmeldewesens
+  # Hinweis: Die Erwähnung von Fernmeldedaten (Überwachungsgesetz) wird in den AGB
+  # nicht ausdrücklich genannt.
+    - Telekommunikations- und Nutzungsdaten (Fernmeldedaten nach dem Bundesgesetz über die Überwachung des Post- und Fernmeldewesens)
 sources:
   address: https://www.salt.ch/de/legal/privacy 
   privacyStatement: 

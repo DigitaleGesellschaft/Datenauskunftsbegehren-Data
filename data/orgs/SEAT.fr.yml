@@ -1,0 +1,13 @@
+name: SEAT
+address: |-
+  AMAG Group AG
+  Legal & Compliance
+  Protection des donnees
+  Alte Steinhauserstrasse 12
+  6330 Cham
+types:
+  - mobility
+sources:
+  address: https://www.amag-group.ch/fr/footer/declaration-de-protection-des-donnees.html
+  privacyStatement:
+    - https://www.amag-group.ch/fr/footer/declaration-de-protection-des-donnees.html

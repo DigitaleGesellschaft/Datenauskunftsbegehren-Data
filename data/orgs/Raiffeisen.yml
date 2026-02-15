@@ -10,10 +10,19 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: 1. Januar 2022 
+    privacyStatementDate: 1. Januar 2026
   bullets:
-    - Für den Abschluss und die Abwicklung unserer Verträge
+    - Für den Abschluss und die Abwicklung von Verträgen
     - Zur Erfüllung gesetzlicher Vorgaben
+    - Vermittlung von Produkten und Dienstleistungen Dritter
+    - Vermittlung von Produkten und Dienstleistungen Dritter
+    - Marktforschung, Produkteentwicklung und -verbesserung
+    - Kundenpflege und Marketing
+    - Kommunikation
+    - Sicherheit und Zutrittskontrollen
+    - Wahrung unserer Rechte
+    - Unternehmenstransaktionen
+    - Schulung und Ausbildung
     - text: Im berechtigten Interesse der Raiffeisen Gruppe oder Dritter
       bullets:
         - Marktfor­schung
@@ -23,7 +32,6 @@ privacyStatement:
         - Marketing
     - Mit der Einwilligung des Kunden
 sources:
-  address: https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/reglemente/de/datenschutzerklaerung.pdf
+  address: https://www.raiffeisen.ch/rch/de/ueber-uns/raiffeisen-gruppe/disclaimer-website.html 
   privacyStatement: 
-    - https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/reglemente/de/allgemeine-datenschutzerklaerung.pdf 
-    - http://raiffeisen.ch/rch/de/ueber-uns/raiffeisen-gruppe/disclaimer-website/datenschutzerklaerung-fuer-webseiten-und-apps.html#anchor-1-uberblick-und-geltungsbereich
+    - hhttps://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/reglemente/de/allgemeine-datenschutzerklaerung.pdf

@@ -10,7 +10,7 @@ privacyStatement:
     - 'Unter Personendaten sind insbesondere auch die folgenden Kategorien und
       Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen.'
   variables:
-    privacyStatementDate: Mai 2021
+    privacyStatementDate: Januar 2024 
   bullets:
     - Nutzung der Dienste und Produkte
     - Personendaten
@@ -27,3 +27,4 @@ sources:
     - https://www.yallo.ch/de/data-protection
     - https://www.yallo.ch/de/terms
     - https://www.yallo.ch/de/data-protection
+    - https://www.sunrise.ch/de/allgemein/data-request-form

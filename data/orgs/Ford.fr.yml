@@ -1,0 +1,12 @@
+name: Ford 
+address: |-
+  Ford Motor Company (Switzerland) SA
+  z.H. Kundenzentrum/Datenschutz
+  Geerenstrasse 10
+  8304 Wallisellen
+types:
+  - mobility
+sources:
+  address: https://www.fr.ford.ch/informations-utiles/protection-de-donnees-termes-et-conditions
+  privacyStatement:
+    - https://www.fr.ford.ch/informations-utiles/protection-de-donnees-termes-et-conditions

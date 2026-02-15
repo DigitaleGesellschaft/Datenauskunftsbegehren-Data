@@ -1,0 +1,32 @@
+name: Bank Julius Bär
+address: |-
+  Bank Julius Bär & Co. AG
+  Bahnhofstrasse 36
+  Postfach
+  8010 Zürich
+privacyStatement:
+  paragraphs:
+    - 'Par « données personnelles», on entend notamment les catégories et traitements
+      suivants relatifs à la personne énumérés dans la déclaration de
+      confidentialité de {string:privacyStatementDate} :'
+  variables:
+    privacyStatementDate: Novembre 2024
+  bullets:
+    - Données d'identité
+    - Données de légitimation
+    - Données d'authentification
+    - Données liées à l'exécution des obligations contractuelles
+    - Données de marketing et de vente
+    - Données de documentation
+    - Données comptables; informations sur le profil personnel et la situation financière
+    - Catégories particulières de données à caractère personnel telles que les données biométriques,
+      les informations sur les convictions religieuses, philosophiques ou politiques, les données de
+      santé et les condamnations pénales
+    - Données relatives à des tiers liés
+    - Données transmises ou collectées automatiquement lors de l'utilisation de sites web,
+      d'applications mobiles ou d'autres services électroniques
+    - Autres données comparables aux catégories mentionnées
+sources:
+  address: https://www.juliusbaer.com/fileadmin/legal/privacy-notices/datenschutzerklaerung-bank-julius-baer-co-ltd-de.pdf 
+  privacyStatement: 
+    - https://www.juliusbaer.com/fileadmin/legal/privacy-notices/datenschutzerklaerung-bank-julius-baer-co-ltd-de.pdf

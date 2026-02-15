@@ -1,0 +1,32 @@
+name: UBS
+address: |-
+  UBS Switzerland AG
+  Bahnhofstrasse 45
+  8001 Zürich
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: mai 2021
+  bullets:
+    - Informations personnelles
+    - Informations financieres
+    - Documents et informations pertinents sur le plan fiscal
+    - Informations professionnelles
+    - Mes connaissances et mon experience en matiere de placements
+    - Details de notre relation d affaires
+    - Enregistrements des appels telephoniques
+    - Details relatifs a l octroi de mandats
+    - Identifiants, par exemple numero de client ou de compte
+    - Donnees lors de l acces a notre site web
+    - 'Categories particulieres de donnees personnelles, par exemple donnees
+      biometriques, opinions ou appartenances politiques, informations de sante,
+      origine raciale ou ethnique, convictions religieuses ou philosophiques,
+      ainsi que des informations relatives a des condamnations penales ou infractions'
+sources:
+  address: https://www.ubs.com/global/fr/legal/privacy/switzerland/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/innergrid/col_1/linklist/link.1788737633.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvZ2xvYmFsL2xlZ2FsL2RvYy9wcml2YWN5LW5vdGljZS9jbGllbnQtcHJpdmFjeS1ub3RpY2UtZnItc3dpdHplcmxhbmQucGRm/client-privacy-notice-fr-switzerland.pdf
+  privacyStatement: 
+    - https://www.ubs.com/global/fr/legal/privacy/switzerland/_jcr_content/root/contentarea/mainpar/toplevelgrid/col_1/innergrid/col_1/linklist/link.1788737633.file/PS9jb250ZW50L2RhbS9hc3NldHMvY2MvZ2xvYmFsL2xlZ2FsL2RvYy9wcml2YWN5LW5vdGljZS9jbGllbnQtcHJpdmFjeS1ub3RpY2UtZnItc3dpdHplcmxhbmQucGRm/client-privacy-notice-fr-switzerland.pdf

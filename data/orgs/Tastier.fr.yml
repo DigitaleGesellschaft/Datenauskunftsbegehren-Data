@@ -1,0 +1,12 @@
+name: Tastier AG
+address: |-
+  Tastier AG
+  Aemtlerstrasse 16
+  8003 Zürich
+types:
+  - gastro
+sources:
+  address: https://www.tastier.ch/legal-fr/
+  privacyStatement: 
+    - https://www.tastier.ch/legal-fr/
+    - https://www.tastier.ch/dataprivacy-fr/

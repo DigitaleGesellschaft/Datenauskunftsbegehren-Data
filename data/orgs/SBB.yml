@@ -1,7 +1,7 @@
 name: SBB
 address: |-
   SBB AG
-  Datenschutzbeauftragter
+  Fachstelle Datenschutz
   Hilfikerstrasse 1
   3000 Bern 65
 types:
@@ -32,7 +32,11 @@ privacyStatement:
         - Daten für optimierte Websiteinhalte
         - Daten für die Marktforschung
         - Daten für die Verwaltung und Abmeldung der Dienste
+  # Hinweise:
+  # - Formular für Datenkorrekturen / Änderungen:
+  #   https://privacy.sbb.ch/webform/d8f340ef-178f-4257-9ea8-01744cfc5459/5ff77a4f-ba03-43a1-99ef-36fca01e829f
+  # - alternativ Kontakt über Datenschutzhinweis auf der DSE
 sources:
-  address: https://www.sbb.ch/de/meta/legallines/datenschutz.html
+  address: https://www.sbb.ch/de/meta/legallines/impressum.html?hidebanner=true 
   privacyStatement: 
     - https://www.sbb.ch/de/meta/legallines/datenschutz.html
