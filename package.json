@@ -9,7 +9,7 @@
     "export": "node ./tasks/export-schemas.js"
   },
   "dependencies": {
-    "yaml": "^2.3.1",
+    "yaml": "^2.8.3",
     "prettier": "^3.6.2",
     "vitest": "^3.2.4",
     "zod": "^4.0.5"
