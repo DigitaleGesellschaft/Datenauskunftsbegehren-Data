@@ -22,7 +22,7 @@ jobs:
           config-file: .github/workflows/yamlconfig
         continue-on-error: false
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         with:
           node-version: '18'
       - run: npm install
@@ -30,7 +30,7 @@ jobs:
       - name: Create Json
         run: npm run compile
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: data.json
           path: data.json

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "handle": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/variable_string"
+      }
+    }
+  },
+  "required": [
+    "handle",
+    "label"
+  ],
+  "additionalProperties": false,
+  "title": "Desire schema for a yml file",
+  "description": "Defines the handle to appear in the url, the label that appears on the landing page and the paragraphs to render for the letter",
+  "$defs": {
+    "variable_string": {
+      "type": "string",
+      "id": "variable_string",
+      "title": "Variable String",
+      "description": "A string that is used inside the letter that may contain variable placeholders. Variable placeholders must match: '/\\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[a-zA-Z-äöüß,. ]{0,})\\}/g'",
+      "examples": [
+        "Am {date:eventDate:Wann} habe ich von Ihnen ein Werbemail an die Adresse {email:eventEmail:E-Mail-Adresse} gesendet bekommen",
+        "Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien..."
+      ]
+    }
+  }
+}

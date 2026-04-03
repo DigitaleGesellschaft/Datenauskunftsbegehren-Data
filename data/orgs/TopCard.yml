@@ -6,8 +6,8 @@ address: |-
   Postfach
   8152 Glattbrugg 
 sources:
-  address: https://www.topcard.ch/de/impressum/ 
+  address: https://www.topcard.ch/de/impressum/
   privacyStatement: 
-    - https://www.topcard.ch/de/datenschutz/ 
+    - https://www.topcard.ch/de/datenschutz/
     - https://www.topcard.ch/de/nutzungsbedingungen/
 
