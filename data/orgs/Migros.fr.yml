@@ -14,11 +14,11 @@ privacyStatement:
       mentionnees dans votre declaration de protection des donnees du
       {string:privacyStatementDate}, notamment:'
   variables:
-  # Remarque:
-  # - pas clair si la date = date de publication ou usage interne
-  # - pas clairement visible sur la page liée
-  # - a verifier eventuellement
-  privacyStatementDate: mai 2020
+    # Remarque:
+    # - pas clair si la date = date de publication ou usage interne
+    # - pas clairement visible sur la page liée
+    # - a verifier eventuellement
+    privacyStatementDate: mai 2020
   bullets:
     - text: Finalites
       bullets:

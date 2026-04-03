@@ -14,11 +14,11 @@ privacyStatement:
       vom {string:privacyStatementDate} genannten Bearbeitungszwecken,
       namentlich:'
   variables:
-  # Hinweis:
-  # - unklar ob datum = veröffentlichungsdatum oder nur intern benutzt
-  # - auf der verlinkten seite nicht klar ersichtlich
-  # - ev. noch prüfen
-  privacyStatementDate: Mai 2020
+    # Hinweis:
+    # - unklar ob datum = veröffentlichungsdatum oder nur intern benutzt
+    # - auf der verlinkten seite nicht klar ersichtlich
+    # - ev. noch prüfen
+    privacyStatementDate: Mai 2020
   bullets:
     - text: Zwecke
       bullets:
