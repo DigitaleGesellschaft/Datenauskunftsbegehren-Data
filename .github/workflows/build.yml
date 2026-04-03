@@ -1,4 +1,4 @@
-name: Build data.json
+name: Build
 
 on:
   push:
@@ -9,25 +9,25 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [12.x]
 
     steps:
       - name: Check out code
-        uses: actions/checkout@main
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
       - name: Run yamllint
         uses: bewuethr/yamllint-action@v1
         with:
           config-file: .github/workflows/yamlconfig
-        continue-on-error: false
 
-      - uses: actions/setup-node@v6
-        with:
-          node-version: '18'
-      - run: npm install
+      - name: Install dependencies
+        run: npm install
 
-      - name: Create Json
+      - name: Build Json
         run: npm run compile
 
       - uses: actions/upload-artifact@v7
