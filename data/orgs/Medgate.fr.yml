@@ -5,7 +5,7 @@ address: |-
   4123 Allschwil
 types:
   - online
-#privacyStatement:
+# privacyStatement:
 #  paragraphs:
 sources:
   address: https://www.medgate.ch/fr-ch/impressum

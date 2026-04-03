@@ -1,3 +1,4 @@
+# Von Interdiscount übernommen?
 name: microspot.ch
 address: |-
   microspot.ch
@@ -7,8 +8,6 @@ types:
   - online
 sources:
   address: https://www.microspot.ch/fr/cms/unternehmen/impressum
-  privacyStatement: 
+  privacyStatement:
     - https://www.microspot.ch/fr/cms/unternehmen/agb
     - https://www.microspot.ch/fr/cms/unternehmen/datenschutz
-
-# Von Interdiscount übernommen?

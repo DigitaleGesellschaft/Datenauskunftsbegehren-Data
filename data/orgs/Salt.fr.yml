@@ -23,8 +23,8 @@ privacyStatement:
     - Données de télécommunication et d'utilisation (données de télécommunication
       au sens de la loi fédérale du 18 mars 2016 sur la surveillance de la correspondance
       par poste et télécommunication, LSCPT)
-  # Remarque: la mention explicite des données de télécommunication
-  # n'apparaît pas clairement dans les CG.
+# Remarque: la mention explicite des données de télécommunication
+# n'apparaît pas clairement dans les CG.
 sources:
   address: https://www.salt.ch/fr/legal/privacy
   privacyStatement: 

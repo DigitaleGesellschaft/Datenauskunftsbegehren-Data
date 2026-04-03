@@ -19,8 +19,8 @@ privacyStatement:
     - die Nutzungsdaten
     - die Informationen über Produkte und Dienstleistungen, die ich bei ihnen gekauft haben
     - Informationen über den Besuch von Salt-Websites
-  # Hinweis: Die Erwähnung von Fernmeldedaten (Überwachungsgesetz) wird in den AGB
-  # nicht ausdrücklich genannt.
+    # Hinweis: Die Erwähnung von Fernmeldedaten (Überwachungsgesetz) wird in den AGB
+    # nicht ausdrücklich genannt.
     - Telekommunikations- und Nutzungsdaten (Fernmeldedaten nach dem Bundesgesetz über die Überwachung des Post- und Fernmeldewesens)
 sources:
   address: https://www.salt.ch/de/legal/privacy 

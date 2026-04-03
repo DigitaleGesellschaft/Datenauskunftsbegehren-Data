@@ -1,14 +1,13 @@
+# Gesuchte Seiten nicht auf Französisch, obwohl die Seite auf Französisch verfügbar ist.
 name: Hofstetter Partners Direct AG
 address: |-
   Hofstetter Partners Direct AG
-  Zürcherstrasse 230 
+  Zürcherstrasse 230
   9014 St.Gallen
 types:
   - address
-sources:    
-  address: https://www.hofstetter-partners.ch/impressum/ 
+sources:
+  address: https://www.hofstetter-partners.ch/impressum/
   privacyStatement:
     - hhttps://www.hofstetter-partners.ch/impressum/
     - https://www.hofstetter-partners.ch/datenschutzerklaerung/
-
-# Gesuchte Seiten nicht auf Französisch, obwohl die Seite auf Französisch verfügbar ist.

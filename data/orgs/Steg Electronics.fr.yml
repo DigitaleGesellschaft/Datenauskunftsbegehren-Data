@@ -1,3 +1,4 @@
+# Keine französischsprachige Website gefunden
 name: STEG Electronics AG
 address: |-
   STEG Electronics AG
@@ -7,7 +8,5 @@ types:
   - online
 sources:
   address: https://www.steg-electronics.ch/de/content/steg-rechtliches-impressum
-  privacyStatement: 
+  privacyStatement:
     - https://www.steg-electronics.ch/de/content/steg-rechtliches-impressum
-
-# Keine französischsprachige Website gefunden

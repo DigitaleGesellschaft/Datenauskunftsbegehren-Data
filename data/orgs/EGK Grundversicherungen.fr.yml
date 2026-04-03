@@ -7,4 +7,4 @@ address: |-
 sources:
   address: https://www.egk.ch/fr/impressum
   privacyStatement: 
-    - https://krankenkassenversicherung.ch/datenschutz/ # Nur auf Deutsch
+    - https://krankenkassenversicherung.ch/datenschutz/  # Nur auf Deutsch

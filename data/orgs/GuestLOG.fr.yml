@@ -1,3 +1,4 @@
+# Nicht auf Französisch
 name: GuestLOG (Inaffect AG)
 address: |-
   Inaffect AG
@@ -6,8 +7,6 @@ address: |-
 types:
   - gastro
 sources:
-  address: https://www.inaffect.net/de/impressum 
-  privacyStatement: 
-    - https://www.inaffect.net/de/datenschutz 
-
-# Nicht auf Französisch
+  address: https://www.inaffect.net/de/impressum
+  privacyStatement:
+    - https://www.inaffect.net/de/datenschutz

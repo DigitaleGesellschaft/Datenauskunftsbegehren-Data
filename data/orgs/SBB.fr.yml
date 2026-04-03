@@ -33,10 +33,10 @@ privacyStatement:
         - Donnees pour des contenus web optimises
         - Donnees pour les etudes de marche
         - Donnees pour la gestion et la desinscription des services
-  # Remarques:
-  # - Formulaire pour correction / modification des donnees:
-  #   https://privacy.sbb.ch/webform/d8f340ef-178f-4257-9ea8-01744cfc5459/5ff77a4f-ba03-43a1-99ef-36fca01e829f
-  # - sinon contact via la notice de protection des donnees
+# Remarques:
+# - Formulaire pour correction / modification des donnees:
+#   https://privacy.sbb.ch/webform/d8f340ef-178f-4257-9ea8-01744cfc5459/5ff77a4f-ba03-43a1-99ef-36fca01e829f
+# - sinon contact via la notice de protection des donnees
 sources:
   address: https://www.sbb.ch/fr/meta/legallines/impressum.html
   privacyStatement: 

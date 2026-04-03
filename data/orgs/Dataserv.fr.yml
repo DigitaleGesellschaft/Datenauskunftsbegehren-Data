@@ -1,3 +1,4 @@
+# Gibt es überhaupt eine frazösische Seite?
 name: Dataserv AG
 address: |-
   Dataserv AG
@@ -7,7 +8,5 @@ types:
   - address
 sources:
   address: https://www.werbeversand.ch/impressum
-  privacyStatement: 
+  privacyStatement:
     - https://www.werbeversand.ch/datenschutz
-
-# Gibt es überhaupt eine frazösische Seite?

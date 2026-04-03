@@ -1,3 +1,4 @@
+# Existiert nicht mehr
 name: Byjuno
 address: |-
   Byjuno AG
@@ -12,7 +13,5 @@ privacyStatement:
     - 'Ersucht wird ausdrücklich eine vollständige Datenauskunft, worunter auch Angaben über mögliche Verknüpfungen im Sinne von «negativen Haushaltstreffern»  (siehe Empfehlung des Eidgenössischen Öffentlichkeits- und Datenschutzbeauftragten vom 17. März 2023 mit Ergänzungen vom 3. Mai 2023) sowie die Erläuterung zur Bonitätsprüfung fallen.'
 sources:
   address: https://byjuno.ch/de/dataprotection
-  privacyStatement: 
+  privacyStatement:
     - https://byjuno.ch/de/dataprotection
-
-# Existiert nicht mehr
