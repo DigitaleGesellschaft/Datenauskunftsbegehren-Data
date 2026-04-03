@@ -1,0 +1,26 @@
+name: Zürcher Kantonalbank ZKB
+address: |-
+  Zürcher Kantonalbank
+  Sitz Zürich
+  Bahnhofstrasse 9
+  8001 Zürich
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: juin 2024
+  bullets:
+    - Donnees de base et d inventaire
+    - Documents et informations pertinents sur le plan fiscal
+    - Donnees de transaction, d ordres et de gestion des risques
+    - Donnees personnelles particulierement sensibles
+    - Enregistrements des appels telephoniques
+    - Donnees marketing, par ex. besoins, souhaits et preferences
+    - Donnees techniques
+sources:
+  address: https://www.zkb.ch/fr/informations-juridiques/protection-donnees.html
+  privacyStatement: 
+    - https://www.zkb.ch/fr/informations-juridiques/protection-donnees.html

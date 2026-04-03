@@ -1,0 +1,16 @@
+name: Walter Schmid AG
+address: |-
+  Walter Schmid AG
+  Auenstrasse 10
+  8600 Dübendorf
+types:
+  - address
+sources:
+  address: https://www.wsag-fundraising.ch/impressum
+  privacyStatement: 
+    - https://www.wsag-fundraising.ch/datenschutz
+    - https://www.wsag-fundraising.ch/impressum
+history:
+  - action: removed
+    date: '2021-06-05T00:00:00.000Z'
+    reason: Die Walter Schmid AG verfügt über keine eigenen Adresslisten.

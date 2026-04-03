@@ -10,7 +10,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: 17. Februar 2022
+    privacyStatementDate: 19 November 2025
   bullets:
     - Persönliche Angaben und andere Registrierungsdaten
     - technische Daten

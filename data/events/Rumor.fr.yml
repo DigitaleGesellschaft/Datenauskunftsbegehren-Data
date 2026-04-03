@@ -1,0 +1,4 @@
+handle: rumor
+label: J'ai entendu que… 
+paragraphs:
+  - Des données personelles sont traitées en lien avec {string:eventSummary:Angelegenheit oder Datensammlung angeben}. 

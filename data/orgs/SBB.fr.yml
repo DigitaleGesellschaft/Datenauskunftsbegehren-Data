@@ -1,0 +1,43 @@
+name: SBB
+address: |-
+  SBB AG
+  Fachstelle Datenschutz
+  Hilfikerstrasse 1
+  3000 Bern 65
+types:
+  - wlan
+  - online
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: octobre 2020
+  bullets:
+    - text: Types de donnees
+      bullets:
+        - Donnees lors de l achat de prestations
+        - Donnees lors de l utilisation de la boutique SBB
+        - Donnees lors de l utilisation des sites web
+        - Donnees lors de l utilisation du compte client SwissPass
+        - Donnees lors de la prise de contact
+        - Donnees lors de l utilisation du SBB WiFi
+        - Donnees lors de l utilisation de l offre de carsharing
+    - text: Donnees pour la publicite et le marketing
+      bullets:
+        - Donnees pour les activites marketing
+        - Donnees pour la newsletter par e-mail
+        - Donnees pour les annonces publicitaires sur les sites web et les applications
+        - Donnees pour des contenus web optimises
+        - Donnees pour les etudes de marche
+        - Donnees pour la gestion et la desinscription des services
+# Remarques:
+# - Formulaire pour correction / modification des donnees:
+#   https://privacy.sbb.ch/webform/d8f340ef-178f-4257-9ea8-01744cfc5459/5ff77a4f-ba03-43a1-99ef-36fca01e829f
+# - sinon contact via la notice de protection des donnees
+sources:
+  address: https://www.sbb.ch/fr/meta/legallines/impressum.html
+  privacyStatement: 
+    - https://www.sbb.ch/fr/meta/legallines/protection-des-donnees.html

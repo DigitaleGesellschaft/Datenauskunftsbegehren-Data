@@ -1,0 +1,29 @@
+name: Sunrise UPC GmbH (Yallo)
+address: |
+  Thurgauerstrasse 101B
+  Postfach
+  8050 Zürich
+types:
+  - mobile
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes ainsi que les traitements de donnees relatifs a la personne
+      et a l activite client:'
+  variables:
+    privacyStatementDate: mai 2021
+  bullets:
+    - Utilisation des services et des produits
+    - Donnees personnelles
+    - Donnees de localisation
+    - Donnees d utilisation
+    - Exploitation des applications
+    - Achat en ligne
+    - Inscription a la newsletter
+    - Utilisation du chat et des messageries
+    - Jeux-concours
+sources:
+  address: https://www.yallo.ch/fr/data-protection
+  privacyStatement:
+    - https://www.yallo.ch/fr/data-protection
+    - https://www.yallo.ch/fr/terms

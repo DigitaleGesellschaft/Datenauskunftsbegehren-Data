@@ -1,0 +1,26 @@
+name: Supercard (Coop)
+address: |-
+  Coop Supercard
+  Kundendienst
+  Postfach 160
+  4132 Muttenz
+types:
+  - payback
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: 29 fevrier 2024
+  bullets:
+    - text: Profil client
+      bullets:
+        - Donnees de contact
+        - Donnees d achat
+        - Donnees issues de l acces aux canaux numeriques
+sources:
+  address: https://www.supercard.ch/fr/die-supercard/agb.html
+  privacyStatement: 
+    - https://www.supercard.ch/fr/die-supercard/agb.html

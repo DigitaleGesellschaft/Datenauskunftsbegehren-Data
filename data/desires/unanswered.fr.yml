@@ -1,0 +1,4 @@
+handle: unanswered
+label: Je n'ai pas reçu de réponse 
+paragraphs:
+  - J'ai requis le {date:dataInfoRequestDate:Datum der Anfrage} un accès à mes données personelles, sans recevoir de réponse. 

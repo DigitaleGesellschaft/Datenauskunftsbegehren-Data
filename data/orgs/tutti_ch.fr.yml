@@ -1,0 +1,14 @@
+name: tutti.ch
+address: |-
+  tutti.ch
+  TX Markets AG
+  Werdstrasse 21
+  Postfach
+  8021 Zürich
+types:
+  - online
+sources:
+  address: https://www.tutti.help/hc/fr/articles/360033254171-Contactez-tutti-ch
+  privacyStatement: 
+    - https://www.tutti.help/hc/fr/articles/115003446928-D%C3%A9claration-de-protection-des-donn%C3%A9es-SMG-Swiss-Marketplace-Group-SA
+    - https://www.tutti.help/hc/fr/articles/115003331547-Conditions-d-utilisation
