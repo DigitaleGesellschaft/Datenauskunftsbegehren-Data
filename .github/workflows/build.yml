@@ -32,5 +32,8 @@ jobs:
 
       - uses: actions/upload-artifact@v7
         with:
-          name: data.json
-          path: data.json
+          name: data
+          path: |
+            data.json
+            data_de.json
+            data_fr.json

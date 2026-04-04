@@ -1,0 +1,13 @@
+name: Digitec Galaxus AG
+address: |-
+  Digitec Galaxus AG
+  Pfingstweidstrasse 60b
+  8005 Zürich 
+types:
+  - online
+sources:
+  address: https://www.digitec.ch/fr/wiki/6012
+  privacyStatement: 
+    - https://www.digitec.ch/fr/wiki/2791
+    - https://www.digitec.ch/fr/wiki/479
+    - https://www.digitec.ch/fr/wiki/478

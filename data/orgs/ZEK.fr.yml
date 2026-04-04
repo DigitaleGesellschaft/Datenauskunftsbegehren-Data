@@ -1,0 +1,11 @@
+name: ZEK
+address: |-
+  Zentralstelle für Kreditinformation (ZEK)
+  Postfach
+  8048 Zürich
+types:
+  - credit
+sources:
+  address: https://www.zek.ch/fr-ch/a-propos-de-nous/contact
+  privacyStatement: 
+    - https://www.zek.ch/fr-ch/kredit-leasingnehmer/datenschutz

@@ -1,0 +1,12 @@
+name: Swisscard AECS
+address: |-
+  Swisscard AECS GmbH
+  Protection des donnees
+  Neugasse 18
+  Postfach
+  8810 Horgen
+sources:
+  address: https://www.swisscard.ch/fr/conditions-et-informations-juridiques
+  privacyStatement: 
+    - https://www.swisscard.ch/fr/en-ligne-declaration-protection-des-donnees
+    - https://www.swisscard.ch/fr/conditions-et-informations-juridiques#protection-des-donnees

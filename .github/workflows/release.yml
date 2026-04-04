@@ -68,12 +68,14 @@ jobs:
       - name: 🛠️ Projekt kompilieren
         run: npm run compile
 
-      - name: 🔍 Prüfen, ob data.json existiert
+      - name: 🔍 Prüfen, ob alle JSON-Dateien existieren
         run: |
-          if [ ! -f "data.json" ]; then
-            echo "❌ data.json wurde nicht gefunden!"
-            exit 1
-          fi
+          for f in data.json data_de.json data_fr.json; do
+            if [ ! -f "$f" ]; then
+              echo "❌ $f wurde nicht gefunden!"
+              exit 1
+            fi
+          done
 
       # jq installieren
       - name: 🧰 jq installieren
@@ -109,10 +111,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 📎 Datei data.json anhängen
+      - name: 📎 JSON-Dateien anhängen
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.semver.outputs.version }}
-          files: data.json
+          files: |
+            data.json
+            data_de.json
+            data_fr.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

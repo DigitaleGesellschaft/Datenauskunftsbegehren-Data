@@ -1,0 +1,11 @@
+name: Concordia
+address: |-
+  CONCORDIA Kranken und Unfallversicherung AG
+  Bundesplatz 15
+  6002 Luzern
+sources:
+  address: https://www.concordia.ch/fr/impressum.html
+  privacyStatement: 
+    - https://www.concordia.ch/fr/impressum.html
+    - https://www.concordia.ch/fr/datenschutz.html
+    - https://www.concordia.ch/fr/ueber-uns/ueber-concordia/verhaltensgrundsaetze.html

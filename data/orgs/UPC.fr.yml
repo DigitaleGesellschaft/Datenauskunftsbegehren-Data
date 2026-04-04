@@ -1,0 +1,27 @@
+name: UPC
+address: |-
+  UPC Schweiz GmbH
+  Postfach
+  8021 Zürich
+types:
+  - mobile
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: fevrier 2016
+  bullets:
+    - Donnees de contact
+    - Donnees de compte
+    - Donnees de service
+    - Informations generales d utilisation
+    - Donnees d utilisation
+    - Donnees relatives aux contenus locaux
+    - Autres donnees personnelles
+sources:
+  address: https://www.sunrise.ch/fr/general/mentions-legales
+  privacyStatement: 
+    - https://www.sunrise.ch/fr/general/mentions-legales/protection-des-donnees

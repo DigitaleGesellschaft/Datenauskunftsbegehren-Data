@@ -1,0 +1,10 @@
+name: Suva
+address: |-
+  Suva
+  Generalsekretariat
+  Fluhmattstrasse 1
+  6002 Luzern
+sources:
+  address: https://www.suva.ch/fr-ch/generalites/directive-sur-la-protection-des-donnees
+  privacyStatement: 
+    - https://www.suva.ch/fr-ch/generalites/directive-sur-la-protection-des-donnees

@@ -1,0 +1,31 @@
+name: M-Budget Mobile (Swisscom)
+address: |-
+  M-Budget Mobile (Swisscom)
+  Contact Center
+  3050 Bern
+types:
+  - mobile
+privacyStatement:
+  paragraphs:
+    - 'Par données personnelles, il faut entendre en particulier les catégories suivantes
+      mentionnées dans votre déclaration de protection des données du {string:privacyStatementDate},
+      ainsi que les traitements de données relatifs à la personne et à l''activité client:'
+  variables:
+    privacyStatementDate: janvier 2019 (Swisscom)
+  bullets:
+    - Traitement des données pour la fourniture des prestations et l'exécution des contrats
+    - Traitement des données issues du trafic de télécommunication
+    - text: Traitements de données à des fins marketing par Swisscom
+      bullets:
+        - Données personnelles
+        - Données de contact et d'identification
+        - Communications adressées à Swisscom
+        - Données contractuelles
+        - Données d'utilisation
+        - Données de connexion
+sources:
+  address: https://shop.m-budget.migros.ch/fr/impressum
+  privacyStatement: 
+    - https://www.swisscom.ch/fr/clients-prives/precisions-juridiques/protection-des-donnees.html
+    - https://shop.m-budget.migros.ch/fr/protection-donnees
+    - https://shop.m-budget.migros.ch/fr/informations-juridiques

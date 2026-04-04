@@ -1,0 +1,39 @@
+name: Raiffeisen Schweiz
+address: |-
+  Raiffeisen Schweiz
+  Datenschutzbeauftragter
+  Raiffeisenplatz 4
+  9001 St. Gallen
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: 1 janvier 2026
+  bullets:
+    - Conclusion et execution des contrats
+    - Respect des exigences legales
+    - Intermediation de produits et de prestations de tiers
+    - Intermediation de produits et de prestations de tiers
+    - Etudes de marche, developpement et amelioration des produits
+    - Relation client et marketing
+    - Communication
+    - Securite et controles d acces
+    - Protection de nos droits
+    - Transactions d entreprise
+    - Formation et perfectionnement
+    - text: Dans l interet legitime du Groupe Raiffeisen ou de tiers
+      bullets:
+        - Etudes de marche
+        - Developpement de produits
+        - Conception et pilotage de produits, de services et d offres
+        - Publicite
+        - Marketing
+    - Avec le consentement du client
+sources:
+  address: https://www.raiffeisen.ch/rch/fr/qui-sommes-nous/groupe-raiffeisen/disclaimer-website-f.html
+  privacyStatement: 
+    - https://www.raiffeisen.ch/rch/fr/qui-sommes-nous/groupe-raiffeisen/disclaimer-website-f/declaration-de-protection-des-donnees-internet-et-apps.html
+    - https://www.raiffeisen.ch/content/dam/www/rch/pdf/raiffeisen-gruppe/reglemente/fr/politique-generale-de-confidentialite.pdf

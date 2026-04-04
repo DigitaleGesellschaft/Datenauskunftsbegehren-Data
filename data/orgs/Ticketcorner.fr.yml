@@ -1,0 +1,14 @@
+name: Ticketcorner AG
+address: |-
+  Ticketcorner AG
+  Riedmatt-Center
+  CH-8153 Rümlang
+types:
+  - online
+sources:
+  address: https://www.ticketcorner.ch/fr/help/imprint/
+  privacyStatement: 
+    - https://www.ticketcorner.ch/fr/help/data-protection/
+    - https://www.ticketcorner.ch/fr/help/club-terms/
+    - https://www.ticketcorner.ch/fr/help/terms/?affiliate=TCS
+    - https://www.ticketcorner.ch/fr/help/terms/

@@ -1,0 +1,16 @@
+name: Byjuno
+address: |-
+  Byjuno AG
+  Datenschutzbeauftragter
+  Industriestrasse 13c
+  6300 Zug
+types:
+  - credit
+  - payback
+privacyStatement:
+  paragraphs:
+    - 'Il est expressément demandé de fournir un accès complet aux données, y compris les informations relatives à d''éventuels recoupements de type «correspondances négatives au niveau du ménage» (voir la recommandation du Préposé fédéral à la transparence et à la protection des données du 17 mars 2023, complétée le 3 mai 2023), ainsi que les explications concernant le contrôle de solvabilité.'
+sources:
+  address: https://byjuno.ch/de/dataprotection
+  privacyStatement: 
+    - https://byjuno.ch/de/dataprotection

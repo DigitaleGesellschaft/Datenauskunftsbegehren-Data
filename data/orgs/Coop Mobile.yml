@@ -17,13 +17,12 @@ privacyStatement:
     - Bearbeitung von Daten aus dem Fernmeldeverkehr
     - text: Datenbearbeitungen zu Marketingzwecken von Swisscom
       bullets:
-        - Identifikations- und Kontaktdaten
-        - Vertrags- und Abonnementsdaten
-        - Kundenaktivitätsdaten
-        - Online-Daten
-        - Bildung von Kundensegmenten und -profilen
-    - Bereitstellung von Daten für Werbevermarktung Dritter
-    - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
+        - Persönliche Angaben
+        - Kontakt und Identifikationsdaten
+        - Mitteilungen an Swisscom
+        - Vertragsdaten
+        - Nutzungsdaten
+        - Verbindungsdaten
 sources:
   address: https://www.coopmobile.ch/de/datenschutz
   privacyStatement: 

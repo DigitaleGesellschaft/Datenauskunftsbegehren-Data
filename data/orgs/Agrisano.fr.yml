@@ -1,0 +1,10 @@
+name: Agrisano
+address: |-
+  Agrisano
+  Conseiller en protection des données
+  Laurstrasse 10
+  5201 Brugg AG
+sources:
+  address: https://www.agrisano.ch/de/impressum/
+  privacyStatement: 
+    - https://www.agrisano.ch/de/datenschutz 

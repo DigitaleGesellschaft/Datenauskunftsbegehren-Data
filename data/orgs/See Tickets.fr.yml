@@ -1,0 +1,12 @@
+name: See Tickets AG (Starticket)
+address: |-
+  See Tickets AG
+  Thurgauerstrasse 80
+  CH-8050 Zürich
+types:
+  - online
+sources:
+  address: https://customer-support.seetickets.ch/portal/fr/kb/articles/mentions-l%C3%A9gales
+  privacyStatement: 
+    - https://customer-support.seetickets.ch/portal/fr/kb/articles/protectiondonn%C3%A9es
+    - https://customer-support.seetickets.ch/portal/fr/kb/articles/cgv

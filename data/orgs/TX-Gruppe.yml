@@ -12,7 +12,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: Januar 2020
+    privacyStatementDate: Juni 2023 
   bullets:
     - Besuch der Portale
     - Registrierung eines Benutzerkontos

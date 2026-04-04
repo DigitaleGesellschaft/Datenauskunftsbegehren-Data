@@ -1,0 +1,32 @@
+name: Wingo (Swisscom)
+address: |-
+  Swisscom (Schweiz) AG
+  Alte Tiefenaustrasse 6
+  3050 Bern
+types:
+  - mobile
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: octobre 2025 (Swisscom)
+  bullets:
+    - Traitement des donnees pour la fourniture des prestations et l execution des contrats
+    - Traitement des donnees issues du trafic de telecommunications
+    - text: Traitements de donnees a des fins marketing par Swisscom
+      bullets:
+        - Donnees d identification et de contact
+        - Donnees contractuelles et d abonnement
+        - Donnees d activite client
+        - Donnees en ligne
+        - Creation de segments et de profils clients
+    - Mise a disposition de donnees pour la commercialisation publicitaire de tiers
+    - Collecte et transmission d informations issues d analyses de donnees (Smart Data)
+sources:
+  address: https://www.wingo.ch/fr/impressum
+  privacyStatement: 
+    - https://www.wingo.ch/fr/protection-des-donnees
+    - https://www.swisscom.ch/content/dam/swisscom/nl/rechtliches/res/datenschutzbestimmungen-fr-10-2025.pdf

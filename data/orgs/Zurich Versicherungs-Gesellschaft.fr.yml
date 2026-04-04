@@ -1,0 +1,10 @@
+name: Zürich Versicherungs-Gesellschaft
+address: |-
+  Zürich Versicherungs-Gesellschaft AG
+  Protection des donnees
+  Postfach
+  CH 8085 Zürich
+sources:
+  address: https://www.zurich.ch/fr/protection-des-donnees
+  privacyStatement: 
+    - https://www.zurich.ch/fr/protection-des-donnees

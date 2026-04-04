@@ -1,0 +1,4 @@
+handle: desire_template
+label: Je souhaite traiter <follow up topic>
+paragraphs:
+  - Je vous ai adressé une requête en accès à mes données personnelles en date du {date:eventDate:Wann}. Votre réponse m'est parvenue le {date:eventDate:Dann}.

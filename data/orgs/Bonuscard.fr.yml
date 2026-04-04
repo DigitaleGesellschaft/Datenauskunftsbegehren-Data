@@ -1,0 +1,10 @@
+name: BonusCard (Cornèr Bank)
+address: |-
+  Cornèr Bank AG
+  Zweigniederlassung BonusCard (Zürich)
+  Postfach
+  8021 Zürich
+sources:
+  address: https://www.bonuscard.ch/de/legales/datenschutzerklarung/ 
+  privacyStatement: 
+    - https://www.bonuscard.ch/de/legales/datenschutzerklarung/ 

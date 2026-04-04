@@ -1,0 +1,12 @@
+name: Globus
+address: |-
+  Magazine zum Globus AG
+  Lintheschergasse 7
+  8001 Zürich
+types:
+  - payback
+sources:
+  address: https://www.globus.ch/fr/meta/datenschutz/v2-0
+  privacyStatement: 
+    - https://www.globus.ch/fr/meta/datenschutz/v2-0
+    - https://www.globus.ch/fr/meta/cgv
