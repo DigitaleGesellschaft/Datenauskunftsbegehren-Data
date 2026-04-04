@@ -1,0 +1,12 @@
+name: IKO
+address: |-
+  IKO Verein zur Führung einer Informationsstelle für Konsumkredit
+  Postfach
+  8048 Zürich
+types:
+  - credit
+sources:
+  address: https://www.iko-info.ch/fr-ch/a-propos-de-nous/contact
+  privacyStatement:
+    - https://www.iko-info.ch/fr-ch/preneurs-de-credit-et-de-leasing/protection-des-donnees
+    - https://www.iko-info.ch/fr-ch/a-propos-de-nous/bases-legales

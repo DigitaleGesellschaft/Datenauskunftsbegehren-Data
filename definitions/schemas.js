@@ -12,7 +12,7 @@ export const dateStringSchema = z.string().refine(
 
 // models/Paragraph.js
 export const variableRegExp =
-  /\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[a-zA-Z-äöüß,. ]{0,})\}/g;
+  /\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[^{}:]*)\}/g;
 
 const UniqueString = z.string().register(z.globalRegistry, {
   id: "unique_string",

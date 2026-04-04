@@ -1,0 +1,29 @@
+name: Postfinance
+address: |-
+  PostFinance AG
+  Datenschutzbeauftragte(r)
+  Mingerstrasse 20
+  3030 Bern
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut notamment entendre les categories
+      suivantes mentionnées dans votre déclaration de protection des données
+      du {string:privacyStatementDate}, ainsi que les traitements de données
+      relatifs à la personne et à l activite client:'
+  variables:
+    privacyStatementDate: mai 2021
+  bullets:
+    - text: Finalites des traitements
+      bullets:
+        - Mise a disposition et optimisation du site web, ainsi que maintien de sa securite et de sa stabilite
+        - Processus operationnels et strategiques
+        - Respect des obligations legales
+        - Contenus et offres cibles et personnalises
+        - Prise de contact dans l espace public du site web et newsletter
+        - Communication avec chatbot et voicebot
+        - Communication par e-mail en particulier
+sources:
+  address: https://www.postfinance.ch/fr/detail/data.html
+  privacyStatement: 
+    - https://www.postfinance.ch/fr/detail/data.html
+    - https://www.postfinance.ch/fr/detail/protection-des-donnees.html

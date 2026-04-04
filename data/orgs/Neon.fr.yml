@@ -1,0 +1,10 @@
+name: neon Switzerland AG
+address: |-
+  neon Switzerland AG
+  Badenerstrasse 557
+  8048 Zürich
+sources:
+  address: https://www.neon-free.ch/en/rechtliches/imprint
+  privacyStatement: 
+    - https://static-assets.neon-free.ch/legal/neon/neon_website_privacy_policy_EN.pdf
+    - https://static-assets.neon-free.ch/legal/neon/neon_app_privacy_policy_fr.pdf

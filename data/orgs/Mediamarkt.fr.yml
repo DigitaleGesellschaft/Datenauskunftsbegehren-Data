@@ -1,0 +1,15 @@
+name: Media Markt Schweiz AG
+address: |-
+  Media Markt Schweiz AG
+  Allmendstrasse 23
+  CH-8953 Dietikon
+types:
+  - online
+  - payback
+sources:
+  address: https://www.mediamarkt.ch/fr/legal/mentions-legales
+  privacyStatement: 
+    - https://www.mediamarkt.ch/fr/legal/conditions-d-utilisation
+    - https://www.mediamarkt.ch/fr/legal/protection-des-donnees
+    - https://www.mediamarkt.ch/fr/legal/cg
+    - https://www.mediamarkt.ch/fr/legal/cg/trade-in

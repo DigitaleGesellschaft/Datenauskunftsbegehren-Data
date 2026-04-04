@@ -1,0 +1,27 @@
+name: NZZ
+address: |-
+  NZZ-Mediengruppe
+  Generalsekretariat / Datenschutzverantwortlicher
+  Falkenstrasse 11
+  8008 Zürich
+types:
+  - online
+privacyStatement:
+  paragraphs:
+    - 'Par données personnelles, il faut entendre en particulier les catégories suivantes
+      mentionnées dans votre déclaration de protection des données du {string:privacyStatementDate},
+      ainsi que les traitements de données relatifs à la personne et à l''activité client:'
+  variables:
+    privacyStatementDate: 11 juin 2025
+  bullets:
+    - Données de contact et d'identification
+    - Données contractuelles
+    - Données de communication et de contenu
+    - Données marketing
+    - Métadonnées/données d'utilisation et autres données techniques (p. ex. adresse IP, adresse MAC du smartphone ou de l'ordinateur, informations sur votre appareil et vos paramètres, cookies)
+sources:
+  address: https://www.nzz.ch/information/datenschutzerklaerung-ld.1388065
+  privacyStatement: 
+    - https://www.nzz.ch/information/datenschutzerklaerung-ld.1388065
+    - https://www.nzz.ch/information/agb-ld.137429
+    - https://unternehmen.nzz.ch/rechtliche-hinweise/

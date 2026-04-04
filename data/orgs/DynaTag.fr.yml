@@ -1,0 +1,12 @@
+# Keine frazösischspragige Seite
+name: DynaTag AG
+address: |-
+  DynaTag AG
+  Via Albaredo 59
+  6645 Brione s. Minusio
+types:
+  - gastro
+sources:
+  address: https://dynatag.com/27_Impressum_DE.php
+  privacyStatement:
+    - https://dynatag.com/26_Datenschutz_DE.php

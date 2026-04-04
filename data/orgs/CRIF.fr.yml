@@ -1,0 +1,11 @@
+name: CRIF
+address: |-
+  CRIF AG
+  Hagenholzstrasse 81
+  8050 Zürich
+types:
+  - credit
+sources:
+  address: https://www.crif.ch/fr/impressum/
+  privacyStatement: 
+    - https://www.crif.ch/fr/protection-des-donnees/

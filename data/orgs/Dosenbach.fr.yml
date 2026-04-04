@@ -1,0 +1,12 @@
+name: Dosenbach
+address: |-
+  Dosenbach-Ochsner AG
+  Allmendstrasse 25
+  8953 Dietikon
+types:
+  - online
+sources:
+  address: https://www.dosenbach.ch/fr-ch/impressum 
+  privacyStatement: 
+    - https://www.dosenbach.ch/fr-ch/privacypolicy 
+    - https://www.dosenbach.ch/fr-ch/termsandconditions 

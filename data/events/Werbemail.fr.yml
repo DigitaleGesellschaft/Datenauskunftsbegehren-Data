@@ -1,0 +1,4 @@
+handle: mailing
+label: J'ai reçu un e-mail publicitaire
+paragraphs:
+  - J'ai reçu le {date:eventDate:Wann} un email publicitaire de votre part sur l'adresse {email:eventEmail:E-Mail-Adresse}.

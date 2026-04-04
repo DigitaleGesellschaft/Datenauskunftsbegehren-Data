@@ -1,0 +1,12 @@
+name: Fust
+address: |-
+  Coop Genossenschaft
+  Thiersteinerallee 14
+  4053 Basel
+types:
+  - online
+sources:
+  address: https://www.fust.ch/fr/impressum 
+  privacyStatement: 
+    - https://www.coop.ch/fr/entreprise/protection-des-donnees/fust.html
+    - https://www.fust.ch/fr/footer/agb

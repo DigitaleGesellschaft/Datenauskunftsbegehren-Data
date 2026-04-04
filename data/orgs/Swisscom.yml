@@ -13,21 +13,21 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: Januar 2019
+    privacyStatementDate: Oktober 2025
   bullets:
     - Bearbeitung von Daten zur Leistungserbringung und Vertragsabwicklung
     - Bearbeitung von Daten aus dem Fernmeldeverkehr
     - text: Datenbearbeitungen zu Marketingzwecken von Swisscom
       bullets:
-        - Identifikations- und Kontaktdaten
-        - Vertrags- und Abonnementsdaten
-        - Kundenaktivitätsdaten
-        - Online-Daten
-        - Bildung von Kundensegmenten und -profilen
-    - Bereitstellung von Daten für Werbevermarktung Dritter
-    - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
+        - Persönliche Angaben
+        - Kontakt und Identifikationsdaten
+        - Mitteilungen an Swisscom
+        - Vertragsdaten
+        - Nutzungsdaten
+        - Verbindungsdaten
 sources:
-  address: https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html
+  address: https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz.html 
   privacyStatement: 
-    - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/online-datenschutz.html
-    - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz/allgemein-datenschutz-schweiz.html
+    - https://www.swisscom.ch/content/dam/swisscom/nl/rechtliches/res/datenschutzbestimmungen-de-10-2025.pdf 
+    - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz.html 
+    - https://www.swisscom.ch/de/privatkunden/rechtliches.html?srsltid=AfmBOor2QD9FOHwdlouyrp0qzfV9ngJjY3pd0cdeW06JZl986XBfqH99 
