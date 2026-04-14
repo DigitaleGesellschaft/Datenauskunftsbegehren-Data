@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "yaml": "^2.8.3",
-    "prettier": "^3.8.1",
+    "prettier": "^3.8.2",
     "vitest": "^4.1.4",
     "zod": "^4.3.6"
   },
