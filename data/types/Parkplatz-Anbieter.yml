@@ -1,0 +1,6 @@
+handle: parking
+label: Parkplatz-Anbieter
+serviceLabel: Parkplatz
+paragraphs:
+    - Unter Personendaten sind insbesondere auch die durch die Benutzung Ihrer Parkplätze aufgezeichnete Aktivität
+      durch mein Fahrzeug mit der amtlichen Kennzeichnung {string:nameOfVariable:VehicleRegNo} zu verstehen.
