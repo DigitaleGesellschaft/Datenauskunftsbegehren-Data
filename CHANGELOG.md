@@ -1,3 +1,5 @@
+## v1.0.0 – 2026-04-05
+
 - Dev tooling (#59)
 - Origin/translations (#49)
 - chore(deps): bump vitest from 3.2.4 to 4.1.2 (#57)

@@ -46,13 +46,24 @@ jobs:
         id: changelog
         run: |
           LAST_TAG="${{ steps.semver.outputs.last_tag }}"
+          NEW_VERSION="${{ steps.semver.outputs.version }}"
+          DATE=$(date +%Y-%m-%d)
+
           if [ "$LAST_TAG" = "v0.0.0" ]; then
             LOG=$(git log --pretty=format:"- %s")
           else
             LOG=$(git log "$LAST_TAG"..HEAD --pretty=format:"- %s")
           fi
 
-          echo "$LOG" > CHANGELOG.md
+          NEW_SECTION=$(printf '## %s – %s\n\n%s' "$NEW_VERSION" "$DATE" "$LOG")
+
+          if [ -f CHANGELOG.md ]; then
+            printf '%s\n\n' "$NEW_SECTION" | cat - CHANGELOG.md > CHANGELOG.tmp.md
+            mv CHANGELOG.tmp.md CHANGELOG.md
+          else
+            echo "$NEW_SECTION" > CHANGELOG.md
+          fi
+
           echo "changelog<<EOF" >> $GITHUB_OUTPUT
           echo "$LOG" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
