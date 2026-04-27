@@ -4,6 +4,12 @@ set -euo pipefail
 CMD="${1:-}"
 
 case "$CMD" in
+  yamllint)
+    docker run --rm -it \
+      -v "$(pwd)/../:/data" \
+      cytopia/yamllint \
+      -c /data/.github/workflows/yamlconfig /data
+    ;;
   build)
     docker run --rm -it \
       -v "$(pwd)/../:/app" \
@@ -26,7 +32,7 @@ case "$CMD" in
       sh -c "npm install && npm run lint-ci && npm run test"
     ;;
   *)
-    echo "Usage: $0 {build|test|lint}"
+    echo "Usage: $0 {yamllint|build|lint|test}"
     exit 1
     ;;
 esac
