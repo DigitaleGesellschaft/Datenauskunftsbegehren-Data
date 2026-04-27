@@ -1,3 +1,15 @@
+## v1.0.1 – 2026-04-27
+
+- feat: enhance changelog generation to include versions and dates (#68)
+- feat: allow running yamllint from docker (#67)
+- chore(deps): bump prettier from 3.8.2 to 3.8.3 (#65)
+- chore(deps): bump vitest from 4.1.4 to 4.1.5 (#66)
+- Textvorlage fuer Datenherausgabe hinzugefuegt (#48), ueberzaehliges Anfuehrungszeichen entfernt
+- chore(deps): bump prettier from 3.8.1 to 3.8.2 (#64)
+- chore(deps): bump softprops/action-gh-release from 2 to 3 (#62)
+- chore(deps): bump vitest from 4.1.3 to 4.1.4 (#63)
+- chore(deps): bump vitest from 4.1.2 to 4.1.3 (#61)
+
 ## v1.0.0 – 2026-04-05
 
 - Dev tooling (#59)
