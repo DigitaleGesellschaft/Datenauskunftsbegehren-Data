@@ -6,6 +6,6 @@ address: |-
 types:
   - mobility
 sources:
-  address: https://www.kia.ch/datenschutz/
+  address: https://www.kia.ch/datenschutz
   privacyStatement:
-    - https://www.kia.ch/datenschutz/
+    - https://www.kia.ch/datenschutz

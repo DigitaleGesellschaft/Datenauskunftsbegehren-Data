@@ -9,4 +9,4 @@ sources:
   address: https://www.publibike.ch/fr/impressum
   privacyStatement: 
     - https://www.publibike.ch/fr/agb
-    - https://www.publibike.ch/fr/protection-des-donnees
+    - https://www.publibike.ch/fr/protection-donnees

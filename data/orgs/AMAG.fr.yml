@@ -10,6 +10,6 @@ types:
   - mobility
 
 sources:
-  address: https://www.amag-group.ch/de/footer/datenschutzerklaerung.html
+  address: https://www.amag-group.ch/fr/footer/datenschutzerklaerung.html
   privacyStatement:
-    - https://www.amag-group.ch/de/footer/datenschutzerklaerung.html
+    - https://www.amag-group.ch/fr/footer/datenschutzerklaerung.html

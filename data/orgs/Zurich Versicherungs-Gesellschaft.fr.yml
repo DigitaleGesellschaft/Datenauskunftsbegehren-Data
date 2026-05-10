@@ -1,10 +1,11 @@
 name: Zürich Versicherungs-Gesellschaft
 address: |-
-  Zürich Versicherungs-Gesellschaft AG
-  Protection des donnees
+  Zurich Compagnie d'Assurances SA
+  Protection des données
+  Mythenquai 2
   Postfach
-  CH 8085 Zürich
+  8085 Zürich
 sources:
-  address: https://www.zurich.ch/fr/protection-des-donnees
+  address: https://www.zurich.ch/fr/impressum
   privacyStatement: 
-    - https://www.zurich.ch/fr/protection-des-donnees
+    - https://www.zurich.ch/fr/a-notre-propos/protection-des-donnees
