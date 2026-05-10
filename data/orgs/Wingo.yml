@@ -25,7 +25,7 @@ privacyStatement:
     - Bereitstellung von Daten für Werbevermarktung Dritter
     - Gewinnung und Weitergabe von Informationen aus Datenanalysen (Smart Data)
 sources:
-  address: https://www.wingo.ch/de/impressum?_gl=1*1vtw3nr*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwpOfHBhAxEiwAm1SwEgQs-xaKa5IWhsTV2FvyAJ5Ja2GzBieeTeY0FcYoOie8GNC5jqN7PxoCzb0QAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADGaOxCAXCSUoArm82kqQE7Evjz9O 
+  address: https://www.wingo.ch/de/impressum
   privacyStatement: 
-    - https://www.wingo.ch/de/datenschutz?_gl=1*1vtw3nr*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwpOfHBhAxEiwAm1SwEgQs-xaKa5IWhsTV2FvyAJ5Ja2GzBieeTeY0FcYoOie8GNC5jqN7PxoCzb0QAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADGaOxCAXCSUoArm82kqQE7Evjz9O
+    - https://www.wingo.ch/de/datenschutz
     - https://www.swisscom.ch/content/dam/swisscom/nl/rechtliches/res/datenschutzbestimmungen-de-10-2025.pdf
