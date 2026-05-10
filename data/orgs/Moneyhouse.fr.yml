@@ -7,7 +7,7 @@ address: |-
 types:
   - credit
 sources:
-  address: https://moneyhouse.ch/fr/privacy
+  address: https://www.moneyhouse.ch/fr/privacy
   privacyStatement: 
-    - https://moneyhouse.ch/fr/privacy
-    - https://moneyhouse.ch/fr/terms
+    - https://www.moneyhouse.ch/fr/privacy
+    - https://www.moneyhouse.ch/fr/terms

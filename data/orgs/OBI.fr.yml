@@ -8,7 +8,7 @@ types:
   - payback
   - online
 sources:
-  address: https://www.obi.ch/fr/legal/disclaimer
+  address: https://www.obi.ch/fr/legal/mentions-legales
   privacyStatement: 
     - https://www.obi.ch/fr/legal/disclaimer
     - https://www.obi.ch/fr/legal/conditions-generales

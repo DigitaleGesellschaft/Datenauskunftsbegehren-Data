@@ -5,7 +5,7 @@ address: |-
   Postfach
   3001 Bern
 sources:
-  address: https://www.kpt.ch/de/pages/impressum
+  address: https://www.kpt.ch/fr/a-propos-de-nous/impressum
   privacyStatement: 
-    - https://www.kpt.ch/de/pages/datenschutzerklaerung
-    - https://www.kpt.ch/de/pages/disclaimer
+    - https://www.kpt.ch/fr/a-propos-de-nous/declaration-de-confidentialite
+    - https://www.kpt.ch/fr/a-propos-de-nous/mentions-legales

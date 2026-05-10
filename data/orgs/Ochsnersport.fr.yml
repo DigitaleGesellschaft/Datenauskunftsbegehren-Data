@@ -7,7 +7,7 @@ types:
   - online
   - payback
 sources:
-  address: https://www.ochsnersport.ch/fr/shop/cp/unternehmen/mentions-legales.html
+  address: https://www.ochsnersport.ch/fr-ch/mentions-legales
   privacyStatement: 
-    - https://www.ochsnersport.ch/fr/shop/cp/unternehmen/cgv.html
-    - https://www.ochsnersport.ch/fr/shop/cp/unternehmen/protection-des-donnes.html
+    - https://www.ochsnersport.ch/fr-ch/cgv
+    - https://www.ochsnersport.ch/fr-ch/protection-des-donnees

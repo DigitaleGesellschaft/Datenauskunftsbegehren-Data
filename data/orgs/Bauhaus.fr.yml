@@ -6,7 +6,6 @@ address: |-
 types:
   - payback
 sources:
-  address: https://www.bauhaus.ch/de/content/rechtliches/impressum.html
+  address: https://www.bauhaus.ch/fr/l/legal/contact-information
   privacyStatement: 
-    - https://www.bauhaus.ch/de/content/rechtliches/disclaimer.html
-    - https://www.bauhaus.ch/de/content/rechtliches/datenschutz.html
+    - https://www.bauhaus.ch/fr/l/legal/privacy-policy

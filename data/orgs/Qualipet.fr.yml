@@ -7,7 +7,7 @@ types:
   - online
   - payback
 sources:
-  address: https://www.qualipet.ch/fr/impressum/
+  address: https://www.qualipet.ch/fr/mentions-legales/
   privacyStatement: 
     - https://www.qualipet.ch/fr/politique-de-confidentialit/ 
     - https://www.qualipet.ch/fr/cgv/
