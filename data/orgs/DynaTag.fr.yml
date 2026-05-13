@@ -1,4 +1,3 @@
-# Keine frazösischspragige Seite
 name: DynaTag AG
 address: |-
   DynaTag AG
@@ -7,6 +6,6 @@ address: |-
 types:
   - gastro
 sources:
-  address: https://dynatag.com/27_Impressum_DE.php
-  privacyStatement:
-    - https://dynatag.com/26_Datenschutz_DE.php
+  address: https://dynatag.com/27_Impressum_DE.php 
+  privacyStatement: 
+    - https://dynatag.com/26_Datenschutz_DE.php 
