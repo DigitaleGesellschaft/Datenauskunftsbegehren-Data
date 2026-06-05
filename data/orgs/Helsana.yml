@@ -1,8 +1,8 @@
 name: Helsana
 address: |-
   Helsana Versicherungen AG
-  Postfach
-  8081 Zürich
+  Zürichstrasse 130
+  8600 Dübendorf
 sources:
   address: https://www.helsana.ch/de/helsana-gruppe/ueber-uns/rechtliches/impressum.html
   privacyStatement: 
