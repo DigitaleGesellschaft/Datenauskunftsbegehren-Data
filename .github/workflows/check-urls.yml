@@ -1,0 +1,89 @@
+name: Weekly URL check
+
+# Re-runs tooling/check-urls.sh against all data/orgs/*.yml URLs and refreshes
+# the snapshot at tooling/snapshot/check-urls.txt. If anything changed (URLs
+# moved, services discontinued, new CDN blocks, ...), a pull request with the
+# diff is opened for review. See the header of tooling/check-urls.sh for the
+# meaning of the status columns.
+
+on:
+  schedule:
+    # Mondays at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check-urls:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v6
+
+      - name: Refresh URL status snapshot
+        working-directory: tooling
+        run: |
+          mkdir -p snapshot
+          ./check-urls.sh | tee snapshot/check-urls.txt
+
+      - name: Add diff to job summary
+        run: |
+          {
+            echo '## URL status changes'
+            echo
+            if git diff --quiet -- tooling/snapshot/check-urls.txt; then
+              echo 'No changes since the committed snapshot.'
+            else
+              echo '```diff'
+              git diff -- tooling/snapshot/check-urls.txt
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open pull request on changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet -- tooling/snapshot/check-urls.txt; then
+            echo "No changes since the committed snapshot; nothing to do."
+            exit 0
+          fi
+
+          branch="automated/url-status"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add tooling/snapshot/check-urls.txt
+          git commit -m "Update URL status snapshot"
+          # Force-push so an already-open PR for this branch gets updated in place.
+          git push --force origin "$branch"
+
+          cat > /tmp/pr-body.md <<'BODY'
+          Automated weekly URL check (`tooling/check-urls.sh`).
+
+          The snapshot at `tooling/snapshot/check-urls.txt` changed, i.e. some
+          URLs moved, returned errors, or are now blocked by a CDN. Please
+          review the diff and act where needed:
+
+          - update the affected `data/orgs/*.yml` source URLs, and/or
+          - mark discontinued services with a `history: action: removed` entry.
+
+          `ERR CONNECT` / `???` / `!!!` entries can be transient or CDN-related —
+          verify in a browser before treating them as broken (see the header of
+          `tooling/check-urls.sh`).
+
+          If no real-world change is needed, just merge this PR to accept the
+          new snapshot as the baseline.
+          BODY
+
+          if [ -z "$(gh pr list --head "$branch" --state open --json number --jq '.[].number')" ]; then
+            gh pr create --base main --head "$branch" \
+              --title "Update URL status snapshot" \
+              --body-file /tmp/pr-body.md
+          else
+            echo "A PR for $branch is already open; force-pushed the update."
+          fi
