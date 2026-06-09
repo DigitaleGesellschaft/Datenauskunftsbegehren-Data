@@ -6,5 +6,5 @@ address: |-
 sources:
   address: https://www.twint.ch/impressum/
   privacyStatement: 
-    - https://www.twint.ch/datenschutz-website/
-    - https://www.twint.ch/agb-app/
+    - https://www.twint.ch/datenschutz/
+    - https://www.twint.ch/privatkunden/agb-app/

@@ -10,5 +10,5 @@ types:
 sources:
   address: https://www.medgate.ch/de-ch/impressum
   privacyStatement: 
-    - https://www.medgate.ch/de-ch/datenschutz
+    - https://portal.medgate.care/compliance/documents?templateReference=webpage-privacy-policy-ch-de
     - https://www.medgate.ch/de-ch/app/agb

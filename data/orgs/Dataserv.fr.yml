@@ -10,3 +10,7 @@ sources:
   address: https://www.werbeversand.ch/impressum
   privacyStatement:
     - https://www.werbeversand.ch/datenschutz
+history:
+  - action: removed
+    date: '2026-06-09T00:00:00.000Z'
+    reason: 'Im Rahmen der URL-Überprüfung entfernt; Grund unbekannt.'

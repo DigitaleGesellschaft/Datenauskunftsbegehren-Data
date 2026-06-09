@@ -11,3 +11,7 @@ sources:
   privacyStatement:
     - https://www.microspot.ch/fr/cms/unternehmen/agb
     - https://www.microspot.ch/fr/cms/unternehmen/datenschutz
+history:
+  - action: removed
+    date: '2026-06-09T00:00:00.000Z'
+    reason: 'microspot.ch gehört neu zu Interdiscount.'

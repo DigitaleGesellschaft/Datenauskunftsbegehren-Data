@@ -1,6 +1,6 @@
-name: M-Budget Mobile (Swisscom)
+name: Migros Mobile (Swisscom)
 address: |-
-  M-Budget Mobile (Swisscom)
+  Migros Mobile (Swisscom)
   Contact Center
   3050 Bern
 types:
@@ -18,8 +18,8 @@ privacyStatement:
     - Datenbearbeitungen zu Marketingzwecken von Swisscom
 
 sources:
-  address: https://shop.m-budget.migros.ch/de/impressum
+  address: https://mobile.migros.ch/de/impressum
   privacyStatement: 
     - https://www.swisscom.ch/de/privatkunden/rechtliches/datenschutz.html
-    - https://shop.m-budget.migros.ch/de/datenschutzerklaerung
-    - https://shop.m-budget.migros.ch/de/rechtliche-informationen
+    - https://mobile.migros.ch/de/datenschutzerklaerung
+    - https://mobile.migros.ch/de/rechtliche-informationen
