@@ -1,0 +1,15 @@
+name: Jelmoli AG
+address: |-
+  Swiss Prime Site Immobilien AG
+  Hardstrasse 201
+  CH – 8005 Zürich
+types:
+  - payback
+sources:
+  address: https://www.jelmoli.ch/impressum
+  privacyStatement: 
+    - https://www.jelmoli.ch/datenschutz
+history:
+  - action: removed
+    date: '2026-06-09T00:00:00.000Z'
+    reason: 'Wurde am 28. Februar 2025 nach 126 Jahren endgültig aufgelöst und geschlossen'

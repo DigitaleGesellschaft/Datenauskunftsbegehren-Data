@@ -1,0 +1,16 @@
+name: GuestReg
+address: |-
+  GuestReg.ch
+  Heinz Lehner
+  Mattenstrasse 32
+  2503 Biel/Bienne
+types:
+  - gastro
+sources:
+  address: https://guestreg.ch/
+  # privacyStatement:
+  #   - https://www.noSource.ch
+history:
+  - action: removed
+    date: '2026-06-09T00:00:00.000Z'
+    reason: 'Im Rahmen der URL-Überprüfung entfernt; Grund unbekannt.'
