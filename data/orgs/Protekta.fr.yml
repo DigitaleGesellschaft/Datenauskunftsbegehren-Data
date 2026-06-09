@@ -5,7 +5,7 @@ address: |-
   Monbijoustrasse 5
   3011 Bern
 sources:
-  address: https://protekta.mobiliar.ch/fr/protection-et-securite-des-donnees
-  privacyStatement: 
-    - https://protekta.mobiliar.ch/fr/protection-et-securite-des-donnees
-    - https://protekta.mobiliar.ch/fr/aspect-juridique
+  address: https://protekta.mobiliere.ch/securite-et-protection-de-donnees
+  privacyStatement:
+    - https://protekta.mobiliere.ch/securite-et-protection-de-donnees
+    - https://protekta.mobiliere.ch/aspect-juridique
