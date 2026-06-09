@@ -12,7 +12,7 @@
 # - ">>> 3xx": Redirect
 # - "ERR 4xx" or "ERR 5xx": Errors
 # - "ERR CONNECT": Connection error or timeout
-# 
+#
 # Decoded errors
 # - "??? <Name of CDN>": The CDN blocks the curl requests; check in the browser
 # - "!!! <Name of CDN>": The CDN blocks the curl requests; check in the browser
@@ -26,7 +26,10 @@
 
 tmp=$(mktemp -d)
 
-sed -e '/#/d' -e '/https:/!d' -e 's/.*\(https:\)/\1/' ../data/orgs/*.yml | sort -u | while read line
+# Files with a "history: action: removed" entry are ignored.
+grep -L -Z -E '^[[:space:]]*-[[:space:]]*action:[[:space:]]*removed' ../data/orgs/*.yml \
+  | xargs -0 -r sed -e '/#/d' -e '/https:/!d' -e 's/.*\(https:\)/\1/' \
+  | sort -u | while read line
 do
   # Sanitize URL and limit length for filesystem compatibility
   san=$(echo "$line" | tr -c 'A-Za-z0-9' _ | head -c 200)
@@ -106,7 +109,7 @@ do
        # Cloudflare speculation (see "Speculation-Rules:" header)
        echo "!!! CLOUDFLARE $line"
 
-### 500 CloudFlare
+### 503 Akamai
 
     elif [[ "$status" = 503 ]] && grep -i "^akamai-grn:" "$tmp/$san" > /dev/null
     then
