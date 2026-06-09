@@ -1,7 +1,10 @@
 #!/bin/bash
 # To exclude *.fr.yml:
 # GLOBIGNORE=*.fr.yml
-sed -e '/#/d' -e '/https:/!d' -e 's/.*\(https:\)/\1/' ../data/orgs/*.yml | sort -u | while read line
+# Files with a "history: action: removed" entry are ignored.
+grep -L -Z -E '^[[:space:]]*-[[:space:]]*action:[[:space:]]*removed' ../data/orgs/*.yml \
+  | xargs -0 -r sed -e '/#/d' -e '/https:/!d' -e 's/.*\(https:\)/\1/' \
+  | sort -u | while read line
 #(echo https://nafsddsfsdf.ch; echo https://wustl.edu; echo https://wustl.edu/dasdfasdfasdfa) | while read line
 do
   if status=$(curl --connect-timeout 5 -sI "$line" | head -1 | awk '{print $2}')
