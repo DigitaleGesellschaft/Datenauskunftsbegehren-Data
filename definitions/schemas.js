@@ -70,7 +70,12 @@ export const TypeSchema = z
     title: "Type of Service or Service Category",
     description:
       "Schema for the types yml files. Used on the website to filter a company by service type encoded by the handle field",
-    examples: ["Gastronomy", "Mobile Provider", "Address Trade", "WLAN Provider"],
+    examples: [
+      "Gastronomy",
+      "Mobile Provider",
+      "Address Trade",
+      "WLAN Provider",
+    ],
   });
 
 const HistoryAction = z.enum(["removed"]);
