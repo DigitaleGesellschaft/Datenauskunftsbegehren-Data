@@ -30,6 +30,9 @@ jobs:
       - name: Build Json
         run: npm run compile
 
+      - name: Export JSON schemas
+        run: npm run export
+
       - uses: actions/upload-artifact@v7
         with:
           name: data
@@ -37,3 +40,8 @@ jobs:
             data.json
             data_de.json
             data_fr.json
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: schemas
+          path: exports/*.json

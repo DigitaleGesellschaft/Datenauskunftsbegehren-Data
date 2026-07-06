@@ -70,7 +70,7 @@ export const TypeSchema = z
     title: "Type of Service or Service Category",
     description:
       "Schema for the types yml files. Used on the website to filter a company by service type encoded by the handle field",
-    examples: ["Parking", "Gastronomy", "Mobile Provider", "Address Trade"],
+    examples: ["Gastronomy", "Mobile Provider", "Address Trade", "WLAN Provider"],
   });
 
 const HistoryAction = z.enum(["removed"]);
@@ -132,7 +132,6 @@ export const OrgType = z.enum([
   "mobility",
   "payback",
   "mobile",
-  "parkingprovider",
 ]);
 
 // see svelte code models/org.js what is optional and what not

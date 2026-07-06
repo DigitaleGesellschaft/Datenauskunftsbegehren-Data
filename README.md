@@ -5,10 +5,12 @@ In diesem Repository werden die Daten für den Onlinegenerator für Datenauskunf
 
 ## Daten editieren
 4 Datenstrukturen sind vorhanden:
-- Organisationen (`/data/orgs`) [JSONSchema](https://raw.githubusercontent.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/refs/heads/export_jsonschema/exports/OrgSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fraw.githubusercontent.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Frefs%2Fheads%2Fexport_jsonschema%2Fexports%2FOrgSchema.json)
-- Arten von Dienstleistungen/Firmen (`/data/types`) [JSONSchema](https://raw.githubusercontent.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/refs/heads/export_jsonschema/exports/TypeSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fraw.githubusercontent.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Frefs%2Fheads%2Fexport_jsonschema%2Fexports%2FTypeSchema.json)
-- Ereignisse (`/data/events`) [JSONSchema](https://raw.githubusercontent.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/refs/heads/export_jsonschema/exports/EventSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fraw.githubusercontent.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Frefs%2Fheads%2Fexport_jsonschema%2Fexports%2FEventSchema.json)
-- Begehren, insbes. Nachfassen (`/data/desires`) [JSONSchema](https://raw.githubusercontent.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/refs/heads/export_jsonschema/exports/DesireSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fraw.githubusercontent.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Frefs%2Fheads%2Fexport_jsonschema%2Fexports%2FDesireSchema.json)
+- Organisationen (`/data/orgs`) [JSONSchema](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/releases/latest/download/OrgSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fgithub.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Freleases%2Flatest%2Fdownload%2FOrgSchema.json)
+- Arten von Dienstleistungen/Firmen (`/data/types`) [JSONSchema](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/releases/latest/download/TypeSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fgithub.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Freleases%2Flatest%2Fdownload%2FTypeSchema.json)
+- Ereignisse (`/data/events`) [JSONSchema](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/releases/latest/download/EventSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fgithub.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Freleases%2Flatest%2Fdownload%2FEventSchema.json)
+- Begehren, insbes. Nachfassen (`/data/desires`) [JSONSchema](https://github.com/DigitaleGesellschaft/Datenauskunftsbegehren-Data/releases/latest/download/DesireSchema.json) - [Daten-Dok](https://json-schema.app/view/%23?url=https%3A%2F%2Fgithub.com%2FDigitaleGesellschaft%2FDatenauskunftsbegehren-Data%2Freleases%2Flatest%2Fdownload%2FDesireSchema.json)
+
+Diese Schemas werden bei jedem `Release` (`.github/workflows/release.yml`) aus `definitions/schemas.js` neu generiert (`npm run export`) und als Release-Assets angehängt, statt im Repo eingecheckt zu sein — siehe [`exports/`-Hinweis](#json-generieren) unten.
 
 Pro Organisation/Art/Ereignis wird ein `.yml` file angelegt. Der Filename ist nicht relevant.
 
@@ -34,6 +36,13 @@ npm run compile
 ```
 
 Du findest die Datei data.json im Wurzelverzeichnis.
+
+## JSON-Schemas generieren
+```bash
+npm run export
+```
+
+Erzeugt die JSONSchema-Dateien unter `exports/*.json` aus `definitions/schemas.js`. Diese werden nicht eingecheckt (`.gitignore`), sondern bei jedem Release (`.github/workflows/release.yml`) frisch generiert und als Release-Assets angehängt (siehe Links oben unter "Daten editieren"). Der Build-Workflow (`.github/workflows/build.yml`) führt `npm run export` ebenfalls bei jedem Push/PR aus, um Fehler im Export frühzeitig zu erkennen.
 
 ## Angaben (regelmässig) auf Aktualität prüfen
 
