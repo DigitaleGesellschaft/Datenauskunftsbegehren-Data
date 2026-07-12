@@ -79,9 +79,13 @@ jobs:
       - name: 🛠️ Projekt kompilieren
         run: npm run compile
 
+      - name: 🛠️ JSON-Schemas exportieren
+        run: npm run export
+
       - name: 🔍 Prüfen, ob alle JSON-Dateien existieren
         run: |
-          for f in data.json data_de.json data_fr.json; do
+          for f in data.json data_de.json data_fr.json \
+                   exports/OrgSchema.json exports/TypeSchema.json exports/EventSchema.json exports/DesireSchema.json; do
             if [ ! -f "$f" ]; then
               echo "❌ $f wurde nicht gefunden!"
               exit 1
@@ -130,5 +134,9 @@ jobs:
             data.json
             data_de.json
             data_fr.json
+            exports/OrgSchema.json
+            exports/TypeSchema.json
+            exports/EventSchema.json
+            exports/DesireSchema.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

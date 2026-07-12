@@ -10,6 +10,7 @@ import {
 } from "../definitions/schemas.js";
 
 const EXPORT_DIR = path.join(process.cwd(), "exports");
+fs.mkdirSync(EXPORT_DIR, { recursive: true });
 
 function exportSchema(name, schema) {
   const jsonSchema = z.toJSONSchema(schema);
