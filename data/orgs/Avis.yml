@@ -8,7 +8,7 @@ types:
 sources:
   address: https://www.avis.ch/kontakt
   privacyStatement: 
-    - https://www.avis.ch/TermsAndConditions
+    - https://www.avis.ch/TermsAndCondition
     - https://www.avis.ch/das-kleingedruckte/cookie-richtlinien
     - https://www.avis.ch/das-kleingedruckte/datenschutzrichtlinien
     - https://www.avis.ch/das-kleingedruckte/website-nutzungsbedingungen

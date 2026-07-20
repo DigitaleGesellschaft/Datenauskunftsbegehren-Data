@@ -1,9 +1,9 @@
 name: Sanitas Grundversicherungen AG
 address: |-
-  Sanitas Grundversicherungen AG
+  Sanitas Management AG
+  Datenschutzberater
   Jägergasse 3
-  Postfach 2010
-  8021 Zürich
+  8004 Zürich
 sources:
   address: https://www.sanitas.com/de/ueber-sanitas/rechtlicher-hinweis/impressum.html
   privacyStatement: 
