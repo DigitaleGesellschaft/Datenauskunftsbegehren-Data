@@ -1,12 +1,12 @@
 ---
-name: bernbahnhofparkingag
+name: Bahnhof Parking AG
 address: |-
   Bahnhof Parking AG
   Parkterrasse 14
   Postfach
   3001 Bern
 types:
-  - parkingprovider
+  - parking
 privacyStatement:
   paragraphs:
     - 'Folgende Parkmöglichkeiten habe ich von Ihnen benutzt:'

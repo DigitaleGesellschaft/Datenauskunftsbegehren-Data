@@ -2,6 +2,6 @@ handle: parking
 label: Prestataire de stationnement
 serviceLabel: Prestataire de stationnement
 paragraphs:
-  - Sont notamment aussi considérées comme données personnelles les données traitées
-    dans le cadre des prestations liées au stationnement, en particulier les données
-    d'identification, d'utilisation, de localisation et de paiement.
+  - Sont notamment aussi considérées comme données personnelles les activités enregistrées
+    lors de l'utilisation de vos places de stationnement par mon véhicule portant
+    la plaque de contrôle officielle {string:vehicleRegNo:Plaque de contrôle}.

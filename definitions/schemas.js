@@ -132,7 +132,7 @@ export const OrgType = z.enum([
   "mobility",
   "payback",
   "mobile",
-  "parkingprovider",
+  "parking",
 ]);
 
 // see svelte code models/org.js what is optional and what not

@@ -1,25 +1,19 @@
-name: bernbahnhofparkingag
+name: Bahnhof Parking AG
 address: |-
   Bahnhof Parking AG
   Parkterrasse 14
   Postfach
   3001 Bern
 types:
-  - parkingprovider
+  - parking
 privacyStatement:
   paragraphs:
-    - 'Avec une variable résolue directement ici {string:privacyStatementDate}'
-    - 'Avec une variable qui doit être saisie par l''utilisateur {tel:mobileNumber:Numéro de mobile}'
-    - 'Avec une variable qui doit être saisie par l''utilisateur {string:nameOfVariable:Libellé}'
-    - 'Avec une variable qui doit être saisie par l''utilisateur {string:nameOfVariable:Numéro d''immatriculation}'
-  variables:
-    privacyStatementDate: décembre 2023
+    - 'J''ai utilisé les possibilités de stationnement suivantes auprès de vous :'
   bullets:
-    - Premier niveau
-    - text: Avec sous-groupe
-      bullets:
-        - Deuxième niveau
-    - Premier niveau
+    - Bahnhof Parking Bern
+    - SBB Kurzparking
+    - Kurzparking PostParc
+    - Parking Stadtbach-West Bern
 sources:
   address: https://bahnhofparking.ch
   privacyStatement: 
