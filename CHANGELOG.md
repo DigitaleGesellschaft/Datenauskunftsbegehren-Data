@@ -1,3 +1,28 @@
+## v2.0.0 – 2026-07-26
+
+- Introduce type "parking" for category "Parkplatzanbieter"  (#32)
+- remove data_handover (#89)
+- chore(deps): bump prettier from 3.9.5 to 3.9.6 (#95)
+- chore(deps): bump prettier from 3.9.4 to 3.9.5 (#94)
+- chore(deps): bump actions/setup-node from 6 to 7 (#93)
+- chore(deps): bump vitest from 4.1.9 to 4.1.10 (#91)
+- chore(deps): bump prettier from 3.8.4 to 3.9.4 (#88)
+- chore(deps): bump actions/checkout from 6 to 7 (#87)
+- chore(deps): bump vitest from 4.1.8 to 4.1.9 (#86)
+- Add weekly URL status check workflow
+- Report user-friendly URL status (#74)
+- Check urls (#73)
+- Remove tracking fields in URLs
+- No longer active
+- Typo
+- chore(deps): bump prettier from 3.8.3 to 3.8.4
+- chore(deps): bump vitest from 4.1.5 to 4.1.8
+- chore(deps): bump yaml from 2.8.4 to 2.9.0 (#76)
+- Update issue templates
+- Update issue templates
+- chore(deps): bump yaml from 2.8.3 to 2.8.4 (#69)
+- chore(deps): bump zod from 4.3.6 to 4.4.3 (#70)
+
 ## v1.0.1 – 2026-04-27
 
 - feat: enhance changelog generation to include versions and dates (#68)
