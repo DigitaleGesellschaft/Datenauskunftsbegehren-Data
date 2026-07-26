@@ -1,0 +1,12 @@
+name: Unisecur GmbH
+address: |-
+  Unisecur GmbH
+  Tösstalstrasse 22
+  Postfach
+  8483 Kollbrunn
+types:
+  - parking
+sources:
+  address: https://www.unisecur.ch/datenschutz.html
+  privacyStatement:
+    - https://www.unisecur.ch/datenschutz.html

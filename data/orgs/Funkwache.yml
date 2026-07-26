@@ -1,0 +1,11 @@
+name: Funkwache
+address: |-
+  Funkwache AG
+  Postfach 5617
+  8050 Zürich
+types:
+  - parking
+sources:
+  address: https://www.funkwache.ch/
+  privacyStatement:
+    - https://www.funkwache.ch/
