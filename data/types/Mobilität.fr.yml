@@ -1,0 +1,7 @@
+handle: mobility
+label: Mobilité
+serviceLabel: Mobilité
+paragraphs:
+  - Sont notamment aussi considérées comme données personnelles les données enregistrées
+    et transmises par le véhicule.
+  - "Véhicule concerné: {string:vehicleInformation:Informations sur le véhicule et sur d'éventuelles connexions permettant une attribution}"

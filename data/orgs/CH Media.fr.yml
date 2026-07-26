@@ -1,0 +1,22 @@
+name: CH Media
+address: |-
+  CH Media Holding AG
+  Neumattstrasse 1
+  5001 Aarau
+types:
+  - online
+privacyStatement:
+  paragraphs:
+    - 'Par données personnelles, il faut entendre en particulier les catégories suivantes
+      mentionnées dans votre déclaration de protection des données du {string:privacyStatementDate},
+      ainsi que les traitements de données relatifs à la personne et à l''activité client:'
+  variables:
+    privacyStatementDate: 8 novembre 2018
+  bullets:
+    - Utilisation non anonyme
+    - Utilisation «anonyme» des sites web
+    - Intégration d'offres de tiers
+sources:
+  address: https://chmedia.ch/impressum
+  privacyStatement: 
+    - https://chmedia.ch/datenschutzerklaerung

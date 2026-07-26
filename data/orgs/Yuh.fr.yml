@@ -1,0 +1,32 @@
+name: Yuh
+address: |-
+  Yuh AG
+  Chemin de la Crétaux 33
+  Case postale 319
+  1196 Gland
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: 19 novembre 2025
+  bullets:
+    - Donnees personnelles et autres donnees d inscription
+    - Donnees techniques
+    - Donnees de communication, notamment enregistrements d appels et demandes de support
+    - Donnees relatives a la relation client, notamment informations financieres, traitements a des fins marketing et publicitaires, historique client
+    - Analyses et evaluations basees sur les donnees client, ainsi que donnees de comportement et de preferences
+    - Donnees lors de l acces au site web / a l application, notamment acces et donnees de localisation
+    - Autres donnees
+    - Documents et informations pertinents sur le plan fiscal
+    - Informations que Yuh a recues de tiers
+    - 'Categories particulieres de donnees personnelles, par exemple donnees
+      biometriques, opinions ou appartenances politiques, informations de sante,
+      origine raciale ou ethnique, convictions religieuses ou philosophiques,
+      ainsi que des informations relatives a des condamnations penales ou infractions'
+sources:
+  address: https://www.yuh.com/fr/imprint/
+  privacyStatement: 
+    - https://www.yuh.com/fr/legal/

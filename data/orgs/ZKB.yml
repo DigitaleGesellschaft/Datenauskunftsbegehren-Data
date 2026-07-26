@@ -10,15 +10,16 @@ privacyStatement:
       Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien,
       resp. Bearbeitungen von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: Mai 2018
+    privacyStatementDate: Juni 2024 
   bullets:
     - Stamm- und Bestandesdaten
     - Steuerlich relevante Dokumente und Informationen
     - Transaktions- bzw. Auftrags- und Risikomanagementdaten
+    - Besonders schützenswerte Personendaten
     - Aufzeichnungen über Telefonate
     - Marketingdaten wie z.B. Bedürfnisse, Wünsche, Präferenzen
     - Technische Daten
 sources:
-  address: https://www.zkb.ch/de/gs/rechtliche-hinweise/datenschutz/datenschutzerklaerung.html
+  address: https://www.zkb.ch/de/rechtliches/datenschutz/datenschutzerklaerung.html 
   privacyStatement: 
-    - https://www.zkb.ch/de/gs/rechtliche-hinweise/datenschutz/datenschutzerklaerung.html
+    - https://www.zkb.ch/de/rechtliches/datenschutz/datenschutzerklaerung.html 

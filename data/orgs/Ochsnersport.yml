@@ -7,7 +7,7 @@ types:
   - online
   - payback
 sources:
-  address: https://www.ochsnersport.ch/de/shop/cp/unternehmen/impressum.html
+  address: https://www.ochsnersport.ch/de-ch/impressum
   privacyStatement: 
-    - https://www.ochsnersport.ch/de/shop/cp/unternehmen/agb.html
-    - https://www.ochsnersport.ch/de/shop/cp/unternehmen/datenschutz.html
+    - https://www.ochsnersport.ch/de-ch/agb
+    - https://www.ochsnersport.ch/de-ch/datenschutzbestimmungen

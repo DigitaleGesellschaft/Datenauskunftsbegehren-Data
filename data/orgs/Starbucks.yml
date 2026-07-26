@@ -7,7 +7,7 @@ types:
   - payback
   - wlan
 sources:
-  address: https://www.starbucks.ch/about-us/company-information/impressum
+  address: https://www.starbucks.ch/de/legal  
   privacyStatement: 
     - https://www.starbucks.ch/about-us/company-information/online-policies/privacy-statement
     - https://www.starbucks.ch/about-us/company-information/online-policies/terms-of-use

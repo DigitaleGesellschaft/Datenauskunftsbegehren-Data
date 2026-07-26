@@ -1,0 +1,11 @@
+name: Creditreform
+address: |-
+  Schweizerischer Verband Creditreform
+  Thurgauerstrasse 36/38 
+  9000 St. Gallen
+types:
+  - credit
+sources:
+  address: https://www.creditreform.ch/fr/impressum
+  privacyStatement: 
+    - https://www.creditreform.ch/fr/protection-de-donnees

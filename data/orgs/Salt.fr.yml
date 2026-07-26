@@ -1,0 +1,31 @@
+name: Salt
+address: |-
+  Salt Mobile AG
+  Datenschutz
+  Rue du Caudray 4
+  1020 Renens
+types:
+  - mobile
+privacyStatement:
+  paragraphs:
+    - 'Par données personnelles, il faut entendre en particulier les catégories
+      suivantes mentionnées dans votre déclaration de protection des données
+      du {string:privacyStatementDate}, ainsi que les traitements de données
+      relatifs à la personne et à l''activité client:'
+  variables:
+    privacyStatementDate: novembre 2025
+  bullets:
+    - Données de contact et d'identification
+    - Données financières
+    - Données d'utilisation
+    - Informations sur les produits et services achetés
+    - Informations relatives à la visite des sites web de Salt
+    - Données de télécommunication et d'utilisation (données de télécommunication
+      au sens de la loi fédérale du 18 mars 2016 sur la surveillance de la correspondance
+      par poste et télécommunication, LSCPT)
+# Remarque: la mention explicite des données de télécommunication
+# n'apparaît pas clairement dans les CG.
+sources:
+  address: https://www.salt.ch/fr/legal/privacy
+  privacyStatement: 
+    - https://www.salt.ch/fr/legal/privacy

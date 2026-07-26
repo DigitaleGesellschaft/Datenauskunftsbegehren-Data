@@ -1,16 +1,18 @@
 {
   "name": "datenauskunftsbegehren-data",
-  "version": "2.0.0",
+  "version": "1.0.1",
   "scripts": {
     "compile": "node ./tasks/compile-json.mjs",
     "test": "vitest",
-    "lint": "prettier **/*.test.js --write"
+    "lint": "prettier **/*.js --write",
+    "lint-ci": "prettier **/*.js --check",
+    "export": "node ./tasks/export-schemas.js"
   },
   "dependencies": {
-    "yaml": "^2.3.1",
-    "prettier": "^3.6.2",
-    "vitest": "^3.2.4",
-    "zod": "^4.0.5"
+    "yaml": "^2.9.0",
+    "prettier": "^3.9.6",
+    "vitest": "^4.1.10",
+    "zod": "^4.4.3"
   },
   "type": "module"
 }

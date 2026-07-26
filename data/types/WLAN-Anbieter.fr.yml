@@ -1,0 +1,17 @@
+handle: wlan
+label: Fournisseur Wi-Fi
+serviceLabel: Wi-Fi
+paragraphs:
+  - Sont notamment aussi considérées comme données personnelles les données périphériques,
+    d'identification et de localisation du trafic de télécommunication, ainsi que
+    les informations issues des processus de traduction NAT, y compris les adresses
+    IP de destination (https://www.srf.ch/news/article/14981983), collectées et
+    conservées sur la base de l'art. 22, al. 2 et de l'art. 26, al. 5 de la loi
+    fédérale du 18 mars 2016 sur la surveillance de la correspondance par poste
+    et télécommunication (LSCPT). Mon inscription à votre offre WLAN a été effectuée
+    avec le numéro {tel:mobileNumber:Numéro de mobile}.
+  - Veuillez noter que l'art. 45 LTC, en lien avec l'art. 80 ss OST, ne peut pas
+    restreindre le droit d'accès prévu par la loi fédérale sur la protection des
+    données (cf. ATAF A-4941/2014, consid. 12.7.4, ainsi que le rapport explicatif
+    de la révision des ordonnances relatives à la LTC du 15 octobre 2014 concernant
+    l'art. 81, al. 1 OST).

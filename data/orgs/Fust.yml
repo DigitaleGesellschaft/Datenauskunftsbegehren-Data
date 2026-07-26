@@ -1,12 +1,12 @@
 name: Fust
 address: |-
-  Dipl. Ing. Fust AG
-  Buchental 4
-  9245 Oberbüren-Uzwil
+  Coop Genossenschaft
+  Thiersteinerallee 14
+  4053 Basel
 types:
   - online
 sources:
-  address: https://www.fust.ch/de/impressum-_content---1--1025.html
+  address: https://www.fust.ch/impressum 
   privacyStatement: 
-    - https://www.fust.ch/de/agb-_content---1--1023.html
-    - https://www.fust.ch/de/datenschutz-_content---1--1024.html
+    - https://www.coop.ch/de/unternehmen/datenschutz/fust.html 
+    - https://www.fust.ch/footer/agb

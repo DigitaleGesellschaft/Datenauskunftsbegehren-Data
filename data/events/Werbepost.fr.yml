@@ -1,0 +1,4 @@
+handle: snailmailing
+label: J'ai reçu de la publicité par voie postale
+paragraphs:
+  - J'ai reçu une publicité de votre part par voie postale le {date:eventDate:Wann}.

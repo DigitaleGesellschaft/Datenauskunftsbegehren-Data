@@ -8,5 +8,5 @@ types:
 sources:
   address: https://www.ticketmaster.ch/help/impressum/?language=de-ch
   privacyStatement: 
-    - https://www.ticketmaster.ch/privacy
-    - https://www.ticketmaster.ch/help/terms/?language=de-ch&tm_link=tm_i_1
+    - https://privacy.ticketmaster.ch/privacy-policy
+    - https://www.ticketmaster.ch/help/terms/?language=de-ch

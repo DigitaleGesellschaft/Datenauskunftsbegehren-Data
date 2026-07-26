@@ -5,8 +5,10 @@ address: |-
   Datenschutz
   Alte Steinhauserstrasse 12
   6330 Cham
+
 types:
   - mobility
+
 sources:
   address: https://www.amag-group.ch/de/footer/datenschutzerklaerung.html
   privacyStatement:

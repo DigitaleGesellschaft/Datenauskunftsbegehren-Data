@@ -1,12 +1,12 @@
 name: PubliBike
 address: |-
-  PubliBike Ltd
-  Engehaldenstrasse 39
-  3030 Bern
+  PubliBike AG
+  Rennweg 62 / Rue de la Course 62
+  2504 Biel/Bienne
 types:
   - mobility
 sources:
-  address: https://www.publibike.ch/de/publibike/impressum
+  address: https://www.publibike.ch/de/impressum 
   privacyStatement: 
-    - https://www.publibike.ch/de/publibike/agb
-    - https://www.publibike.ch/de/publibike/Privacy-Policy
+    - https://www.publibike.ch/de/agb
+    - https://www.publibike.ch/de/datenschutz

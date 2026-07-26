@@ -1,0 +1,10 @@
+name: Mobiliar
+address: |-
+  Schweizerische Mobiliar Versicherungsgesellschaft AG
+  Datenschutzstelle
+  Bundesgasse 35
+  3001 Bern
+sources:
+  address: https://www.mobiliere.ch/aspect-juridique
+  privacyStatement: 
+    - https://www.mobiliere.ch/protection-et-securite-des-donnees

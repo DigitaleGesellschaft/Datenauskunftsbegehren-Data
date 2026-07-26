@@ -1,0 +1,39 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Run yamllint
+        uses: bewuethr/yamllint-action@v1
+        with:
+          config-file: .github/workflows/yamlconfig
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Json
+        run: npm run compile
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: data
+          path: |
+            data.json
+            data_de.json
+            data_fr.json

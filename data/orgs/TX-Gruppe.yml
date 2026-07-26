@@ -12,7 +12,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: Januar 2020
+    privacyStatementDate: Juni 2023 
   bullets:
     - Besuch der Portale
     - Registrierung eines Benutzerkontos
@@ -29,4 +29,4 @@ sources:
   address: https://tx.group/de/impressum
   privacyStatement: 
     - https://www.tagesanzeiger.ch/datenschutzerklaerung-954908797441
-    - https://tx.group/de/rechtliche-hinweise
+    - https://tx.group/de/datenschutzerklaerung/

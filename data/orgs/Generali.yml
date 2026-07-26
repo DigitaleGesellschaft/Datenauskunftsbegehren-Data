@@ -1,10 +1,10 @@
 name: Generali
 address: |-
   Generali (Holding) AG
-  Soodmattenstrasse 10
+  Soodmattenstrasse 2
   8134 Adliswil
 sources:
-  address: https://www.generali.ch/allgemein/footnote/impressum
+  address: https://www.generali.ch/de/rechtliche-informationen/impressum 
   privacyStatement: 
-    - https://www.generali.ch/allgemein/footnote/datenschutz
-    - https://www.generali.ch/allgemein/footnote/disclaimer
+    - https://www.generali.ch/de/rechtliche-informationen/datenschutz 
+    - https://www.generali.ch/de/rechtliche-informationen/rechtliche-hinweise 

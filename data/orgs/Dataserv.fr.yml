@@ -1,0 +1,16 @@
+# Gibt es überhaupt eine frazösische Seite?
+name: Dataserv AG
+address: |-
+  Dataserv AG
+  Aspstrasse 12
+  8472 Seuzach
+types:
+  - address
+sources:
+  address: https://www.werbeversand.ch/impressum
+  privacyStatement:
+    - https://www.werbeversand.ch/datenschutz
+history:
+  - action: removed
+    date: '2026-06-09T00:00:00.000Z'
+    reason: 'Im Rahmen der URL-Überprüfung entfernt; Grund unbekannt.'

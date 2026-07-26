@@ -6,6 +6,6 @@ address: |-
 types:
   - gastro
 sources:
-  address: https://www.inaffect.net/impressum/
+  address: https://www.inaffect.net/de/impressum 
   privacyStatement: 
-    - https://www.inaffect.net/datenschutz/
+    - https://www.inaffect.net/de/datenschutz 

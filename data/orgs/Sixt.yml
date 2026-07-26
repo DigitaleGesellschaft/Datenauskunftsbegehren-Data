@@ -6,7 +6,7 @@ address: |-
 types:
   - mobility
 sources:
-  address: https://www.sixt.ch/informationen/impressum/#/
+  address: https://www.sixt.ch/pages/impressum/#/ 
   privacyStatement: 
-    - https://www.sixt.ch/informationen/datenschutzhinweise/#/
-    - https://www.sixt.ch/informationen/agb/#/
+    - https://www.sixt.ch/pages/datenschutzhinweise/#/ 
+    - https://www.sixt.ch/pages/agb/ 

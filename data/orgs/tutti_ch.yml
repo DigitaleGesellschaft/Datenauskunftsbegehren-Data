@@ -8,6 +8,7 @@ address: |-
 types:
   - online
 sources:
-  address: https://tutti.zendesk.com/hc/de/articles/360033254171
+  address: https://www.tutti.help/hc/de/articles/360033254171-So-kannst-du-tutti-ch-kontaktiere 
   privacyStatement: 
-    - https://tutti.zendesk.com/hc/de/articles/115003331547
+    - https://www.tutti.help/hc/de/articles/115003446928-Datenschutzerkl%C3%A4rung-SMG-Swiss-Marketplace-Group-AG
+    - https://www.tutti.help/hc/de/articles/115003331547-Nutzungsbedingungen

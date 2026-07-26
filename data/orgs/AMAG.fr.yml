@@ -1,0 +1,15 @@
+name: AMAG
+address: |-
+  AMAG Group AG
+  Legal & Compliance
+  Datenschutz
+  Alte Steinhauserstrasse 12
+  6330 Cham
+
+types:
+  - mobility
+
+sources:
+  address: https://www.amag-group.ch/fr/footer/datenschutzerklaerung.html
+  privacyStatement:
+    - https://www.amag-group.ch/fr/footer/datenschutzerklaerung.html

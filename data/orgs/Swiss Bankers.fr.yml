@@ -1,0 +1,10 @@
+name: Swiss Bankers
+address: |-
+  Swiss Bankers Prepaid Services AG
+  Kramgasse 4
+  3506 Grosshöchstetten
+sources:
+  address: https://www.swissbankers.ch/fr/legal/protection-des-donnees/
+  privacyStatement: 
+    - https://www.swissbankers.ch/fr/legal/protection-des-donnees/
+    - https://www.swissbankers.ch/fr/legal/conditions-generales-cg/

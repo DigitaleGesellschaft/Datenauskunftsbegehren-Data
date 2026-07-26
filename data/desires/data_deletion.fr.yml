@@ -1,0 +1,4 @@
+handle: data_deletion
+label: Je requiers la suppression de mes données
+paragraphs:
+  - Je vous remercie pour vos précisions du {date:dataInfoResponseDate:Datum der Antwort}.

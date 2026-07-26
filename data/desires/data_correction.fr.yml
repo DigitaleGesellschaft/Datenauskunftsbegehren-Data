@@ -1,0 +1,4 @@
+handle: data_correction
+label: Je souhaite rectifier mes données
+paragraphs:
+  - Je vous remercie pour votre réponse du {date:dataInfoResponseDate:Datum der Antwort}. J'en constate que les données traitées sont inexactes.

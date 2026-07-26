@@ -1,0 +1,14 @@
+name: Intrum
+address: |-
+  Intrum AG
+  Eschenstrasse 12
+  8603 Schwerzenbach
+types:
+  - credit
+privacyStatement:
+  paragraphs:
+    - 'Je demande expressément une copie complète de mes données. Cela inclut aussi les informations sur d’éventuels liens de type « correspondances négatives de ménage » (voir la recommandation du Préposé fédéral à la protection des données et à la transparence du 17 mars 2023, complétée le 3 mai 2023), ainsi qu’une explication du contrôle de solvabilité.'
+sources:
+  address: https://www.intrum.ch/de/konsumenten/uber-intrum/datenschutz/impressum/ 
+  privacyStatement: 
+    - https://www.intrum.ch/de/konsumenten/uber-intrum/datenschutz/

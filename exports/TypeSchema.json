@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "handle": {
+      "$ref": "#/$defs/unique_string"
+    },
+    "label": {
+      "$ref": "#/$defs/label"
+    },
+    "serviceLabel": {
+      "$ref": "#/$defs/label"
+    },
+    "paragraphs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/variable_string"
+      }
+    }
+  },
+  "required": [
+    "handle",
+    "label",
+    "serviceLabel",
+    "paragraphs"
+  ],
+  "additionalProperties": false,
+  "title": "Type of Service or Service Category",
+  "description": "Schema for the types yml files. Used on the website to filter a company by service type encoded by the handle field",
+  "examples": [
+    "Parking",
+    "Gastronomy",
+    "Mobile Provider",
+    "Address Trade"
+  ],
+  "$defs": {
+    "unique_string": {
+      "type": "string",
+      "id": "unique_string",
+      "title": "A string that should be unique among each data type in data folder"
+    },
+    "label": {
+      "type": "string",
+      "id": "label",
+      "title": "A translatable label that appears on the website"
+    },
+    "variable_string": {
+      "type": "string",
+      "id": "variable_string",
+      "title": "Variable String",
+      "description": "A string that is used inside the letter that may contain variable placeholders. Variable placeholders must match: '/\\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[a-zA-Z-äöüß,. ]{0,})\\}/g'",
+      "examples": [
+        "Am {date:eventDate:Wann} habe ich von Ihnen ein Werbemail an die Adresse {email:eventEmail:E-Mail-Adresse} gesendet bekommen",
+        "Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien..."
+      ]
+    }
+  }
+}

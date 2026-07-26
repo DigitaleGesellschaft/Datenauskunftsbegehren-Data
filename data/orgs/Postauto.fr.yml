@@ -1,0 +1,13 @@
+name: Postauto
+address: |-
+  PostAuto AG
+  Wankdorfallee 4
+  3030 Bern
+types:
+  - wlan
+sources:
+  address: https://www.postauto.ch/fr/pages/footer/mentions-legales
+  privacyStatement: 
+    - https://www.postauto.ch/fr/pages/footer/mentions-legales
+    - https://www.postauto.ch/fr/pages/footer/conditions-generales
+    - https://www.postauto.ch/fr/pages/footer/protection-des-donnees-et-informations-legales

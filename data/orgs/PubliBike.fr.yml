@@ -1,0 +1,12 @@
+name: PubliBike
+address: |-
+  PubliBike AG
+  Rennweg 62 / Rue de la Course 62
+  2504 Biel/Bienne
+types:
+  - mobility
+sources:
+  address: https://www.publibike.ch/fr/impressum
+  privacyStatement: 
+    - https://www.publibike.ch/fr/agb
+    - https://www.publibike.ch/fr/protection-donnees

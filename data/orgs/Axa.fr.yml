@@ -1,0 +1,9 @@
+name: Axa
+address: |-
+  Axa Versicherungen AG
+  General-Guisan-Strasse 40
+  8400 Winterthur
+sources:
+  address: https://www.axa.ch/de/privatkunden/kontakt-services/kontakt/allgemeiner-kontakt.html
+  privacyStatement: 
+    - https://www.axa.ch/de/informationen/datenschutz.html

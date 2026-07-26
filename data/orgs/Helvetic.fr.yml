@@ -1,0 +1,9 @@
+name: Helvetic Airways
+address: |-
+  Helvetic Airways
+  Egglirain 24
+  8832 Wilen
+sources:
+  address: https://www.helvetic.com/fr/imprint
+  privacyStatement: 
+    - https://www.helvetic.com/fr/imprint#!data-protection

@@ -1,0 +1,34 @@
+name: Swisscom
+address: |-
+  Swisscom (Schweiz) AG
+  Swisscom Contact Center
+  3050 Bern
+types:
+  - mobile
+  - wlan
+  - online
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: octobre 2025 (Swisscom)
+  bullets:
+    - Traitement des donnees pour la fourniture des prestations et l execution des contrats
+    - Traitement des donnees issues du trafic de telecommunications
+    - text: Traitements de donnees a des fins marketing par Swisscom
+      bullets:
+        - Donnees personnelles
+        - Donnees de contact et d identification
+        - Communications adressees a Swisscom
+        - Donnees contractuelles
+        - Donnees d utilisation
+        - Donnees de connexion
+sources:
+  address: https://www.swisscom.ch/fr/clients-prives/precisions-juridiques/protection-des-donnees.html
+  privacyStatement: 
+    - https://www.swisscom.ch/content/dam/swisscom/nl/rechtliches/res/datenschutzbestimmungen-fr-10-2025.pdf
+    - https://www.swisscom.ch/fr/clients-prives/precisions-juridiques/protection-des-donnees.html
+    - https://www.swisscom.ch/fr/clients-prives/precisions-juridiques.html

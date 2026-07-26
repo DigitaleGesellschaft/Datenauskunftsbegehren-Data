@@ -1,0 +1,4 @@
+handle: call
+label: J'ai reçu un appel publicitaire
+paragraphs:
+  - J'ai reçu un appel publicitaire sur le numéro {tel:number:Telefon-Nr.} le {date:eventDate:Wann}.

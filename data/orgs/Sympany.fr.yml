@@ -1,0 +1,10 @@
+name: Sympany
+address: |-
+  Sympany
+  Protection des donnees
+  Peter Merian-Weg 4
+  4052 Basel
+sources:
+  address: https://www.sympany.ch/fr/remarques-juridiques/mentions-legales.html
+  privacyStatement: 
+    - https://www.sympany.ch/fr/remarques-juridiques/protection-des-donnees.html

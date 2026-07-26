@@ -1,0 +1,12 @@
+name: Hyundai
+address: |-
+  Astara Mobility Switzerland AG
+  Richtiplatz 5
+  8304 Wallisellen
+types:
+  - mobility
+  - mobility
+sources:
+  address: https://www.hyundai.com/ch/fr/protection-des-donnees.html
+  privacyStatement:
+    - https://www.hyundai.com/ch/fr/protection-des-donnees.html

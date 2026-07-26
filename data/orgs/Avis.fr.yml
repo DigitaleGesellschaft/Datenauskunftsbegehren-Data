@@ -1,0 +1,14 @@
+name: Avis
+address: |-
+  Avis Budget Autovermietung AG
+  Hofwisenstraße 36
+  8153 Rümlang
+types:
+  - mobility
+sources:
+  address: https://www.avis.ch/kontakt
+  privacyStatement: 
+    - https://www.avis.ch/TermsAndConditions
+    - https://www.avis.ch/das-kleingedruckte/cookie-richtlinien
+    - https://www.avis.ch/das-kleingedruckte/datenschutzrichtlinien
+    - https://www.avis.ch/das-kleingedruckte/website-nutzungsbedingungen

@@ -2,6 +2,7 @@ name: Yuh
 address: |-
   Yuh AG
   Chemin de la Crétaux 33
+  Case postale 319
   1196 Gland
 privacyStatement:
   paragraphs:
@@ -9,7 +10,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: 17. Februar 2022
+    privacyStatementDate: 19 November 2025
   bullets:
     - Persönliche Angaben und andere Registrierungsdaten
     - technische Daten
@@ -26,6 +27,6 @@ privacyStatement:
       Herkunft, religiöse oder weltanschauliche Überzeugungen und Informationen bezüglich
       strafrechtlicher Verurteilungen oder Straftaten'
 sources:
-  address: https://www.yuh.com/en/support/contact
+  address: https://www.yuh.com/de/imprint/ 
   privacyStatement: 
-    - https://links.imagerelay.com/cdn/2958/ql/yuh-app-privacy-policy-de-v2
+    - https://www.yuh.com/de/legal/

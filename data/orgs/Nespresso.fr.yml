@@ -1,0 +1,12 @@
+name: Nespresso
+address: |-
+  Nestlé Nespresso SA
+  Chaussée de la Guinguette 10
+  1800 Vevey
+types:
+  - online
+  - payback
+sources:
+  address: https://www.nespresso.com/ch/fr/legal
+  privacyStatement: 
+    - https://www.nespresso.com/ch/fr/legal

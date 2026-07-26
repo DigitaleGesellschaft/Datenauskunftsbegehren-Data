@@ -1,0 +1,11 @@
+name: Cornèrcard (Cornèr Bank)
+address: |-
+  Cornèr Banca SA
+  Cornèrcard
+  via Canova 16
+  6900 Lugano
+sources:
+  address: https://www.cornercard.ch/fr/informations-juridiques/impressum/
+  privacyStatement:
+    - https://www.corner.ch/fr/informations-juridiques/declaration-sur-la-protection-des-donnees/
+    - https://www.cornercard.ch/fr/informations-juridiques/

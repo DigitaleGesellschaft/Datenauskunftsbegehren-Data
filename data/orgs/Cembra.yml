@@ -5,7 +5,7 @@ address: |-
   Bändliweg 20
   8048 Zürich
 sources:
-  address: https://www.cembra.ch/de/datenschutzerkl%C3%A4rung/
+  address: https://www.cembra.ch/de/rechtliches/ 
   privacyStatement: 
-    - https://www.cembra.ch/de/datenschutzerkl%C3%A4rung/
-    - https://www.cembra.ch/de/rechtliche-hinweise/
+    - https://www.cembra.ch/de/rechtliches/datenschutzerklaerung/ 
+    - https://www.cembra.ch/de/rechtliches/ 

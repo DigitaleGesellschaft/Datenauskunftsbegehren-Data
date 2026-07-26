@@ -1,0 +1,13 @@
+name: Amorana.ch
+address: |-
+  Amorana.ch
+  Bluebox Shop AG
+  Neue Winterthurerstrasse 99
+  8304 Wallisellen
+types:
+  - online
+sources:
+  address: https://www.amorana.ch/fr/mentions-legales
+  privacyStatement: 
+    - https://www.amorana.ch/fr/conditions-generales-de-vente
+    - https://www.amorana.ch/fr/protection-des-donnees

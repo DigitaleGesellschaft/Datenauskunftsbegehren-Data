@@ -1,0 +1,12 @@
+name: Carvolution
+address: |-
+  Carvolution AG
+  Neufeldweg 2
+  4913 Bannwil
+types:
+  - mobility
+sources:
+  address: https://www.carvolution.com/fr/contact
+  privacyStatement: 
+    - https://www.carvolution.com/fr/conditions-generales
+    - https://www.carvolution.com/fr/politique-de-confidentialite

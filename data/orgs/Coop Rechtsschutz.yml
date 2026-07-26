@@ -5,6 +5,6 @@ address: |-
   Entfelderstrasse 2
   5001 Aarau
 sources:
-  address: https://www.cooprecht.ch/de/datenschutzerklaerung
+  address: https://www.cooprecht.ch/de/datenschutzerklaerung/
   privacyStatement: 
-    - https://www.cooprecht.ch/de/datenschutzerklaerung
+    - https://www.cooprecht.ch/de/datenschutzerklaerung/

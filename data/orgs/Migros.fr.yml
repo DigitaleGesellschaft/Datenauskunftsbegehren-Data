@@ -1,0 +1,37 @@
+name: Migros
+address: |-
+  Migros-Genossenschafts-Bund
+  M-Infoline
+  Limmatstrasse 152
+  8005 Zürich
+types:
+  - payback
+  - online
+  - wlan
+privacyStatement:
+  paragraphs:
+    - 'Je demande en particulier des informations sur les finalites de traitement
+      mentionnees dans votre declaration de protection des donnees du
+      {string:privacyStatementDate}, notamment:'
+  variables:
+    # Remarque:
+    # - pas clair si la date = date de publication ou usage interne
+    # - pas clairement visible sur la page liée
+    # - a verifier eventuellement
+    privacyStatementDate: mai 2020
+  bullets:
+    - text: Finalites
+      bullets:
+        - Communication
+        - Execution des contrats
+        - Information et marketing
+        - Etudes de marche et developpement de produits
+        - Securite et prevention
+        - Respect des exigences legales
+        - Preservation des droits
+        - Administration et soutien internes au groupe
+sources:
+  address: https://privacy.migros.ch/fr.html#declaration-de-protection-des-donnees
+  privacyStatement: 
+    - https://privacy.migros.ch/fr.html#declaration-de-protection-des-donnees
+    - https://www.migros.ch/fr/content/informations-juridiques

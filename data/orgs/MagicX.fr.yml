@@ -1,0 +1,12 @@
+name: Magic X 
+address: |-
+  Magic X Retail AG
+  Jan Brönnimann
+  Stegacksterstrasse 6
+types:
+  - online
+sources:
+  address: https://shop.magic-x.ch/bc/fr/impressum.html
+  privacyStatement: 
+    - https://shop.magic-x.ch/bc/fr/datenschutzerklaerung.html
+    - https://shop.magic-x.ch/shop/inhalt.php?content=agb&lang=fr

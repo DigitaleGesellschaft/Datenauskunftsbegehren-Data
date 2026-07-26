@@ -1,0 +1,13 @@
+name: LANDI Schweiz AG
+address: |-
+  LANDI Schweiz AG
+  Schulriederstrasse 5
+  3293 Dotzigen
+types:
+  - online
+sources:
+  address: https://www.landi.ch/fr/a-propos-de-nous/impressum
+  privacyStatement: 
+    - https://www.landi.ch/fr/a-propos-de-nous/protection-donn%C3%A9es
+    - https://www.landi.ch/fr/a-propos-de-nous/informations-l%C3%A9gales
+    - https://www.landi.ch/fr/magasin/service/service-clients/conditions-generales-de-vente

@@ -1,0 +1,12 @@
+name: Mobility
+address: |-
+  Mobility Cooperative
+  Suurstoffi 16
+  CH-6343 Rotkreuz
+types:
+  - mobility
+sources:
+  address: https://mobility.ch/fr/utilisateurs-mobility/service-clientele/impressum/
+  privacyStatement:
+    - https://mobility.ch/fr/utilisateurs-mobility/service-clientele/protection-des-donnees
+    - https://mobility.ch/fr/utilisateurs-mobility/service-clientele/cgv

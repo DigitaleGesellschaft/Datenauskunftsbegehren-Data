@@ -1,12 +1,13 @@
 name: Interdiscount
 address: |-
-  Interdiscount
-  Bernstrasse 90
-  3303 Jegenstorf
+  Divisionen der Coop Genossenschaft
+  Thiersteinerallee 12
+  4053 Basel
 types:
   - online
 sources:
   address: https://www.interdiscount.ch/de/cms/unternehmen/impressum
   privacyStatement: 
     - https://www.interdiscount.ch/de/cms/unternehmen/agb
+    - https://www.coop.ch/de/unternehmen/datenschutz/interdiscount.html
     - https://www.interdiscount.ch/de/cms/unternehmen/datenschutz

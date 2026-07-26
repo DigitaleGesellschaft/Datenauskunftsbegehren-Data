@@ -1,0 +1,12 @@
+# Nur auf Deutsch
+name: Mycontactdetails (ProtecData AG)
+address: |-
+  ProtecData AG
+  Oberdorf 43
+  5623 Boswil
+types:
+  - gastro
+sources:
+  address: https://protecdata.ch/impressum/
+  privacyStatement:
+    - https://protecdata.ch/datenschutzerklaerung/

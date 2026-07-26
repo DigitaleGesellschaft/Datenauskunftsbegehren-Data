@@ -1,0 +1,13 @@
+name: Ricardo
+address: |-
+  Ricardo AG
+  Theilerstrasse 1a
+  Postfach 1160
+  6301 Zug
+types:
+  - online
+sources:
+  address: https://help.ricardo.ch/hc/fr/articles/214044069-Mentions-legales-Ricardo-SA
+  privacyStatement: 
+    - https://help.ricardo.ch/hc/fr/articles/115002934305-CGV-et-règlements
+    - https://help.ricardo.ch/hc/fr/articles/4417494500498-Déclaration-de-protection-des-données-SMG-Swiss-Marketplace-Group-SA

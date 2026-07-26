@@ -1,13 +1,13 @@
 name: eat.ch
 address: |-
-  eat.ch GmbH
-  Werdstrasse 21
-  8004 Zürich
+  EAT.ch GmbH
+  Manessestrasse 85
+  8045 Zürich
 types:
   - online
 sources:
-  address: https://www.eat.ch/impressum
+  address: https://www.just-eat.ch/legal-information 
   privacyStatement: 
-    - https://www.eat.ch/cookiestatement
-    - https://www.eat.ch/privacy-statement
-    - https://www.eat.ch/agb
+    - https://www.just-eat.ch/cookies-policy
+    - https://www.just-eat.ch/privacy-policy
+    - https://www.just-eat.ch/terms-and-conditions

@@ -1,0 +1,13 @@
+name: Tchibo (Schweiz) AG
+address: |-
+  Tchibo (Schweiz) AG
+  Birkenweg 4
+  8304 Wallisellen
+types:
+  - online
+  - payback
+sources:
+  address: http://fr.tchibo.ch/c/service-mentions-legales
+  privacyStatement: 
+    - https://www.fr.tchibo.ch/c/service-protection-des-donnees
+    - https://www.fr.tchibo.ch/c/service-conditions-generales-de-vente

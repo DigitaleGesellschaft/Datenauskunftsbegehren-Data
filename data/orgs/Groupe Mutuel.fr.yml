@@ -1,0 +1,10 @@
+name: Groupe Mutuel
+address: |-
+  Groupe Mutuel
+  Avenir Assurance Maladie
+  Rue des Cèdres 5
+  1919 Martigny
+sources:
+  address: https://www.groupemutuel.ch/fr/clients-prives/Conditions-Generales-d-utilisation.html
+  privacyStatement: 
+    - https://www.groupemutuel.ch/fr/clients-prives/Conditions-Generales-d-utilisation.html

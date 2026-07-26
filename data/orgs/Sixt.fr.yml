@@ -1,0 +1,12 @@
+name: Sixt
+address: |-
+  Sixt rent-a-car AG
+  Schwarzwaldallee 242
+  4058 Basel
+types:
+  - mobility
+sources:
+  address: https://www.sixt.ch/pages/impressum/?language=fr_CH
+  privacyStatement: 
+    - https://www.sixt.ch/shared/data-protection/DSGVO_CH_fr.pdf
+    - https://www.sixt.ch/shared/t-c/sixt_CH_fr.pdf

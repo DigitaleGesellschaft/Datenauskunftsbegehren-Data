@@ -1,0 +1,4 @@
+handle: incomplete_answer
+label: J'ai reçu une réponse incomplète
+paragraphs:
+  - Vos précisions du {date:dataInfoResponseDate:Datum der Antwort} n'ont pas intégralement satisfaites ma requête en accès à mes données personelles du {date:dataInfoRequestDate:Datum der Anfrage}.

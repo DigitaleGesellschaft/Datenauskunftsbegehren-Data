@@ -1,0 +1,13 @@
+name: Conforama Schweiz AG
+address: |-
+  Conforama Suisse SA 
+  Rue de la Gare 32 
+  1110 Morges 
+types:
+  - payback
+  - online
+sources:
+  address: https://www.conforama.ch/de/Impressum
+  privacyStatement: 
+    - https://www.conforama.ch/de/privacy
+    - https://www.conforama.ch/de/terms-and-conditions

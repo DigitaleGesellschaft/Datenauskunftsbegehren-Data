@@ -1,0 +1,11 @@
+name: Dacia
+address: |-
+  RENAULT SUISSE SA
+  Bergermoosstrasse 4
+  8902 Urdorf
+types:
+  - mobility
+sources:
+  address: https://fr.dacia.ch/termes-et-conditions.html
+  privacyStatement:
+    - https://fr.dacia.ch/termes-et-conditions.html

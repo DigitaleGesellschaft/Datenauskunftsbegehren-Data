@@ -1,0 +1,11 @@
+name: Renault
+address: |-
+  RENAULT SUISSE SA
+  Bergermoosstrasse 4
+  8902 Urdorf
+types:
+  - mobility
+sources:
+  address: https://fr.renault.ch/conditions-generales.html
+  privacyStatement:
+    - https://fr.renault.ch/conditions-generales.html#protectiondesdonnees

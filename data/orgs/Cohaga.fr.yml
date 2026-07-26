@@ -1,0 +1,14 @@
+# Hatte den Eindruck, dass sie nur in der Deutschschweiz tätig sind
+name: Cohaga AG
+address: |-
+  Cohaga AG
+  Fürstenlandstrasse 41
+  9000 St. Gallen
+types:
+  - address
+sources:
+  address: https://cohaga.ch/impressum/
+  privacyStatement:
+    - https://cohaga.ch/impressum/
+    - https://cohaga.ch/datenschutz/
+    - https://cohaga.ch/agb/

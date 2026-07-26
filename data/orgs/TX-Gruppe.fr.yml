@@ -1,0 +1,33 @@
+name: Tages-Anzeiger (TX Group)
+address: |-
+  TX Group AG
+  Group Data Protection Officer
+  Werdstrasse 21
+  8004 Zürich
+types:
+  - online
+privacyStatement:
+  paragraphs:
+    - 'Par donnees personnelles, il faut entendre en particulier les categories
+      suivantes mentionnees dans votre declaration de protection des donnees
+      du {string:privacyStatementDate}, ainsi que les traitements de donnees
+      relatifs a la personne et a l activite client:'
+  variables:
+    privacyStatementDate: juin 2023
+  bullets:
+    - Visite des portails
+    - Enregistrement d un compte utilisateur
+    - Utilisation d un portail en tant qu utilisateur enregistre
+    - Achat / souscription d un service payant
+    - Participation a des jeux-concours et concours (evenements)
+    - Sondages utilisateurs et etudes de marche
+    - Marketing direct et publicite en ligne
+    - Traitement des donnees personnelles a des fins de marketing et d analyse
+    - Outils de suivi et d analyse
+    - Plug-ins et autres integrations d offres de tiers
+    - Informations de localisation
+sources:
+  address: https://tx.group/fr/a-propos-de-nous/
+  privacyStatement: 
+    - https://www.tagesanzeiger.ch/datenschutzerklaerung-954908797441
+    - https://tx.group/fr/cookie-policy/

@@ -6,10 +6,10 @@ address: |-
 types:
   - address
 sources:
-  address: https://www.ms-direct.ch/impressum
+  address: https://www.ms-direct.com/impressum/
   privacyStatement: 
-    - https://www.ms-direct.ch/disclaimer
-    - https://www.ms-direct.ch/datenschutz
+    - https://www.ms-direct.com/agb
+    - https://www.ms-direct.com/datenschutz/
 history:
   - action: removed
     date: '2021-06-05T00:00:00.000Z'

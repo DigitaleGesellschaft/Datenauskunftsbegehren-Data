@@ -1,0 +1,11 @@
+name: Helsana
+address: |-
+  Helsana Versicherungen AG
+  Postfach
+  8081 Zürich
+sources:
+  address: https://www.helsana.ch/fr/helsana-gruppe/ueber-uns/rechtliches/impressum.html
+  privacyStatement: 
+    - https://www.helsana.ch/fr/helsana-gruppe/ueber-uns/rechtliches/datenschutz.html
+    - https://www.helsana.ch/fr/helsana-gruppe/ueber-uns/rechtliches/rechtliche-hinweise.html
+    - https://www.helsana.ch/dam/fr/pdf/helsana-gruppe/publikationen/allgemeine-datenschutzerklaerung-helsana.pdf

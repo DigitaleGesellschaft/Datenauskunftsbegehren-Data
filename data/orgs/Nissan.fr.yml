@@ -1,0 +1,13 @@
+name: Nissan
+address: |-
+  Nissan Switzerland
+  Astara Mobility Switzerland AG
+  Richtiplatz 5
+  CH-8304 Wallisellen
+types:
+  - mobility
+sources:
+  address: https://fr.nissan.ch/legal/mentions-legales.html
+  privacyStatement:
+    - https://fr.nissan.ch/legal/protection-donnees.html
+    - https://privacy.prezly.com/de-ch/newsroom/cf737e92-0776-431d-a7c8-d685887b6605/data-request
