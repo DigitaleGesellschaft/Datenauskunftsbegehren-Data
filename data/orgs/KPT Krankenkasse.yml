@@ -1,9 +1,9 @@
 name: KPT Krankenkasse
 address: |-
   KPT Krankenkasse AG
+  Datenschutzberater
   Wankdorfallee 3
-  Postfach
-  3001 Bern
+  3014 Bern
 sources:
   address: https://www.kpt.ch/de/ueber-uns/impressum
   privacyStatement: 
