@@ -1,8 +1,8 @@
 name: Creditreform
 address: |-
   Schweizerischer Verband Creditreform
-  Thurgauerstrasse 36/38 
-  9000 St. Gallen
+  Thurgauerstrasse 36/38
+  8050 Zürich
 types:
   - credit
 sources:
