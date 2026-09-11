@@ -2,10 +2,10 @@ name: IMPORT PARFUMERIE
 address: |-
   IMPORT PARFUMERIE
   Thiersteineralllee 12
-  4053 Basel 
+  4053 Basel
 types:
   - online
 sources:
   address: https://www.impo.ch/de/imprint
-  privacyStatement: 
+  privacyStatement:
     - https://www.coop.ch/de/unternehmen/datenschutz/impo.html?/

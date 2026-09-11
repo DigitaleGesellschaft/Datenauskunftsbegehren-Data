@@ -1,7 +1,7 @@
 name: NZZ
 address: |-
-  NZZ-Mediengruppe
-  Generalsekretariat / Datenschutzverantwortlicher
+  NZZ
+  Datenschutzbeauftragter
   Falkenstrasse 11
   8008 Zürich
 types:
@@ -12,7 +12,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: 11 Juni 2025
+    privacyStatementDate: 18 Dezember 2025
   bullets:
     - Kontakt- und Identifikationsdaten
     - Vertragsdaten

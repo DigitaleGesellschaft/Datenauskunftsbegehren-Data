@@ -1,13 +1,14 @@
 name: eat.ch
 address: |-
-  EAT.ch GmbH
-  Manessestrasse 85
-  8045 Zürich
+  Just Eat Takeaway.com
+  Piet Heinkade 61
+  1019 GM Amsterdam
+  Niederlande
 types:
   - online
 sources:
-  address: https://www.just-eat.ch/legal-information 
-  privacyStatement: 
+  address: https://www.just-eat.ch/legal-information
+  privacyStatement:
     - https://www.just-eat.ch/cookies-policy
     - https://www.just-eat.ch/privacy-policy
     - https://www.just-eat.ch/terms-and-conditions
