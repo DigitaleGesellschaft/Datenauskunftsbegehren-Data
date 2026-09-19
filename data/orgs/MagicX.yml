@@ -2,11 +2,12 @@ name: Magic X
 address: |-
   Magic X Retail AG
   Jan Brönnimann
-  Stegacksterstrasse 6
+  Stegackerstrasse 6
+  8409 Winterthur
 types:
   - online
 sources:
   address: https://shop.magic-x.ch/bc/impressum.html 
   privacyStatement: 
     - https://shop.magic-x.ch/bc/datenschutzerklaerung.html 
-    - https://shop.magic-x.ch/bc/agb.htmlhttps://shop.magic-x.ch/bc/datenschutzerklaerung.html 
+    - https://shop.magic-x.ch/bc/agb.html

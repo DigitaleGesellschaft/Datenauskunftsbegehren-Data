@@ -1,13 +1,13 @@
 name: Interdiscount
 address: |-
-  Divisionen der Coop Genossenschaft
-  Thiersteinerallee 12
+  Coop Genossenschaft
+  Thiersteinerallee 14
   4053 Basel
 types:
   - online
 sources:
   address: https://www.interdiscount.ch/de/cms/unternehmen/impressum
-  privacyStatement: 
+  privacyStatement:
     - https://www.interdiscount.ch/de/cms/unternehmen/agb
     - https://www.coop.ch/de/unternehmen/datenschutz/interdiscount.html
     - https://www.interdiscount.ch/de/cms/unternehmen/datenschutz
