@@ -3,8 +3,6 @@ address: |-
   BuCK Bern
   Sandrainstrasse 25
   3007 Bern
-types:
-  - gastro
 sources:
   address: https://covtr.app/de/agb
   privacyStatement: 

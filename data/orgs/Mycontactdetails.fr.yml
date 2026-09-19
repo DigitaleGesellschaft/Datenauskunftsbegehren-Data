@@ -4,8 +4,6 @@ address: |-
   ProtecData AG
   Oberdorf 43
   5623 Boswil
-types:
-  - gastro
 sources:
   address: https://protecdata.ch/impressum/
   privacyStatement:

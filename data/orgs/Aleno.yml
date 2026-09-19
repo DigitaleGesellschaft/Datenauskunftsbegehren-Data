@@ -3,8 +3,6 @@ address: |-
   Aleno AG
   Aegertenstrasse 6
   8003 Zürich 
-types:
-  - gastro
 sources:
   address: https://www.aleno.me/de/impressum 
   privacyStatement: 
