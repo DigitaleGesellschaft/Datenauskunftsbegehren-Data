@@ -26,19 +26,16 @@
   "$defs": {
     "unique_string": {
       "type": "string",
-      "id": "unique_string",
       "title": "A string that should be unique among each data type in data folder"
     },
     "label": {
       "type": "string",
-      "id": "label",
       "title": "A translatable label that appears on the website"
     },
     "variable_string": {
       "type": "string",
-      "id": "variable_string",
       "title": "Variable String",
-      "description": "A string that is used inside the letter that may contain variable placeholders. Variable placeholders must match: '/\\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[a-zA-Z-äöüß,. ]{0,})\\}/g'",
+      "description": "A string that is used inside the letter that may contain variable placeholders. Variable placeholders must match: '/\\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[^{}:]*)\\}/g'",
       "examples": [
         "Am {date:eventDate:Wann} habe ich von Ihnen ein Werbemail an die Adresse {email:eventEmail:E-Mail-Adresse} gesendet bekommen",
         "Unter personenbezogene Daten sind insbesondere auch die folgenden in Ihrer Datenschutzerklärung vom {string:privacyStatementDate} aufgeführten Kategorien..."
