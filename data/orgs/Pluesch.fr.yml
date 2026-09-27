@@ -4,8 +4,6 @@ address: |-
   DIGELEC für digitale Kommunikation
   Seestrasse 26
   3806 Bönigen
-types:
-  - gastro
 sources:
   address: https://digelec.ch/impressum/
   privacyStatement:

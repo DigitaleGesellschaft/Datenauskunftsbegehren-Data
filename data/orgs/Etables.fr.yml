@@ -4,8 +4,6 @@ address: |-
   Contency GmbH
   Bahnhofstrasse 6
   9050 Appenzell
-types:
-  - gastro
 sources:
   address: https://www.etables.info/impressum
   privacyStatement:

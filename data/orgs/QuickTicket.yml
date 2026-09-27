@@ -3,8 +3,6 @@ address: |-
   Bulp GmbH
   Libellenweg 5
   3510 Konolfingen
-types:
-  - gastro
 sources:
   address: https://www.quickticket.ch/impressum/
   privacyStatement:
