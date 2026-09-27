@@ -1,8 +1,10 @@
 name: Sunrise UPC GmbH (Yallo)
-address: |
-  Thurgauerstrasse 101B
+address: |-
+  Sunrise GmbH
+  Datenschutzbeauftragter
+  Thurgauerstrasse 101 B
   Postfach
-  8050 Zürich
+  8152 Glattpark (Opfikon)
 types:
   - mobile
 privacyStatement:
