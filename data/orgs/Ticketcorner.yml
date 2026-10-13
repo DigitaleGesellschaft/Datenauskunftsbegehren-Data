@@ -1,13 +1,14 @@
 name: Ticketcorner AG
 address: |-
   Ticketcorner AG
-  Riedmatt-Center
-  CH-8153 Rümlang
+  Im Buchenpark 3
+  8304 Wallisellen
+  Schweiz
 types:
   - online
 sources:
   address: https://www.ticketcorner.ch/help/imprint/
-  privacyStatement: 
+  privacyStatement:
     - https://www.ticketcorner.ch/help/data-protection/
     - https://www.ticketcorner.ch/help/club-terms/
     - https://www.ticketcorner.ch/help/terms/?affiliate=TCS

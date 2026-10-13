@@ -13,7 +13,7 @@ privacyStatement:
       vom {string:privacyStatementDate} aufgeführten Kategorien, resp. Bearbeitungen
       von Daten zur Person und zur Kundenaktivität zu verstehen:'
   variables:
-    privacyStatementDate: Oktober 2025
+    privacyStatementDate: März 2026
   bullets:
     - Bearbeitung von Daten zur Leistungserbringung und Vertragsabwicklung
     - Bearbeitung von Daten aus dem Fernmeldeverkehr

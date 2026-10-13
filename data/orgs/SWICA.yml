@@ -1,8 +1,8 @@
 name: SWICA Krankenversicherung
 address: |-
-  SWICA Krankenversicherung
-  Römerstrasse 38
-  8401 Winterthur
+  SWICA Krankenversicherung AG
+  Römerstrasse 37
+  8400 Winterthur
 sources:
   address: https://www.swica.ch/de/ueber-swica/portrait/ueberblick/datenschutz/impressum
   privacyStatement: 

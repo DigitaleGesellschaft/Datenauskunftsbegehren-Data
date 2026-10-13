@@ -1,12 +1,13 @@
 name: Orell Füssli Thalia AG
 address: |-
   Orell Füssli Thalia AG
+  Datenschutz
   Dietzingerstrasse 3
   8036 Zürich
 types:
   - online
 sources:
-  address: https://www.orellfuessli.ch/hilfe/rechtliches/impressum 
-  privacyStatement: 
-    - https://www.orellfuessli.ch/hilfe/rechtliches/datenschutz 
-    - https://www.orellfuessli.ch/hilfe/rechtliches/agb 
+  address: https://www.orellfuessli.ch/hilfe/rechtliches/impressum
+  privacyStatement:
+    - https://www.orellfuessli.ch/hilfe/rechtliches/datenschutz
+    - https://www.orellfuessli.ch/hilfe/rechtliches/agb
