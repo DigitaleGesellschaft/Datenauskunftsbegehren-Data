@@ -1,3 +1,20 @@
+## v3.0.0 – 2026-10-17
+
+- Fix sunrise (#115)
+- Remove gastro type (#106)
+- chore(deps): bump vitest from 5.0.2 to 5.0.3 (#112)
+- chore(deps): bump vitest from 5.0.1 to 5.0.2 (#110)
+- chore(deps): bump prettier from 3.9.8 to 3.9.9 (#111)
+- chore(deps): bump vitest from 5.0.0 to 5.0.1 (#109)
+- chore(deps): bump prettier from 3.9.6 to 3.9.8 (#107)
+- chore(deps): bump zod from 4.6.2 to 4.6.5 (#108)
+- chore(deps): bump yaml from 2.9.0 to 2.9.1 (#105)
+- chore(deps): bump zod from 4.5.4 to 4.6.2 (#104)
+- chore(deps): bump vitest from 4.1.11 to 5.0.0 (#102)
+- chore(deps): bump zod from 4.5.2 to 4.5.4 (#103)
+- chore(deps): bump zod from 4.4.3 to 4.5.2 (#101)
+- chore(deps): bump vitest from 4.1.10 to 4.1.11 (#100)
+
 ## v2.0.0 – 2026-07-26
 
 - Introduce type "parking" for category "Parkplatzanbieter"  (#32)
