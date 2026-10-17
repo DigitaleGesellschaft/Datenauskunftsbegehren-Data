@@ -3,8 +3,6 @@ address: |-
   Pally Online gmbG
   Wiesentalstrasse 106
   7000 Chur
-types:
-  - gastro
 sources:
   address: https://pally.ch/impressum/
   privacyStatement: 

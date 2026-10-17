@@ -4,8 +4,6 @@ address: |-
   Mindful
   Riedmatt-Center
   8153 Rümlang
-types:
-  - gastro
 sources:
   address: https://mindfulapp.io/impressum/
   privacyStatement: 
