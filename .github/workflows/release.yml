@@ -7,6 +7,11 @@ on:
         description: 'Art des Releases (patch, minor, major)'
         required: true
         default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
 
 jobs:
   release:
@@ -20,12 +25,12 @@ jobs:
 
       - name: 🧮 Version berechnen (semver)
         id: semver
+        env:
+          TYPE: ${{ github.event.inputs.release_type }}
         run: |
           LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
           VERSION=${LAST_TAG#v}
           IFS='.' read -r MAJOR MINOR PATCH <<< "$VERSION"
-
-          TYPE="${{ github.event.inputs.release_type }}"
 
           case "$TYPE" in
             patch)
@@ -64,9 +69,13 @@ jobs:
             echo "$NEW_SECTION" > CHANGELOG.md
           fi
 
-          echo "changelog<<EOF" >> $GITHUB_OUTPUT
-          echo "$LOG" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          # random delimiter, so no commit message can end the value early
+          DELIMITER="EOF_$(openssl rand -hex 16)"
+          {
+            echo "changelog<<$DELIMITER"
+            echo "$LOG"
+            echo "$DELIMITER"
+          } >> "$GITHUB_OUTPUT"
 
       - name: 🟨 Node.js einrichten
         uses: actions/setup-node@v7
@@ -75,6 +84,10 @@ jobs:
 
       - name: 📦 Abhängigkeiten installieren
         run: npm install
+
+      # nur ein gültiger Datenstand ohne symbolische Links wird veröffentlicht
+      - name: ✅ Datenstand prüfen
+        run: npx vitest run tests/validate.test.js
 
       - name: 🛠️ Projekt kompilieren
         run: npm run compile
