@@ -1,10 +1,20 @@
 import { parse } from 'yaml';
 import fs  from 'fs';
 
+// Symbolic links are refused: their target could be any file of the machine,
+// which would end up in the published JSON
 function readYml(dir, filter) {
-  return fs.readdirSync(dir)
-    .filter(filter)
-    .map(file => fs.readFileSync(`${dir}/${file}`, { encoding: 'utf-8' }))
+  if (fs.lstatSync(dir).isSymbolicLink()) {
+    throw new Error(`${dir} is a symbolic link`)
+  }
+  return fs.readdirSync(dir, { withFileTypes: true })
+    .filter(entry => filter(entry.name))
+    .map(entry => {
+      if (!entry.isFile()) {
+        throw new Error(`${dir}/${entry.name} is not a regular file`)
+      }
+      return fs.readFileSync(`${dir}/${entry.name}`, { encoding: 'utf-8' })
+    })
     .map(ymlData => parse(ymlData))
 }
 
