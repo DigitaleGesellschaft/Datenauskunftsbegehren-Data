@@ -3,10 +3,12 @@
   "type": "object",
   "properties": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^[^<>]*$"
     },
     "address": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^[^<>]*$"
     },
     "types": {
       "type": "array",
@@ -37,7 +39,8 @@
           "type": "object",
           "properties": {
             "privacyStatementDate": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^[^<>]*$"
             }
           },
           "required": [
@@ -91,7 +94,8 @@
             "type": "string"
           },
           "reason": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[^<>]*$"
           }
         },
         "required": [
@@ -116,6 +120,7 @@
   "$defs": {
     "variable_string": {
       "type": "string",
+      "pattern": "^[^<>]*$",
       "title": "Variable String",
       "description": "A string that is used inside the letter that may contain variable placeholders. Variable placeholders must match: '/\\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[^{}:]*)\\}/g'",
       "examples": [
@@ -126,13 +131,15 @@
     "bullet": {
       "anyOf": [
         {
-          "type": "string"
+          "type": "string",
+          "pattern": "^[^<>]*$"
         },
         {
           "type": "object",
           "properties": {
             "text": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^[^<>]*$"
             },
             "bullets": {
               "type": "array",

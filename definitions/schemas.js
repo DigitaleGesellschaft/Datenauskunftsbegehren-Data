@@ -14,18 +14,27 @@ export const dateStringSchema = z.string().refine(
 export const variableRegExp =
   /\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[^{}:]*)\}/g;
 
-const UniqueString = z.string().register(z.globalRegistry, {
+// The generator puts the texts into the HTML of its pages, partly without
+// escaping them (e.g. the postal address); angle brackets are refused so that
+// no markup can get into the page through a data file.
+export const NO_MARKUP_MESSAGE = "Must not contain the characters < and >";
+
+/** A text that ends up in the HTML of the generator. */
+function plainText() {
+  return z.string().regex(/^[^<>]*$/, NO_MARKUP_MESSAGE);
+}
+
+const UniqueString = plainText().register(z.globalRegistry, {
   id: "unique_string",
   title: "A string that should be unique among each data type in data folder",
 });
 
-const Label = z.string().register(z.globalRegistry, {
+const Label = plainText().register(z.globalRegistry, {
   id: "label",
   title: "A translatable label that appears on the website",
 });
 
-export const VariableString = z
-  .string()
+export const VariableString = plainText()
   .refine(
     (val) => {
       const braceCount = (val.match(/\{/g) || []).length;
@@ -80,7 +89,7 @@ export const HistorySchema = z
   .object({
     action: HistoryAction,
     date: dateStringSchema,
-    reason: z.string(),
+    reason: plainText(),
   })
   .register(z.globalRegistry, {
     title: "History Record for an Org",
@@ -91,9 +100,9 @@ export const HistorySchema = z
 // models/Bullet.js
 export const BulletsSchema = z
   .union([
-    z.string(), // Simple bullet
+    plainText(), // Simple bullet
     z.object({
-      text: z.string(),
+      text: plainText(),
       get bullets() {
         return z.array(BulletsSchema);
       },
@@ -112,7 +121,7 @@ export const PrivacyStatementSchema = z
     paragraphs: z.array(VariableString).optional(),
     variables: z
       .object({
-        privacyStatementDate: z.string(),
+        privacyStatementDate: plainText(),
       })
       .optional(),
     bullets: z.array(BulletsSchema).optional(),
@@ -137,14 +146,14 @@ export const OrgType = z.enum([
 // see svelte code models/org.js what is optional and what not
 export const OrgSchema = z
   .object({
-    name: z.string(),
-    address: z.string(),
+    name: plainText(),
+    address: plainText(),
     types: z.array(OrgType).optional(),
     privacyStatement: PrivacyStatementSchema.optional(),
     // sources is not used inside the frontend code and stripped
     sources: z.object({
-      address: z.string().url(),
-      privacyStatement: z.array(z.string().url()).optional(),
+      address: z.url({ protocol: /^https?$/ }),
+      privacyStatement: z.array(z.url({ protocol: /^https?$/ })).optional(),
     }),
     history: z.array(HistorySchema).optional(),
   })
@@ -156,8 +165,8 @@ export const OrgSchema = z
 
 export const DesireSchema = z
   .object({
-    handle: z.string(),
-    label: z.string(),
+    handle: plainText(),
+    label: plainText(),
     paragraphs: z.array(VariableString).optional(),
   })
   .register(z.globalRegistry, {

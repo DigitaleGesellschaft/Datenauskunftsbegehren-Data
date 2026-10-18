@@ -29,7 +29,7 @@ tmp=$(mktemp -d)
 # Files with a "history: action: removed" entry are ignored.
 grep -L -Z -E '^[[:space:]]*-[[:space:]]*action:[[:space:]]*removed' ../data/orgs/*.yml \
   | xargs -0 -r sed -e '/#/d' -e '/https:/!d' -e 's/.*\(https:\)/\1/' \
-  | sort -u | while read line
+  | sort -u | while read -r line
 do
   # Sanitize URL and limit length for filesystem compatibility
   san=$(echo "$line" | tr -c 'A-Za-z0-9' _ | head -c 200)
@@ -95,7 +95,7 @@ do
       then
         echo "??? LANDI      $line"
       # Tagi redirects to itself, probably checking for cookie on the second request
-      elif [[ "$status" = 302 ]] && grep -i 'Location: $line' "$tmp/$san" > /dev/null
+      elif [[ "$status" = 302 ]] && grep -iF "Location: $line" "$tmp/$san" > /dev/null
       then
         echo "??? TAGI       $line"
       else

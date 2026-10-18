@@ -8,5 +8,5 @@ types:
 sources:    
   address: https://www.hofstetter-partners.ch/impressum/ 
   privacyStatement:
-    - hhttps://www.hofstetter-partners.ch/impressum/
+    - https://www.hofstetter-partners.ch/impressum/
     - https://www.hofstetter-partners.ch/datenschutzerklaerung/
