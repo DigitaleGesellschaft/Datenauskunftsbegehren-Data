@@ -35,14 +35,17 @@
   "$defs": {
     "unique_string": {
       "type": "string",
+      "pattern": "^[^<>]*$",
       "title": "A string that should be unique among each data type in data folder"
     },
     "label": {
       "type": "string",
+      "pattern": "^[^<>]*$",
       "title": "A translatable label that appears on the website"
     },
     "variable_string": {
       "type": "string",
+      "pattern": "^[^<>]*$",
       "title": "Variable String",
       "description": "A string that is used inside the letter that may contain variable placeholders. Variable placeholders must match: '/\\{(?<type>string|number|tel|email|date)?(?::)?(?<name>[a-zA-Z]{1,})(?::)?(?<label>[^{}:]*)\\}/g'",
       "examples": [
